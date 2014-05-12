@@ -1,0 +1,1 @@
+If the input workspace exists then it is removed from Mantid.

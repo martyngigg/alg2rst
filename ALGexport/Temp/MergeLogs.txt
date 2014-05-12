@@ -1,0 +1,4 @@
+Two [[TimeSeriesProperty]] logs are merged together by the time stamps.  
+
+==Output==
+A MatrixWorkspace.

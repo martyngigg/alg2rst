@@ -1,0 +1,2 @@
+This algorithm retrieves the investigation types from the information
+catalog and saves investigation types lists to a mantid internal data structure.

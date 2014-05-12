@@ -1,0 +1,2 @@
+'''Python'''
+ output = Exponential("input")

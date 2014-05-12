@@ -1,0 +1,1 @@
+Compute I(q) for reduced EQSANS data

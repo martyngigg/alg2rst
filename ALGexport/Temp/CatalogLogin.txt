@@ -1,0 +1,1 @@
+This algorithm connects the logged in user to the information catalog.

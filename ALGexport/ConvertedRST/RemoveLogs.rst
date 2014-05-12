@@ -1,0 +1,3 @@
+Removes all logs from workspace
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

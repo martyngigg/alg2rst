@@ -1,0 +1,1 @@
+Calculate and apply absolute scale correction for SANS data

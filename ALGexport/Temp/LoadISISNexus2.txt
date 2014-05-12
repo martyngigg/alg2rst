@@ -1,0 +1,1 @@
+Loads a Nexus file created from an ISIS instrument.

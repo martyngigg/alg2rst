@@ -1,0 +1,2 @@
+This algorithm retrieves the instrument names from the information
+catalog and saves instrument lists to a mantid internal data structure.

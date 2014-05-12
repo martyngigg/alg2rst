@@ -1,0 +1,1 @@
+Apply mask to SANS detector

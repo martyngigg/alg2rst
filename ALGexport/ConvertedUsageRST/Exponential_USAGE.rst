@@ -1,0 +1,3 @@
+**Python**
+
+``output = Exponential("input")``

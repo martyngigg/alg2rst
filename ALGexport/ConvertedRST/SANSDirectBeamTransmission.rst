@@ -1,0 +1,1 @@
+Compute transmission using the direct beam method

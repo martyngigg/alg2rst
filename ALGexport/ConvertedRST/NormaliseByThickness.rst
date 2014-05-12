@@ -1,0 +1,1 @@
+Normalise detector counts by the sample thickness

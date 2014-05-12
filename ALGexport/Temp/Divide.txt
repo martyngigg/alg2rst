@@ -1,0 +1,2 @@
+{{BinaryOperation|verb=divided|prep=by|symbol=<math>\div</math>}}
+{{BinaryOperationFooterMultiply|verb=divided|prep=by|symbol=<math>\div</math>}}

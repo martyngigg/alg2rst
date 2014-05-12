@@ -1,0 +1,1 @@
+Load Fullprof resolution (.irf) file to TableWorkspace(s)

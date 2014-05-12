@@ -1,0 +1,2 @@
+It updates the [[ScriptRepository]]. It checkout the information of the central repository
+and download all the files marked for AutoUpdate.
