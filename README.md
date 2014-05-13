@@ -11,7 +11,7 @@ alg2rst requires Pandoc to be installed and available on the command line. Insta
 ##How to Use:
 
 alg2rst is made up of 4 classes. 
-  *convertMWtoRST*  - This class will fetch the documentation from the CPP files and convert to RST. The convertMWtoRST function is supplied with a boolean which when true will remove the wiki and usage markup from the CPP files. (Cleanup) 
+*convertMWtoRST*  This class will fetch the documentation from the CPP files and convert to RST. The convertMWtoRST function is supplied with a boolean which when true will remove the wiki and usage markup from the CPP files. (Cleanup) 
   
   _convertLinks - This class uses a list of all the algorithm names which it fetches from the file names and also a list of concepts and will udpate any algorithms, concepts or workspace links to be reference links that will work internally with sphyinx. 
   
