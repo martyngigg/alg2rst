@@ -53,7 +53,7 @@ The final output for an algorithm would be this for the LoadFullProfFile algorit
  desired.
  
  Load ISIS log file(s)
- ~~~~~~~~~~~~~~~~~~~~~
+ `~~~~~~~~~~~~~~~~~~~~~
  
  Assumes that a log file originates from a PC (not VMS) environment, i.e.
  the log files to be loaded are assumed to have the extension .txt. Its
