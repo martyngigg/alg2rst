@@ -79,3 +79,6 @@ fit. The introduction can be found in the wiki page of
 
 .. categories:: LoadFullprofFile
 ```
+
+The HTML rendering of this can be seen here: 
+http://jmccarthy-mantid.github.io/html/_static/LoadLog.html
