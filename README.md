@@ -32,7 +32,7 @@ Usage sections are split off into their own folder and are not included in the m
 ##Output of alg2rst
 The final output for an algorithm would be this for the LoadLog algorithm:
 
-```rst
+```
 .. algorithm:: LoadFullprofFile
 
 .. summary:: LoadFullprofFile
