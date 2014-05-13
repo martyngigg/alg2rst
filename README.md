@@ -64,13 +64,13 @@ The final output for an algorithm would be this for the LoadFullProfFile algorit
  that may contain spaces.
  
  Parent algorithm
- \~~~~~~~~~~~~~~~~
+ `~~~~~~~~~~~~~~~~
  
  LoadLog is also a child algorithm of `LoadRaw <LoadRaw>`__, i.e. it gets
  called whenever LoadRaw is executed.
  
  Load SNS text log file
- \~~~~~~~~~~~~~~~~~~~~~~
+ `~~~~~~~~~~~~~~~~~~~~~~
  
  If the file is determined to be a SNS text log file it should be of the
  form
