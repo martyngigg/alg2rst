@@ -6,7 +6,7 @@ Mantid MediaWiki Algorithms to RST
 This converter is designed for a single use to extract the documentation from Mantid algorithms and convert them to RST. It can also remove the documentation from the Mantid CCP files. 
 
 ##Requirments
-alg2rst requires pandoc to be installed and available on the command line. Install instructions for PanDoc can be found here: http://johnmacfarlane.net/pandoc/installing.html
+alg2rst requires Pandoc to be installed and available on the command line. Install instructions for Pandoc can be found here: http://johnmacfarlane.net/pandoc/installing.html
 
 ##How to Use:
 
