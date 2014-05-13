@@ -57,7 +57,7 @@ Load ISIS log file(s)
 Assumes that a log file originates from a PC (not VMS) environment, i.e.
 the log files to be loaded are assumed to have the extension .txt. Its
 filename is assumed to starts with the raw data file identifier followed
-by the character '\_', and a log file is assumed to have a format of two
+by the character \'\_\', and a log file is assumed to have a format of two
 columns, where the first column consists of data-time strings of the ISO
 8601 form and the second column consists of either numbers or strings
 that may contain spaces.
