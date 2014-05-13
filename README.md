@@ -25,3 +25,57 @@ conUsageDir = '' #Folder where the converted usage documentents will be saved
 tempDir = '' #A temp folder which can be used during the conversion
 ```
 <sub>Note: If running classes individually these paths need to be updated in the __main__ of each class<sub>
+
+##Usage Sections
+Usage sections are split off into their own folder and are not included in the main converted rst file for each algorithm. 
+
+##Output of alg2rst
+The final output for an algorithm would be this for the LoadLog algorithm:
+
+```rst
+.. algorithm:: LoadFullprofFile
+
+.. summary:: LoadFullprofFile
+
+.. aliases:: LoadFullprofFile
+
+.. usage:: LoadFullprofFile
+
+.. properties:: LoadFullprofFile
+
+This algorithm is to import Fullprof .irf file (peak parameters) and
+.hkl file (reflections) and record the information to TableWorkspaces,
+which serve as the inputs for algorithm LeBailFit.
+
+Format of Instrument parameter TableWorkspace
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Instrument parameter TableWorkspace contains all the peak profile
+parameters imported from Fullprof .irf file.
+
+Presently these are the peak profiles supported
+
+``*Â ThermalÂ neutronÂ backÂ toÂ backÂ exponentialÂ convolutedÂ withÂ pseudo-voigtÂ (profileÂ No.Â 10Â inÂ Fullprof)``
+
+Each row in TableWorkspace corresponds to one profile parameter.
+
+Columns include Name, Value, FitOrTie, Min, Max and StepSize.
+
+Format of reflection TableWorkspace
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Each row of this workspace corresponds to one diffraction peak. The
+information contains the peak's Miller index and (local) peak profile
+parameters of this peak. For instance of a back-to-back exponential
+convoluted with Gaussian peak, the peak profile parameters include
+Alpha, Beta, Sigma, centre and height.
+
+How to use algorithm with other algorithms
+------------------------------------------
+
+This algorithm is designed to work with other algorithms to do Le Bail
+fit. The introduction can be found in the wiki page of
+`LeBailFit <LeBailFit>`__.
+
+.. categories:: LoadFullprofFile
+```
