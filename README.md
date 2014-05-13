@@ -24,3 +24,4 @@ conDir =  '' #Folder where the converted RST files of the algorithms will be sav
 conUsageDir = '' #Folder where the converted usage documentents will be saved
 tempDir = '' #A temp folder which can be used during the conversion
 ```
+<sub>Note: If running classes individually these paths need to be updated in the __main__ of each class<sub>
