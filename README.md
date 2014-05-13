@@ -34,7 +34,7 @@ tempDir = '' #A temp folder which can be used during the conversion
 Usage sections are split off into their own folder and are not included in the main converted rst file for each algorithm. 
 
 ##Output of alg2rst
-The final output for an algorithm would be this for the LoadLog algorithm:
+The final output for an algorithm would be this for the LoadFullProfFile algorithm:
 
 ```
 .. algorithm:: LoadFullprofFile
@@ -85,4 +85,4 @@ fit. The introduction can be found in the wiki page of
 ```
 
 The HTML rendering of this can be seen here: 
-http://jmccarthy-mantid.github.io/html/_static/LoadLog.html
+http://jmccarthy-mantid.github.io/html/_static/LoadFullProfFile.html
