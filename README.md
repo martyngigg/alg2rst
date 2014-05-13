@@ -36,65 +36,64 @@ Usage sections are split off into their own folder and are not included in the m
 ##Output of alg2rst
 The final output for an algorithm would be this for the LoadFullProfFile algorithm:
 
-```
- 
- .. algorithm:: LoadLog
- 
- .. summary:: LoadLog
- 
- .. aliases:: LoadLog
- 
- .. usage:: LoadLog
- 
- .. properties:: LoadLog
- 
- **Parameters Note:** Note that it is possible to use both of the
- optional 'spectrum' properties (i.e. a range and a list) together if so
- desired.
- 
- Load ISIS log file(s)
- `~~~~~~~~~~~~~~~~~~~~~
- 
- Assumes that a log file originates from a PC (not VMS) environment, i.e.
- the log files to be loaded are assumed to have the extension .txt. Its
- filename is assumed to starts with the raw data file identifier followed
- by the character '\_', and a log file is assumed to have a format of two
- columns, where the first column consists of data-time strings of the ISO
- 8601 form and the second column consists of either numbers or strings
- that may contain spaces.
- 
- Parent algorithm
- `~~~~~~~~~~~~~~~~
- 
- LoadLog is also a child algorithm of `LoadRaw <LoadRaw>`__, i.e. it gets
- called whenever LoadRaw is executed.
- 
- Load SNS text log file
- `~~~~~~~~~~~~~~~~~~~~~~
- 
- If the file is determined to be a SNS text log file it should be of the
- form
- 
- | ``655747325.450625Â Â Â 0.000000Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- | ``655747325.716250Â Â Â 0.296875Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- | ``655747325.997500Â Â Â 0.593750Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- | ``655747326.263125Â Â Â 0.906250Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- | ``655747326.544375Â Â Â 1.093750Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- | ``655747326.825625Â Â Â 1.406250Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- | ``655747327.091250Â Â Â 1.703125Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- | ``655747327.372500Â Â Â 2.000000Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- | ``655747327.638125Â Â Â 2.203125Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- | ``655747327.919375Â Â Â 2.500000Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- | ``655747328.200625Â Â Â 2.796875Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- | ``655747328.466250Â Â Â 3.093750Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
- 
- The first column is the number of seconds since January 1, 1990, then
- the other columns (space delimited) are the log values. For this mode
- the *name* and *units* parameters must be specified.
- 
- .. categories:: LoadLog
 
-```
+    .. algorithm:: LoadLog
+    
+    .. summary:: LoadLog
+    
+    .. aliases:: LoadLog
+    
+    .. usage:: LoadLog
+    
+    .. properties:: LoadLog
+    
+    **Parameters Note:** Note that it is possible to use both of the
+    optional 'spectrum' properties (i.e. a range and a list) together if so
+    desired.
+    
+    Load ISIS log file(s)
+    ~~~~~~~~~~~~~~~~~~~~~
+    
+    Assumes that a log file originates from a PC (not VMS) environment, i.e.
+    the log files to be loaded are assumed to have the extension .txt. Its
+    filename is assumed to starts with the raw data file identifier followed
+    by the character '\_', and a log file is assumed to have a format of two
+    columns, where the first column consists of data-time strings of the ISO
+    8601 form and the second column consists of either numbers or strings
+    that may contain spaces.
+    
+    Parent algorithm
+    ~~~~~~~~~~~~~~~~
+    
+    LoadLog is also a child algorithm of `LoadRaw <LoadRaw>`__, i.e. it gets
+    called whenever LoadRaw is executed.
+    
+    Load SNS text log file
+    ~~~~~~~~~~~~~~~~~~~~~~
+    
+    If the file is determined to be a SNS text log file it should be of the
+    form
+    
+    | ``655747325.450625Â Â Â 0.000000Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    | ``655747325.716250Â Â Â 0.296875Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    | ``655747325.997500Â Â Â 0.593750Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    | ``655747326.263125Â Â Â 0.906250Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    | ``655747326.544375Â Â Â 1.093750Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    | ``655747326.825625Â Â Â 1.406250Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    | ``655747327.091250Â Â Â 1.703125Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    | ``655747327.372500Â Â Â 2.000000Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    | ``655747327.638125Â Â Â 2.203125Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    | ``655747327.919375Â Â Â 2.500000Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    | ``655747328.200625Â Â Â 2.796875Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    | ``655747328.466250Â Â Â 3.093750Â Â Â Â 24.000000Â Â Â 26.000000Â Â Â 0.000000``
+    
+    The first column is the number of seconds since January 1, 1990, then
+    the other columns (space delimited) are the log values. For this mode
+    the *name* and *units* parameters must be specified.
+    
+    .. categories:: LoadLog
+
+
 
 The HTML rendering of this can be seen here: 
 http://jmccarthy-mantid.github.io/html/_static/LoadLog.html
