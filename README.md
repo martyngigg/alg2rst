@@ -36,7 +36,7 @@ Usage sections are split off into their own folder and are not included in the m
 ##Output of alg2rst
 The final output for an algorithm would be this for the LoadFullProfFile algorithm:
 
-``
+```
 
 .. algorithm:: LoadLog
 
@@ -53,7 +53,7 @@ optional 'spectrum' properties (i.e. a range and a list) together if so
 desired.
 
 Load ISIS log file(s)
-~~~~~~~~~~~~~~~~~~~~~
+``~~~~~~~~~~~~~~~~~~~~~
 
 Assumes that a log file originates from a PC (not VMS) environment, i.e.
 the log files to be loaded are assumed to have the extension .txt. Its
@@ -64,13 +64,13 @@ columns, where the first column consists of data-time strings of the ISO
 that may contain spaces.
 
 Parent algorithm
-~~~~~~~~~~~~~~~~
+``~~~~~~~~~~~~~~~~
 
 LoadLog is also a child algorithm of `LoadRaw <LoadRaw>`__, i.e. it gets
 called whenever LoadRaw is executed.
 
 Load SNS text log file
-~~~~~~~~~~~~~~~~~~~~~~
+``~~~~~~~~~~~~~~~~~~~~~~
 
 If the file is determined to be a SNS text log file it should be of the
 form
@@ -94,7 +94,7 @@ the *name* and *units* parameters must be specified.
 
 .. categories:: LoadLog
 
-``
+```
 
 The HTML rendering of this can be seen here: 
 http://jmccarthy-mantid.github.io/html/_static/LoadLog.html
