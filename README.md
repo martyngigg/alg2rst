@@ -53,7 +53,7 @@ optional 'spectrum' properties (i.e. a range and a list) together if so
 desired.
 
 Load ISIS log file(s)
-\~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~
 
 Assumes that a log file originates from a PC (not VMS) environment, i.e.
 the log files to be loaded are assumed to have the extension .txt. Its
