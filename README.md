@@ -20,6 +20,7 @@ alg2rst is made up of 4 classes.
   
   *insertDirectives* - This uses the template.rst to update each algorithm rst file into the format required for use with our own sphyinx module. This class  replaces the [ALGNAME] tag in the template with the correct algoritm name and the [DOCUMENTATION] tag with the rst generated for the algorthm and saves the output. 
   
+  *sortToDirectory* - This will store the RST output in a copy of the directory tree it was pulled from. This will then allow the Framework folder to be merged with the Mantid source Framework folder. This will move the RST files from the convertDir to the Framework folder. 
 
 Each of these classes can be run seperately or the class runConverters can be used to run the entire suite. runConverters requires a few paths to be specified so the converter will work: 
 ```python
@@ -27,6 +28,7 @@ algDir = '' #Path to the mantid framework folder
 conDir =  '' #Folder where the converted RST files of the algorithms will be saved
 conUsageDir = '' #Folder where the converted usage documentents will be saved
 tempDir = '' #A temp folder which can be used during the conversion
+sortedOutput = '' #A link to the mantid framework folder. 
 ```
 <sub>Note: If running classes individually these paths need to be updated in the __main__ of each class<sub>
 
