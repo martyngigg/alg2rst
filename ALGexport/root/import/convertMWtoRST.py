@@ -184,7 +184,6 @@ def emptyFolder(folder):
             print e
             
 def convertMWtoRST(clean):
-
     
     #Begin by emtpying the ConvertedRST folder of previous conversions
 
