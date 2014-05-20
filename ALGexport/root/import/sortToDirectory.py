@@ -37,7 +37,7 @@ def copyAlgToTree(dirMap, rstDir, outputDir):
                 
                 if not os.path.exists(directory):                    
                     os.makedirs(directory)
-                shutil.copy(path, directory)
+                shutil.move(path, directory)
       
     
 #Create the output folder also empty it if it exists already
