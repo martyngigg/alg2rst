@@ -97,3 +97,12 @@ The final output for an algorithm would be this for the LoadFullProfFile algorit
 
 The HTML rendering of this can be seen here: 
 http://jmccarthy-mantid.github.io/html/_static/LoadLog.html
+
+
+##Edge Cases
+Due to the file size or PanDoc fails to convert the algorithms:
+* LoadDectorInfo
+* PerformIndexOperations
+* PreprocessDetectorsToMD
+
+These need to be converted by hand or by using the online Pandoc converter: http://johnmacfarlane.net/pandoc/try/
