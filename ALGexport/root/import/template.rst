@@ -2,9 +2,7 @@
 
 .. summary:: [ALGNAME]
 
-.. aliases:: [ALGNAME]
-
-.. usage:: [ALGNAME]
+.. alias:: [ALGNAME]
 
 .. properties:: [ALGNAME]
 

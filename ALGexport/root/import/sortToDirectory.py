@@ -20,6 +20,9 @@ def mapDirectory(algDir):
                 ext =  os.path.splitext(filename)[1]                                                
                 path = path.replace(algDir,'')
                 path = path.replace(algName+ext,'')                                
+
+                path = path.split("/")[0] # only works on Linux!!
+                path += "/doc/"
                 dirMap[algName] = path
     
     return dirMap
@@ -48,8 +51,8 @@ def initOutputDir(outputDir):
 
     
 def sortToDirectory(algDir, outputDir, rstDir):
-    initOutputDir(outputDir)
-    dirMap = mapDirectory(algDir)    
+    #initOutputDir(outputDir + "")
+    dirMap = mapDirectory(algDir)
     copyAlgToTree(dirMap, rstDir, outputDir)
     print 'Sorting completed. Find the finished output in the folder: ' +outputDir
 if __name__ == '__main__':

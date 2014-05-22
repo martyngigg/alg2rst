@@ -15,9 +15,9 @@ def create(algName, convertedDir):
     
     #remove extra whitespace and newlines from the end of the documentation
     rst = rst.rstrip()
-    pathname = os.path.dirname(sys.argv[0])
-    os.chdir(pathname) 
-    with open ('template.rst', 'r') as templateFile:
+    template_dir = os.path.dirname(__file__)
+    #os.chdir(pathname) 
+    with open (os.path.join(template_dir,'template.rst'), 'r') as templateFile:
         template=templateFile.read()
     
     built = template.replace('[ALGNAME]', algName)
