@@ -1,12 +1,13 @@
-.. algorithm:: EqualToMD
+.. algorithm::
 
-.. summary:: EqualToMD
+.. summary::
 
-.. aliases:: EqualToMD
+.. alias::
 
-.. usage:: EqualToMD
+.. properties::
 
-.. properties:: EqualToMD
+Description
+-----------
 
 Perform the == (equals to) boolean operation on two MDHistoWorkspaces or
 a MDHistoWorkspace and a scalar. The output workspace has a signal of
@@ -18,4 +19,4 @@ element-by-element. Only the signal is compared.
 For a MDHistoWorkspace and a scalar, the operation is performed on each
 element of the output.
 
-.. categories:: EqualToMD
+.. algm_categories::

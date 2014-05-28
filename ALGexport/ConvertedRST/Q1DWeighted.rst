@@ -1,12 +1,13 @@
-.. algorithm:: Q1DWeighted
+.. algorithm::
 
-.. summary:: Q1DWeighted
+.. summary::
 
-.. aliases:: Q1DWeighted
+.. alias::
 
-.. usage:: Q1DWeighted
+.. properties::
 
-.. properties:: Q1DWeighted
+Description
+-----------
 
 Performs azimuthal averaging for a 2D SANS data set by going through
 each detector pixel, determining its Q-value, and adding its amplitude
@@ -23,4 +24,4 @@ See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for calculation details.
 
-.. categories:: Q1DWeighted
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: DetectorEfficiencyVariation
+.. algorithm::
 
-.. summary:: DetectorEfficiencyVariation
+.. summary::
 
-.. aliases:: DetectorEfficiencyVariation
+.. alias::
 
-.. usage:: DetectorEfficiencyVariation
+.. properties::
 
-.. properties:: DetectorEfficiencyVariation
+Description
+-----------
 
 It is intended that the input white beam vanadium workspaces are from
 the same instrument and were collected before and after an experimental
@@ -16,8 +17,8 @@ then the median ratio is calculated. Each ratio is compared to the
 median and a histogram will fail when any of the following conditions
 are true:
 
-#. (sum1/sum2)/median(sum1/sum2) > Variation
-#. (sum1/sum2)/median(sum1/sum2) < 1/Variation
+-  (sum1/sum2)/median(sum1/sum2) > Variation
+-  (sum1/sum2)/median(sum1/sum2) < 1/Variation
 
 where sum1 is the sum of the counts in a histogram in the workspace
 WhiteBeamBase and sum2 is the sum of the counts in the equivalent
@@ -34,4 +35,4 @@ Child algorithms used
 
 Uses the `Integration <Integration>`__ algorithm to sum the spectra.
 
-.. categories:: DetectorEfficiencyVariation
+.. algm_categories::

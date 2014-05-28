@@ -1,14 +1,15 @@
-.. algorithm:: DakotaChiSquared
+.. algorithm::
 
-.. summary:: DakotaChiSquared
+.. summary::
 
-.. aliases:: DakotaChiSquared
+.. alias::
 
-.. usage:: DakotaChiSquared
+.. properties::
 
-.. properties:: DakotaChiSquared
+Description
+-----------
 
 Compare two nexus files containing matrix workspaces and output chi
 squared into a file
 
-.. categories:: DakotaChiSquared
+.. algm_categories::

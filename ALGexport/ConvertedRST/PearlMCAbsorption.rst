@@ -1,12 +1,13 @@
-.. algorithm:: PearlMCAbsorption
+.. algorithm::
 
-.. summary:: PearlMCAbsorption
+.. summary::
 
-.. aliases:: PearlMCAbsorption
+.. alias::
 
-.. usage:: PearlMCAbsorption
+.. properties::
 
-.. properties:: PearlMCAbsorption
+Description
+-----------
 
 Loads an existing file of pre-calculated or measured absorption
 coefficients for the PEARL instrument.
@@ -21,4 +22,4 @@ If the file does not contain "t=" on the top line then the values are
 assumed to be calculated :math:`\frac{I}{I_0}` values and are simply
 read in verbatim.
 
-.. categories:: PearlMCAbsorption
+.. algm_categories::

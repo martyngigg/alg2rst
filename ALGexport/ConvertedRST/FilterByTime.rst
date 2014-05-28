@@ -1,12 +1,13 @@
-.. algorithm:: FilterByTime
+.. algorithm::
 
-.. summary:: FilterByTime
+.. summary::
 
-.. aliases:: FilterByTime
+.. alias::
 
-.. usage:: FilterByTime
+.. properties::
 
-.. properties:: FilterByTime
+Description
+-----------
 
 Goes through all events in all EventLists and takes out any events with
 a PulseTime value not within the range specified.
@@ -29,4 +30,4 @@ Comparing with other event filtering algorithms
 Wiki page `EventFiltering <EventFiltering>`__ has a detailed
 introduction on event filtering in MantidPlot.
 
-.. categories:: FilterByTime
+.. algm_categories::

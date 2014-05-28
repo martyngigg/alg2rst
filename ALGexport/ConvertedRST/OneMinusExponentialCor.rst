@@ -1,12 +1,13 @@
-.. algorithm:: OneMinusExponentialCor
+.. algorithm::
 
-.. summary:: OneMinusExponentialCor
+.. summary::
 
-.. aliases:: OneMinusExponentialCor
+.. alias::
 
-.. usage:: OneMinusExponentialCor
+.. properties::
 
-.. properties:: OneMinusExponentialCor
+Description
+-----------
 
 This algorithm corrects the data and error values on a workspace by the
 value of one minus an exponential function of the form
@@ -22,4 +23,4 @@ This correction is applied to a copy of the input workpace and put into
 output workspace. If the input and output workspaces have the same name,
 the operation is applied to the workspace of that name.
 
-.. categories:: OneMinusExponentialCor
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: ProductLinearExp
+.. algorithm::
 
-.. summary:: ProductLinearExp
+.. summary::
 
-.. aliases:: ProductLinearExp
+.. alias::
 
-.. usage:: ProductLinearExp
+.. properties::
 
-.. properties:: ProductLinearExp
+Description
+-----------
 
 This fit function computes the product of a linear and exponential
 function. See `ExpDecay <ExpDecay>`__ and
@@ -19,4 +20,4 @@ This function may be used with the `Fit <Fit>`__ algorithm. However, it
 was originally added to Mantid as a named function for the purposes of
 detector efficiency calibration.
 
-.. categories:: ProductLinearExp
+.. algm_categories::

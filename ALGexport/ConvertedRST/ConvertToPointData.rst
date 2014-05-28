@@ -1,15 +1,16 @@
-.. algorithm:: ConvertToPointData
+.. algorithm::
 
-.. summary:: ConvertToPointData
+.. summary::
 
-.. aliases:: ConvertToPointData
+.. alias::
 
-.. usage:: ConvertToPointData
+.. properties::
 
-.. properties:: ConvertToPointData
+Description
+-----------
 
 The input workspace must contain histogram data. Once executed the
 OutputWorkspace will contain point data, where the X values are simply
 the centre points of the input bins.
 
-.. categories:: ConvertToPointData
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: SaveRKH
+.. algorithm::
 
-.. summary:: SaveRKH
+.. summary::
 
-.. aliases:: SaveRKH
+.. alias::
 
-.. usage:: SaveRKH
+.. properties::
 
-.. properties:: SaveRKH
+Description
+-----------
 
 Saves the the given workspace to a file which will be formatted in one
 of the LOQ data formats (see
@@ -17,4 +18,4 @@ contain the X values of the spectrum (giving the bin centre if histogram
 data). For a 'vertical' (single column) 1D workspace, the first column
 of the file will contain the spectrum number.
 
-.. categories:: SaveRKH
+.. algm_categories::

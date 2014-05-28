@@ -1,13 +1,14 @@
-.. algorithm:: Max
+.. algorithm::
 
-.. summary:: Max
+.. summary::
 
-.. aliases:: Max
+.. alias::
 
-.. usage:: Max
+.. properties::
 
-.. properties:: Max
+Description
+-----------
 
 
 
-.. categories:: Max
+.. algm_categories::

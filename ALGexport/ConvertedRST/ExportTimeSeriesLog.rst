@@ -1,13 +1,14 @@
-.. algorithm:: ExportTimeSeriesLog
+.. algorithm::
 
-.. summary:: ExportTimeSeriesLog
+.. summary::
 
-.. aliases:: ExportTimeSeriesLog
+.. alias::
 
-.. usage:: ExportTimeSeriesLog
+.. properties::
 
-.. properties:: ExportTimeSeriesLog
+Description
+-----------
 
 Export TimeSeriesProperty log in a Workspace to a MatrixWorkspace
 
-.. categories:: ExportTimeSeriesLog
+.. algm_categories::

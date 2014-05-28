@@ -1,12 +1,13 @@
-.. algorithm:: LoadDspacemap
+.. algorithm::
 
-.. summary:: LoadDspacemap
+.. summary::
 
-.. aliases:: LoadDspacemap
+.. alias::
 
-.. usage:: LoadDspacemap
+.. properties::
 
-.. properties:: LoadDspacemap
+Description
+-----------
 
 Loads a Dspacemap file (POWGEN binary, VULCAN binary or ascii format)
 into an OffsetsWorkspace.
@@ -14,4 +15,4 @@ into an OffsetsWorkspace.
 The resulting workspace can then be used with, e.g.
 `AlignDetectors <AlignDetectors>`__ to perform calibration.
 
-.. categories:: LoadDspacemap
+.. algm_categories::

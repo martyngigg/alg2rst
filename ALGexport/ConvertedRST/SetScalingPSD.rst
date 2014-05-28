@@ -1,12 +1,13 @@
-.. algorithm:: SetScalingPSD
+.. algorithm::
 
-.. summary:: SetScalingPSD
+.. summary::
 
-.. aliases:: SetScalingPSD
+.. alias::
 
-.. usage:: SetScalingPSD
+.. properties::
 
-.. properties:: SetScalingPSD
+Description
+-----------
 
 This algorithm was developed for the Merlin instrument but may be used
 with other instruments if appropriate scaling data is available. The
@@ -71,4 +72,4 @@ ChildAlgorithms used
 
 None
 
-.. categories:: SetScalingPSD
+.. algm_categories::

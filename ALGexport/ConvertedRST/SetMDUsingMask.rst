@@ -1,12 +1,13 @@
-.. algorithm:: SetMDUsingMask
+.. algorithm::
 
-.. summary:: SetMDUsingMask
+.. summary::
 
-.. aliases:: SetMDUsingMask
+.. alias::
 
-.. usage:: SetMDUsingMask
+.. properties::
 
-.. properties:: SetMDUsingMask
+Description
+-----------
 
 This algorithm is used to replace values in a
 `MDHistoWorkspace <MDHistoWorkspace>`__ but only at particular points.
@@ -32,4 +33,4 @@ Usage (Python)
 | ``MaskWS = WS < 123``
 | ``ModifiedWS = SetMDUsingMask(InputWorkspace=WS, Value="0", MaskWorkspace=MaskWS)``
 
-.. categories:: SetMDUsingMask
+.. algm_categories::

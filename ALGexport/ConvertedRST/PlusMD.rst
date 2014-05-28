@@ -1,12 +1,13 @@
-.. algorithm:: PlusMD
+.. algorithm::
 
-.. summary:: PlusMD
+.. summary::
 
-.. aliases:: PlusMD
+.. alias::
 
-.. usage:: PlusMD
+.. properties::
 
-.. properties:: PlusMD
+Description
+-----------
 
 This algorithm sums two `MDHistoWorkspaces <MDHistoWorkspace>`__ or
 merges two `MDEventWorkspaces <MDEventWorkspace>`__ together.
@@ -50,4 +51,4 @@ added **in memory** and are not cached to file until `SaveMD <SaveMD>`__
 or another algorithm requiring it is called. The workspace is marked as
 'requiring file update'.
 
-.. categories:: PlusMD
+.. algm_categories::

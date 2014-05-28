@@ -1,14 +1,15 @@
-.. algorithm:: ExaminePowderDiffProfile
+.. algorithm::
 
-.. summary:: ExaminePowderDiffProfile
+.. summary::
 
-.. aliases:: ExaminePowderDiffProfile
+.. alias::
 
-.. usage:: ExaminePowderDiffProfile
+.. properties::
 
-.. properties:: ExaminePowderDiffProfile
+Description
+-----------
 
 This algorithm is to examine peak profile values for powder
 diffractometry by LeBailFit.
 
-.. categories:: ExaminePowderDiffProfile
+.. algm_categories::

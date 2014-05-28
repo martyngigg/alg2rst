@@ -1,12 +1,13 @@
-.. algorithm:: ReflectometryReductionOne
+.. algorithm::
 
-.. summary:: ReflectometryReductionOne
+.. summary::
 
-.. aliases:: ReflectometryReductionOne
+.. alias::
 
-.. usage:: ReflectometryReductionOne
+.. properties::
 
-.. properties:: ReflectometryReductionOne
+Description
+-----------
 
 Reduces a single TOF reflectometry run into a mod Q vs I/I0 workspace.
 Performs transmission corrections. Handles both point detector and
@@ -45,4 +46,4 @@ parameters associated with the transmission runs will also be required.
 If a single Transmission run is provided, then no stitching parameters
 will be needed.
 
-.. categories:: ReflectometryReductionOne
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: Gaussian
+.. algorithm::
 
-.. summary:: Gaussian
+.. summary::
 
-.. aliases:: Gaussian
+.. alias::
 
-.. usage:: Gaussian
+.. properties::
 
-.. properties:: Gaussian
+Description
+-----------
 
 A Gaussian function (also referred to as a normal distribution) is
 defined as:
@@ -15,9 +16,9 @@ defined as:
 
 where
 
-#. Height - height of peak
-#. PeakCentre - centre of peak
-#. Sigma - Gaussian width parameter
+-  Height - height of peak
+-  PeakCentre - centre of peak
+-  Sigma - Gaussian width parameter
 
 Note that the FWHM (Full Width Half Maximum) of a Gaussian equals
 :math:`2\sqrt{2\ln 2}*\mbox{Sigma}`.
@@ -30,4 +31,4 @@ a TOF peak:
 
    GaussianWithConstBackground.png
 
-.. categories:: Gaussian
+.. algm_categories::

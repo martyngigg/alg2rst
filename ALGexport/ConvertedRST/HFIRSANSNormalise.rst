@@ -1,13 +1,14 @@
-.. algorithm:: HFIRSANSNormalise
+.. algorithm::
 
-.. summary:: HFIRSANSNormalise
+.. summary::
 
-.. aliases:: HFIRSANSNormalise
+.. alias::
 
-.. usage:: HFIRSANSNormalise
+.. properties::
 
-.. properties:: HFIRSANSNormalise
+Description
+-----------
 
 Performs data normalisation for HFIR SANS.
 
-.. categories:: HFIRSANSNormalise
+.. algm_categories::

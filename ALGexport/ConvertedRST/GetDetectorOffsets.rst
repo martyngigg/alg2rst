@@ -1,12 +1,13 @@
-.. algorithm:: GetDetectorOffsets
+.. algorithm::
 
-.. summary:: GetDetectorOffsets
+.. summary::
 
-.. aliases:: GetDetectorOffsets
+.. alias::
 
-.. usage:: GetDetectorOffsets
+.. properties::
 
-.. properties:: GetDetectorOffsets
+Description
+-----------
 
 This algorithm requires a workspace that is both in d-spacing, but has
 also been preprocessed by the `CrossCorrelate <CrossCorrelate>`__
@@ -29,4 +30,4 @@ single group on `DiffractionFocussing <DiffractionFocussing>`__. The
 `CreateCalFileByNames <CreateCalFileByNames>`__ algorithm can be used to
 alter the grouping in the cal file.
 
-.. categories:: GetDetectorOffsets
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: Rebin2D
+.. algorithm::
 
-.. summary:: Rebin2D
+.. summary::
 
-.. aliases:: Rebin2D
+.. alias::
 
-.. usage:: Rebin2D
+.. properties::
 
-.. properties:: Rebin2D
+Description
+-----------
 
 The bin parameters are used to form an output grid. A positive
 :math:`\Delta x_i\,` makes constant width bins, whilst negative ones
@@ -23,4 +24,4 @@ The algorithms currently requires the second axis on the workspace to be
 a numerical axis so `ConvertSpectrumAxis <ConvertSpectrumAxis>`__ may
 need to run first.
 
-.. categories:: Rebin2D
+.. algm_categories::

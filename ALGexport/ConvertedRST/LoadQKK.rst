@@ -1,13 +1,14 @@
-.. algorithm:: LoadQKK
+.. algorithm::
 
-.. summary:: LoadQKK
+.. summary::
 
-.. aliases:: LoadQKK
+.. alias::
 
-.. usage:: LoadQKK
+.. properties::
 
-.. properties:: LoadQKK
+Description
+-----------
 
 
 
-.. categories:: LoadQKK
+.. algm_categories::

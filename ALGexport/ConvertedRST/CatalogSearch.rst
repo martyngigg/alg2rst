@@ -1,14 +1,15 @@
-.. algorithm:: CatalogSearch
+.. algorithm::
 
-.. summary:: CatalogSearch
+.. summary::
 
-.. aliases:: CatalogSearch
+.. alias::
 
-.. usage:: CatalogSearch
+.. properties::
 
-.. properties:: CatalogSearch
+Description
+-----------
 
 This algorithm searches for the investigations and stores the search
 results in a table workspace.
 
-.. categories:: CatalogSearch
+.. algm_categories::

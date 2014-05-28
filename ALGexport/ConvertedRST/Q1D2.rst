@@ -1,12 +1,13 @@
-.. algorithm:: Q1D2
+.. algorithm::
 
-.. summary:: Q1D2
+.. summary::
 
-.. aliases:: Q1D2
+.. alias::
 
-.. usage:: Q1D2
+.. properties::
 
-.. properties:: Q1D2
+Description
+-----------
 
 Q Unit Conversion
 ~~~~~~~~~~~~~~~~~
@@ -204,4 +205,4 @@ Properties
 
 .. |Each Q bin contains the sum of many, one, or no wavelength bins\|centre| image:: Wav_Q_bins.png
 
-.. categories:: Q1D2
+.. algm_categories::

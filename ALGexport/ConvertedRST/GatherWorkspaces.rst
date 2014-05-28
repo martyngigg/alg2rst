@@ -1,14 +1,15 @@
-.. algorithm:: GatherWorkspaces
+.. algorithm::
 
-.. summary:: GatherWorkspaces
+.. summary::
 
-.. aliases:: GatherWorkspaces
+.. alias::
 
-.. usage:: GatherWorkspaces
+.. properties::
 
-.. properties:: GatherWorkspaces
+Description
+-----------
 
 Gathers workspaces from all processors of MPI run. Add or append
 workspaces to processor 0.
 
-.. categories:: GatherWorkspaces
+.. algm_categories::

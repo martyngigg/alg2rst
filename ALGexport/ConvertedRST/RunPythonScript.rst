@@ -1,12 +1,13 @@
-.. algorithm:: RunPythonScript
+.. algorithm::
 
-.. summary:: RunPythonScript
+.. summary::
 
-.. aliases:: RunPythonScript
+.. alias::
 
-.. usage:: RunPythonScript
+.. properties::
 
-.. properties:: RunPythonScript
+Description
+-----------
 
 Algorithm that will run a snippet of python code. This is meant to be
 used by `LoadLiveData <LoadLiveData>`__ to perform some processing.
@@ -14,4 +15,4 @@ used by `LoadLiveData <LoadLiveData>`__ to perform some processing.
 The input & output workspaces can be accessed from the Python code using
 the variable names 'input' & 'output' respectively.
 
-.. categories:: RunPythonScript
+.. algm_categories::

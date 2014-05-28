@@ -1,12 +1,13 @@
-.. algorithm:: LoadCanSAS1D2
+.. algorithm::
 
-.. summary:: LoadCanSAS1D2
+.. summary::
 
-.. aliases:: LoadCanSAS1D2
+.. alias::
 
-.. usage:: LoadCanSAS1D2
+.. properties::
 
-.. properties:: LoadCanSAS1D2
+Description
+-----------
 
 Loads the given file, which should be in the CanSAS1d format specified
 by canSAS 1D Data Formats Working Group schema
@@ -18,4 +19,4 @@ If the file contains mulitple SASentry elements a workspace group will
 be created and each SASentry will be one workspace in the group. Loading
 multiple SASdata elements is not supported.
 
-.. categories:: LoadCanSAS1D2
+.. algm_categories::

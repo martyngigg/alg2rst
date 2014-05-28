@@ -1,12 +1,13 @@
-.. algorithm:: FitPowderDiffPeaks
+.. algorithm::
 
-.. summary:: FitPowderDiffPeaks
+.. summary::
 
-.. aliases:: FitPowderDiffPeaks
+.. alias::
 
-.. usage:: FitPowderDiffPeaks
+.. properties::
 
-.. properties:: FitPowderDiffPeaks
+Description
+-----------
 
 This algorithm fits a certain set of single peaks in a powder
 diffraction pattern.
@@ -107,4 +108,4 @@ values.
 | ``2. ``\ *``RefinePowderInstrumentParameters``*\ `` refines the instrumental geometry related parameters by using the d-TOF function;``
 | ``3. Repeat step 1 and 2 for  more single peaks incrementally. The predicted peak positions are more accurate in this step.``
 
-.. categories:: FitPowderDiffPeaks
+.. algm_categories::

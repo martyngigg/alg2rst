@@ -1,12 +1,13 @@
-.. algorithm:: LoadFullprofFile
+.. algorithm::
 
-.. summary:: LoadFullprofFile
+.. summary::
 
-.. aliases:: LoadFullprofFile
+.. alias::
 
-.. usage:: LoadFullprofFile
+.. properties::
 
-.. properties:: LoadFullprofFile
+Description
+-----------
 
 This algorithm is to import Fullprof .irf file (peak parameters) and
 .hkl file (reflections) and record the information to TableWorkspaces,
@@ -42,4 +43,4 @@ This algorithm is designed to work with other algorithms to do Le Bail
 fit. The introduction can be found in the wiki page of
 `LeBailFit <LeBailFit>`__.
 
-.. categories:: LoadFullprofFile
+.. algm_categories::

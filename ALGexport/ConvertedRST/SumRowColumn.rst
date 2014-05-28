@@ -1,12 +1,13 @@
-.. algorithm:: SumRowColumn
+.. algorithm::
 
-.. summary:: SumRowColumn
+.. summary::
 
-.. aliases:: SumRowColumn
+.. alias::
 
-.. usage:: SumRowColumn
+.. properties::
 
-.. properties:: SumRowColumn
+Description
+-----------
 
 This algorithm is the equivalent of the COLETTE "DISPLAY H/V" command.
 It firsts integrates the input workspace, which must contain all the
@@ -21,4 +22,4 @@ ChildAlgorithms used
 The `Integration <Integration>`__ algorithm is used to sum up each
 spectrum between XMin & XMax.
 
-.. categories:: SumRowColumn
+.. algm_categories::

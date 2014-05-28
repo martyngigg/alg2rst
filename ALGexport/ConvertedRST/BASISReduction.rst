@@ -1,12 +1,13 @@
-.. algorithm:: BASISReduction
+.. algorithm::
 
-.. summary:: BASISReduction
+.. summary::
 
-.. aliases:: BASISReduction
+.. alias::
 
-.. usage:: BASISReduction
+.. properties::
 
-.. properties:: BASISReduction
+Description
+-----------
 
 This algorithm is meant to temporarily deal with letting BASIS reduce
 lots of files via Mantid. The syntax for the run number designation will
@@ -17,4 +18,4 @@ allow groups of runs to be joined. Examples:
 Example 1 will be summed into a single run Example 2 will have three run
 groups
 
-.. categories:: BASISReduction
+.. algm_categories::

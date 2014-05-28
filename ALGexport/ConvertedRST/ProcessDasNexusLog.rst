@@ -1,12 +1,13 @@
-.. algorithm:: ProcessDasNexusLog
+.. algorithm::
 
-.. summary:: ProcessDasNexusLog
+.. summary::
 
-.. aliases:: ProcessDasNexusLog
+.. alias::
 
-.. usage:: ProcessDasNexusLog
+.. properties::
 
-.. properties:: ProcessDasNexusLog
+Description
+-----------
 
 Some sample logs from DAS are written in the format such that the time
 stamps are the pulse times and the values are time-of-flight. They are
@@ -15,4 +16,4 @@ off of a sample environment device. This algorithm will convert sample
 logs of this time such that the new log will have the time stamp as the
 absolute time, i.e., sum of pulse time and time-of-flight.
 
-.. categories:: ProcessDasNexusLog
+.. algm_categories::

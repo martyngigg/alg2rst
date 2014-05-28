@@ -1,15 +1,16 @@
-.. algorithm:: RefReduction
+.. algorithm::
 
-.. summary:: RefReduction
+.. summary::
 
-.. aliases:: RefReduction
+.. alias::
 
-.. usage:: RefReduction
+.. properties::
 
-.. properties:: RefReduction
+Description
+-----------
 
 Reflectivity reduction workflow. This workflow algorithm computes the
 specular and off-specular reflectivity for both REFM and REFL
 instruments.
 
-.. categories:: RefReduction
+.. algm_categories::

@@ -1,13 +1,14 @@
-.. algorithm:: Min
+.. algorithm::
 
-.. summary:: Min
+.. summary::
 
-.. aliases:: Min
+.. alias::
 
-.. usage:: Min
+.. properties::
 
-.. properties:: Min
+Description
+-----------
 
 
 
-.. categories:: Min
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: CreateModeratorModel
+.. algorithm::
 
-.. summary:: CreateModeratorModel
+.. summary::
 
-.. aliases:: CreateModeratorModel
+.. alias::
 
-.. usage:: CreateModeratorModel
+.. properties::
 
-.. properties:: CreateModeratorModel
+Description
+-----------
 
 Creates a model of a moderator using the given parameters. The
 parameters are given as a string to allow flexibility for each moderator
@@ -21,4 +22,4 @@ Available models with parameter names:
    -  TauS - The slow decay coefficient in microseconds
    -  R - The mixing coefficient
 
-.. categories:: CreateModeratorModel
+.. algm_categories::

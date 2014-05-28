@@ -1,12 +1,13 @@
-.. algorithm:: OneStepMDEW
+.. algorithm::
 
-.. summary:: OneStepMDEW
+.. summary::
 
-.. aliases:: OneStepMDEW
+.. alias::
 
-.. usage:: OneStepMDEW
+.. properties::
 
-.. properties:: OneStepMDEW
+Description
+-----------
 
 This algorithm is used in the Paraview event nexus loader to both load
 an event nexus file and convert it into a
@@ -21,4 +22,4 @@ algorithm is called with the new EventWorkspace as input. The parameters
 are set to convert to Q in the lab frame, with Lorentz correction, and
 default size/splitting behavior parameters.
 
-.. categories:: OneStepMDEW
+.. algm_categories::

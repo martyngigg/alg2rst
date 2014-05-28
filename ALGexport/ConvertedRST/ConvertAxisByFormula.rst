@@ -1,12 +1,13 @@
-.. algorithm:: ConvertAxisByFormula
+.. algorithm::
 
-.. summary:: ConvertAxisByFormula
+.. summary::
 
-.. aliases:: ConvertAxisByFormula
+.. alias::
 
-.. usage:: ConvertAxisByFormula
+.. properties::
 
-.. properties:: ConvertAxisByFormula
+Description
+-----------
 
 This algorithm allows users to adjust the axes of a workspace by a user
 defined math formula. It will NOT adjust or rearrange the data values
@@ -28,4 +29,4 @@ examples to some ideas of what is possible, a full list of the functions
 available can be found at the muparser website
 `1 <http://muparser.beltoforion.de/mup_features.html#idDef2>`__.
 
-.. categories:: ConvertAxisByFormula
+.. algm_categories::

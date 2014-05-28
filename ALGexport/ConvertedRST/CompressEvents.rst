@@ -1,12 +1,13 @@
-.. algorithm:: CompressEvents
+.. algorithm::
 
-.. summary:: CompressEvents
+.. summary::
 
-.. aliases:: CompressEvents
+.. alias::
 
-.. usage:: CompressEvents
+.. properties::
 
-.. properties:: CompressEvents
+Description
+-----------
 
 This algorithm starts by sorting the event lists by TOF; therefore you
 may gain speed by calling `SortEvents <SortEvents>`__ beforehand.
@@ -30,4 +31,4 @@ with/without compression are identical. If your workspace has undergone
 changes to its X values (unit conversion for example), you have to use
 your best judgement for the Tolerance value.
 
-.. categories:: CompressEvents
+.. algm_categories::

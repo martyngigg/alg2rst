@@ -1,16 +1,24 @@
-.. algorithm:: LoadILL
+.. algorithm::
 
-.. summary:: LoadILL
+.. summary::
 
-.. aliases:: LoadILL
+.. alias::
 
-.. usage:: LoadILL
+.. properties::
 
-.. properties:: LoadILL
+Description
+-----------
 
-Loads an ILL nexus file into a `Workspace2D <Workspace2D>`__ with the
-given name.
+Loads an ILL TOF NeXus file into a `Workspace2D <Workspace2D>`__ with
+the given name.
 
-To date this algorithm only supports: IN5
+This loader calculates the elastic peak position (EPP) on the fly. In
+cases where the dispersion peak might be higher than the EPP, it is good
+practice to load a Vanadium file.
 
-.. categories:: LoadILL
+The property FilenameVanadium is optional. If it is present the EPP will
+be loaded from the Vanadium data.
+
+To date this algorithm only supports: IN4, IN5 and IN6
+
+.. algm_categories::

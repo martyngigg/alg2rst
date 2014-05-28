@@ -1,13 +1,14 @@
-.. algorithm:: MultiplyRange
+.. algorithm::
 
-.. summary:: MultiplyRange
+.. summary::
 
-.. aliases:: MultiplyRange
+.. alias::
 
-.. usage:: MultiplyRange
+.. properties::
 
-.. properties:: MultiplyRange
+Description
+-----------
 
 
 
-.. categories:: MultiplyRange
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: SetSpecialCoordinates
+.. algorithm::
 
-.. summary:: SetSpecialCoordinates
+.. summary::
 
-.. aliases:: SetSpecialCoordinates
+.. alias::
 
-.. usage:: SetSpecialCoordinates
+.. properties::
 
-.. properties:: SetSpecialCoordinates
+Description
+-----------
 
 `MDEventWorkspaces <MDEventWorkspace>`__ and
 `MDHistoWorkspaces <MDHistoWorkspace>`__ can be used with any type of
@@ -28,4 +29,4 @@ This algorithm is for backwards compatibility. The special coordinates
 flags are new, and legacy workspaces will need to be corrected in order
 for them to work as expected with the Mantid tools.
 
-.. categories:: SetSpecialCoordinates
+.. algm_categories::

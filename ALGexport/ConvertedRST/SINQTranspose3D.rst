@@ -1,12 +1,13 @@
-.. algorithm:: SINQTranspose3D
+.. algorithm::
 
-.. summary:: SINQTranspose3D
+.. summary::
 
-.. aliases:: SINQTranspose3D
+.. alias::
 
-.. usage:: SINQTranspose3D
+.. properties::
 
-.. properties:: SINQTranspose3D
+Description
+-----------
 
 Description
 -----------
@@ -25,4 +26,4 @@ TRICS
 AMOR
     Converts storage order and swaps X and Y
 
-.. categories:: SINQTranspose3D
+.. algm_categories::

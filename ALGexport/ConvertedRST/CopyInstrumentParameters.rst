@@ -1,12 +1,13 @@
-.. algorithm:: CopyInstrumentParameters
+.. algorithm::
 
-.. summary:: CopyInstrumentParameters
+.. summary::
 
-.. aliases:: CopyInstrumentParameters
+.. alias::
 
-.. usage:: CopyInstrumentParameters
+.. properties::
 
-.. properties:: CopyInstrumentParameters
+Description
+-----------
 
 Transfer an instrument from a giving workspace to a receiving workspace
 for the same instrument.
@@ -17,4 +18,4 @@ such as calibration done to the instrument in the giving workspace. The
 two workspaces can have spectra allocated to their detectors
 differently.
 
-.. categories:: CopyInstrumentParameters
+.. algm_categories::

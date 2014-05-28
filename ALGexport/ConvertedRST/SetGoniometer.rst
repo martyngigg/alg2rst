@@ -1,15 +1,16 @@
-.. algorithm:: SetGoniometer
+.. algorithm::
 
-.. summary:: SetGoniometer
+.. summary::
 
-.. aliases:: SetGoniometer
+.. alias::
 
-.. usage:: SetGoniometer
+.. properties::
 
-.. properties:: SetGoniometer
+Description
+-----------
 
 Use this algorithm to define your goniometer. Enter each axis in the
-order of rotation, starting with the one closest to the sample.
+order of rotation, starting with the one farthest from the sample.
 
 You may enter up to 6 axes, for which you must define (separated by
 commas):
@@ -28,4 +29,12 @@ angles of rotation: for example, if you have an axis called 'phi', then
 the first value of the log called 'phi' will be used as the rotation
 angle. Units are assumed to be degrees.
 
-.. categories:: SetGoniometer
+The "Universal" goniometer at SNS is equivalent to Axis0 tied to the
+"omega" log pointing vertically upward, Axis1 tied to "chi" log,
+pointing along the beam, and Axis2 tied to "phi", pointing vertically
+upward.
+
+SetGoniometer(w,"Universal") is the same as
+SetGoniometer(w,Axis0="omega,0,1,0,1",Axis1="chi,0,0,1,1",Axis1="phi,0,1,0,1")
+
+.. algm_categories::

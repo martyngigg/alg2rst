@@ -1,12 +1,13 @@
-.. algorithm:: PowerMD
+.. algorithm::
 
-.. summary:: PowerMD
+.. summary::
 
-.. aliases:: PowerMD
+.. alias::
 
-.. usage:: PowerMD
+.. properties::
 
-.. properties:: PowerMD
+Description
+-----------
 
 This executes the power function on a MDHistoWorkspace.
 
@@ -18,4 +19,4 @@ This algorithm cannot be run on a
 `MDEventWorkspace <MDEventWorkspace>`__. Its equivalent on a
 `MatrixWorkspace <MatrixWorkspace>`__ is called `Power <Power>`__.
 
-.. categories:: PowerMD
+.. algm_categories::

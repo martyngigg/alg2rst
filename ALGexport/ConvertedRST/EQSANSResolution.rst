@@ -1,13 +1,14 @@
-.. algorithm:: EQSANSResolution
+.. algorithm::
 
-.. summary:: EQSANSResolution
+.. summary::
 
-.. aliases:: EQSANSResolution
+.. alias::
 
-.. usage:: EQSANSResolution
+.. properties::
 
-.. properties:: EQSANSResolution
+Description
+-----------
 
 
 
-.. categories:: EQSANSResolution
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: LoadLogPropertyTable
+.. algorithm::
 
-.. summary:: LoadLogPropertyTable
+.. summary::
 
-.. aliases:: LoadLogPropertyTable
+.. alias::
 
-.. usage:: LoadLogPropertyTable
+.. properties::
 
-.. properties:: LoadLogPropertyTable
+Description
+-----------
 
 Creates a table workspace of the average values of log values against
 the run number.
@@ -32,4 +33,4 @@ It should:
 #. Use a hidden workspace for the temporary loaded workspaces, and clean
    up after itself.
 
-.. categories:: LoadLogPropertyTable
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: FFTSmooth2
+.. algorithm::
 
-.. summary:: FFTSmooth2
+.. summary::
 
-.. aliases:: FFTSmooth2
+.. alias::
 
-.. usage:: FFTSmooth2
+.. properties::
 
-.. properties:: FFTSmooth2
+Description
+-----------
 
 FFTSmooth uses the FFT algorithm to create a Fourier transform of a
 spectrum, applies a filter to it and transforms it back. The filters
@@ -53,4 +54,4 @@ Version 1
 Version 1 did not support the Butterworth Filter and did not offer the
 options to ignore X bins or smooth all spectra.
 
-.. categories:: FFTSmooth2
+.. algm_categories::

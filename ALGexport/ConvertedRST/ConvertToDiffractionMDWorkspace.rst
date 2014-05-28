@@ -1,12 +1,13 @@
-.. algorithm:: ConvertToDiffractionMDWorkspace
+.. algorithm::
 
-.. summary:: ConvertToDiffractionMDWorkspace
+.. summary::
 
-.. aliases:: ConvertToDiffractionMDWorkspace
+.. alias::
 
-.. usage:: ConvertToDiffractionMDWorkspace
+.. properties::
 
-.. properties:: ConvertToDiffractionMDWorkspace
+Description
+-----------
 
 This algorithm converts from a `MatrixWorkspace <MatrixWorkspace>`__ (in
 detector/time-of-flight space) to a
@@ -86,4 +87,4 @@ Performance Notes
 -  32-core AMD Opteron 2.7 GHz computer: measured between 8 and 9
    million events per second (400-1000 million event workspaces).
 
-.. categories:: ConvertToDiffractionMDWorkspace
+.. algm_categories::

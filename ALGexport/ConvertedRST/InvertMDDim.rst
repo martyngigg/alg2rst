@@ -1,12 +1,13 @@
-.. algorithm:: InvertMDDim
+.. algorithm::
 
-.. summary:: InvertMDDim
+.. summary::
 
-.. aliases:: InvertMDDim
+.. alias::
 
-.. usage:: InvertMDDim
+.. properties::
 
-.. properties:: InvertMDDim
+Description
+-----------
 
 Description
 -----------
@@ -15,4 +16,4 @@ InvertMDDim inverts the dimensions of a MDHistoWorkspace. It copies the
 data around to match the new dimensions. This algorithm is useful when
 dealing with storage order issues.
 
-.. categories:: InvertMDDim
+.. algm_categories::

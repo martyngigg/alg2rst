@@ -1,12 +1,13 @@
-.. algorithm:: DetectorEfficiencyCorUser
+.. algorithm::
 
-.. summary:: DetectorEfficiencyCorUser
+.. summary::
 
-.. aliases:: DetectorEfficiencyCorUser
+.. alias::
 
-.. usage:: DetectorEfficiencyCorUser
+.. properties::
 
-.. properties:: DetectorEfficiencyCorUser
+Description
+-----------
 
 This algorithm will correct detector efficiency according to the ILL INX
 program for time-of-flight data reduction.
@@ -25,4 +26,4 @@ where :math:`eff` is
 The function :math:`f` is defined as "formula\_eff" in the IDF. To date
 this has been implemented at the ILL for ILL IN4, IN5 and IN6.
 
-.. categories:: DetectorEfficiencyCorUser
+.. algm_categories::

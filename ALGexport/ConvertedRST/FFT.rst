@@ -1,12 +1,13 @@
-.. algorithm:: FFT
+.. algorithm::
 
-.. summary:: FFT
+.. summary::
 
-.. aliases:: FFT
+.. alias::
 
-.. usage:: FFT
+.. properties::
 
-.. properties:: FFT
+Description
+-----------
 
 The FFT algorithm performs discrete Fourier transform of complex data
 using the Fast Fourier Transform algorithm. It uses the GSL Fourier
@@ -172,4 +173,4 @@ for the real (0), imaginary (1) parts, and the modulus (2).
 | 2                 | Modulus          |
 +-------------------+------------------+
 
-.. categories:: FFT
+.. algm_categories::

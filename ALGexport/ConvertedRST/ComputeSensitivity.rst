@@ -1,12 +1,13 @@
-.. algorithm:: ComputeSensitivity
+.. algorithm::
 
-.. summary:: ComputeSensitivity
+.. summary::
 
-.. aliases:: ComputeSensitivity
+.. alias::
 
-.. usage:: ComputeSensitivity
+.. properties::
 
-.. properties:: ComputeSensitivity
+Description
+-----------
 
 Calculate the EQSANS detector sensitivity. This workflow algorithm uses
 the reduction parameters found in the property manager object passed as
@@ -18,4 +19,4 @@ detector. All masked pixels in the patch workspace will be patched. The
 value assigned to a patched pixel is the average of all unmasked pixels
 in this patched pixel's tube.
 
-.. categories:: ComputeSensitivity
+.. algm_categories::

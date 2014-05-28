@@ -1,13 +1,14 @@
-.. algorithm:: RemovePromptPulse
+.. algorithm::
 
-.. summary:: RemovePromptPulse
+.. summary::
 
-.. aliases:: RemovePromptPulse
+.. alias::
 
-.. usage:: RemovePromptPulse
+.. properties::
 
-.. properties:: RemovePromptPulse
+Description
+-----------
 
 
 
-.. categories:: RemovePromptPulse
+.. algm_categories::

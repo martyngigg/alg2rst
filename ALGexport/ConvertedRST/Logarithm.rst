@@ -1,12 +1,13 @@
-.. algorithm:: Logarithm
+.. algorithm::
 
-.. summary:: Logarithm
+.. summary::
 
-.. aliases:: Logarithm
+.. alias::
 
-.. usage:: Logarithm
+.. properties::
 
-.. properties:: Logarithm
+Description
+-----------
 
 *Logarithm* function calculates the logarithm of the data, held in a
 workspace and tries to estimate the errors of this data, by calculating
@@ -25,4 +26,4 @@ not calculated for values which are less or equal to 0, but the value of
 When acting on an event workspace, the output will be a Workspace2D,
 with the default binning from the original workspace.
 
-.. categories:: Logarithm
+.. algm_categories::

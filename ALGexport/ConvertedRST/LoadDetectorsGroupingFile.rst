@@ -1,12 +1,13 @@
-.. algorithm:: LoadDetectorsGroupingFile
+.. algorithm::
 
-.. summary:: LoadDetectorsGroupingFile
+.. summary::
 
-.. aliases:: LoadDetectorsGroupingFile
+.. alias::
 
-.. usage:: LoadDetectorsGroupingFile
+.. properties::
 
-.. properties:: LoadDetectorsGroupingFile
+Description
+-----------
 
 This algorithm is used to generate a GroupingWorkspace from an XML or
 Map file containing detectors' grouping information.
@@ -37,7 +38,10 @@ Parameters
 
 Example 1:
 
-| `` ``\ 
+.. raw:: html
+
+   <?xml version="1.0" encoding="UTF-8" ?>
+
 | `` ``\ 
 | ``  ``\ 
 | ``   ``\ \ ``3,34-44,47``\ 
@@ -49,7 +53,10 @@ Example 1:
 
 Example 2:
 
-| `` ``\ 
+.. raw:: html
+
+   <?xml version="1.0" encoding="UTF-8" ?>
+
 | `` ``\ 
 | ``  ``\ 
 | ``   ``\ \ ``3,34-44,47``\ 
@@ -61,7 +68,10 @@ Example 2:
 
 Example 3:
 
-| `` ``\ 
+.. raw:: html
+
+   <?xml version="1.0" encoding="UTF-8" ?>
+
 | `` ``\ 
 | ``  ``\ 
 | ``   ``\ \ ``3,34-44,47``\ 
@@ -126,4 +136,4 @@ An example of an input file follows:
 
 ==
 
-.. categories:: LoadDetectorsGroupingFile
+.. algm_categories::

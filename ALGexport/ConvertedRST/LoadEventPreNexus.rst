@@ -1,12 +1,13 @@
-.. algorithm:: LoadEventPreNexus
+.. algorithm::
 
-.. summary:: LoadEventPreNexus
+.. summary::
 
-.. aliases:: LoadEventPreNexus
+.. alias::
 
-.. usage:: LoadEventPreNexus
+.. properties::
 
-.. properties:: LoadEventPreNexus
+Description
+-----------
 
 The LoadEventPreNeXus algorithm stores data from the pre-nexus neutron
 event data file in an `EventWorkspace <EventWorkspace>`__. The default
@@ -22,4 +23,4 @@ Specific pulse ID and mapping files can be specified if needed; these
 are guessed at automatically from the neutron filename, if not
 specified.
 
-.. categories:: LoadEventPreNexus
+.. algm_categories::

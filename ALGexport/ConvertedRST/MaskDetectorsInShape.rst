@@ -1,12 +1,13 @@
-.. algorithm:: MaskDetectorsInShape
+.. algorithm::
 
-.. summary:: MaskDetectorsInShape
+.. summary::
 
-.. aliases:: MaskDetectorsInShape
+.. alias::
 
-.. usage:: MaskDetectorsInShape
+.. properties::
 
-.. properties:: MaskDetectorsInShape
+Description
+-----------
 
 Masks detectors that are contained within a user defined 3 dimensional
 shape within the instrument.
@@ -25,4 +26,4 @@ MaskDetectorsInShape runs the following algorithms as child algorithms:
    detectors that are contained in the user defined shape.
 -  `MaskDetectors <MaskDetectors>`__ - To mask the detectors found.
 
-.. categories:: MaskDetectorsInShape
+.. algm_categories::

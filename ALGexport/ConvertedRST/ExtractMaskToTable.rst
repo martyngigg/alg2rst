@@ -1,12 +1,13 @@
-.. algorithm:: ExtractMaskToTable
+.. algorithm::
 
-.. summary:: ExtractMaskToTable
+.. summary::
 
-.. aliases:: ExtractMaskToTable
+.. alias::
 
-.. usage:: ExtractMaskToTable
+.. properties::
 
-.. properties:: ExtractMaskToTable
+Description
+-----------
 
 InputWorskpace
 ^^^^^^^^^^^^^^
@@ -31,4 +32,4 @@ and Xmax) in MaskTableWorkspace has higher priority, i.e., in the output
 mask table workspace, the masked detector will be recorded in the row
 copied from input MaskTableWrokspace.
 
-.. categories:: ExtractMaskToTable
+.. algm_categories::

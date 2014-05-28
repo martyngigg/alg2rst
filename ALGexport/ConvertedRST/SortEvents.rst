@@ -1,12 +1,13 @@
-.. algorithm:: SortEvents
+.. algorithm::
 
-.. summary:: SortEvents
+.. summary::
 
-.. aliases:: SortEvents
+.. alias::
 
-.. usage:: SortEvents
+.. properties::
 
-.. properties:: SortEvents
+Description
+-----------
 
 In an `EventWorkspace <EventWorkspace>`__, event binning is performed on
 the fly. The algorithm for binning requires a list of events sorted by
@@ -16,4 +17,4 @@ speed up the calculation, the Sort algorithm pre-sorts by Time of
 Flight, using multiple CPUs. Using this algorithm is completely
 optional.
 
-.. categories:: SortEvents
+.. algm_categories::

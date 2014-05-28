@@ -1,12 +1,13 @@
-.. algorithm:: LoadParameterFile
+.. algorithm::
 
-.. summary:: LoadParameterFile
+.. summary::
 
-.. aliases:: LoadParameterFile
+.. alias::
 
-.. usage:: LoadParameterFile
+.. properties::
 
-.. properties:: LoadParameterFile
+Description
+-----------
 
 This algorithm allows instrument parameters to be specified in a
 separate file from the `IDF <InstrumentDefinitionFile>`__. The required
@@ -34,4 +35,4 @@ defined in the IDF of the HRPD instrument:
 
    </div>
 
-.. categories:: LoadParameterFile
+.. algm_categories::

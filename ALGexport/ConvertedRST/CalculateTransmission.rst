@@ -1,12 +1,13 @@
-.. algorithm:: CalculateTransmission
+.. algorithm::
 
-.. summary:: CalculateTransmission
+.. summary::
 
-.. aliases:: CalculateTransmission
+.. alias::
 
-.. usage:: CalculateTransmission
+.. properties::
 
-.. properties:: CalculateTransmission
+Description
+-----------
 
 Calculates the probability of a neutron being transmitted through the
 sample using detected counts from two monitors, one in front and one
@@ -38,4 +39,4 @@ ChildAlgorithms used
 Uses the algorithm `linear <linear>`__ to fit to the calculated
 transmission fraction.
 
-.. categories:: CalculateTransmission
+.. algm_categories::

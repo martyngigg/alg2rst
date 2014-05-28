@@ -1,13 +1,14 @@
-.. algorithm:: RemoveLowResTOF
+.. algorithm::
 
-.. summary:: RemoveLowResTOF
+.. summary::
 
-.. aliases:: RemoveLowResTOF
+.. alias::
 
-.. usage:: RemoveLowResTOF
+.. properties::
 
-.. properties:: RemoveLowResTOF
+Description
+-----------
 
 
 
-.. categories:: RemoveLowResTOF
+.. algm_categories::

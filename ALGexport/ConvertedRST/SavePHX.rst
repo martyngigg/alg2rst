@@ -1,12 +1,13 @@
-.. algorithm:: SavePHX
+.. algorithm::
 
-.. summary:: SavePHX
+.. summary::
 
-.. aliases:: SavePHX
+.. alias::
 
-.. usage:: SavePHX
+.. properties::
 
-.. properties:: SavePHX
+Description
+-----------
 
 Saves the geometry information of the detectors in a workspace into a
 PHX format ASCII file. The angular positions and angular sizes of the
@@ -34,4 +35,4 @@ information. You can expect to find column 1 to be the secondary
 flightpath and the column 7 -- the detector ID in Mantid-generated phx
 files only.
 
-.. categories:: SavePHX
+.. algm_categories::

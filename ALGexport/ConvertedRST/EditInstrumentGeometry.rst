@@ -1,12 +1,13 @@
-.. algorithm:: EditInstrumentGeometry
+.. algorithm::
 
-.. summary:: EditInstrumentGeometry
+.. summary::
 
-.. aliases:: EditInstrumentGeometry
+.. alias::
 
-.. usage:: EditInstrumentGeometry
+.. properties::
 
-.. properties:: EditInstrumentGeometry
+Description
+-----------
 
 This algorithm can
 
@@ -54,4 +55,4 @@ Instruction
 | ``  Azimuthal = "0.1,0.2,0.3"``
 | ``  to set up the focused detectors' parameters for spectrum 1, 3 and 2.``
 
-.. categories:: EditInstrumentGeometry
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: PredictFractionalPeaks
+.. algorithm::
 
-.. summary:: PredictFractionalPeaks
+.. summary::
 
-.. aliases:: PredictFractionalPeaks
+.. alias::
 
-.. usage:: PredictFractionalPeaks
+.. properties::
 
-.. properties:: PredictFractionalPeaks
+Description
+-----------
 
 This Algorithm creates a PeaksWorkspace with peaks occurring at specific
 fractional offsets from h,k,or l values.
@@ -33,4 +34,4 @@ PredictFractionalPeaks(PeaksWrkSpace,"FracPeaks","-.5,0,.5","-.5,.5","0")
 #. NOTE: There are editing options on PeaksWorkspaces, like combining 2
    PeaksWorkspaces.
 
-.. categories:: PredictFractionalPeaks
+.. algm_categories::

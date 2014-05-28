@@ -1,12 +1,13 @@
-.. algorithm:: Regroup
+.. algorithm::
 
-.. summary:: Regroup
+.. summary::
 
-.. aliases:: Regroup
+.. alias::
 
-.. usage:: Regroup
+.. properties::
 
-.. properties:: Regroup
+Description
+-----------
 
 Regroups data with new bin boundaries to ensure that bins have minimum
 width determined by the parameter :math:`\Delta x_i\,`, but ensuring the
@@ -23,4 +24,4 @@ true also for the ends of the regrouped array: if the bin boundaries are
 990,1010,1030,1050,...,1210, then "params" = "1000,25,1200" yields a
 workspace with bin boundaries 1010,1050,1090,1130,1170.
 
-.. categories:: Regroup
+.. algm_categories::

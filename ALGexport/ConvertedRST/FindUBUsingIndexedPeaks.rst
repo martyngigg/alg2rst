@@ -1,12 +1,13 @@
-.. algorithm:: FindUBUsingIndexedPeaks
+.. algorithm::
 
-.. summary:: FindUBUsingIndexedPeaks
+.. summary::
 
-.. aliases:: FindUBUsingIndexedPeaks
+.. alias::
 
-.. usage:: FindUBUsingIndexedPeaks
+.. properties::
 
-.. properties:: FindUBUsingIndexedPeaks
+Description
+-----------
 
 Given a set of peaks at least three of which have been assigned Miller
 indices, this algorithm will find the UB matrix, that best maps the
@@ -18,4 +19,4 @@ system of equations representing the mapping from (h,k,l) to Q for each
 indexed peak. The system of linear equations is then solved in the least
 squares sense, using QR factorization.
 
-.. categories:: FindUBUsingIndexedPeaks
+.. algm_categories::

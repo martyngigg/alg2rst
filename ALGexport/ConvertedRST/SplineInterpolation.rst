@@ -1,12 +1,13 @@
-.. algorithm:: SplineInterpolation
+.. algorithm::
 
-.. summary:: SplineInterpolation
+.. summary::
 
-.. aliases:: SplineInterpolation
+.. alias::
 
-.. usage:: SplineInterpolation
+.. properties::
 
-.. properties:: SplineInterpolation
+Description
+-----------
 
 The algorithm performs interpolation of points onto a cubic spline. The
 algorithm takes two input workspaces: one that is used to define the
@@ -36,4 +37,4 @@ point data using the average of the bin boundaries. This will cause some
 values to fall outside of the range of the spline when fine bin
 boundaries are used.
 
-.. categories:: SplineInterpolation
+.. algm_categories::

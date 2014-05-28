@@ -1,12 +1,13 @@
-.. algorithm:: IdentifyNoisyDetectors
+.. algorithm::
 
-.. summary:: IdentifyNoisyDetectors
+.. summary::
 
-.. aliases:: IdentifyNoisyDetectors
+.. alias::
 
-.. usage:: IdentifyNoisyDetectors
+.. properties::
 
-.. properties:: IdentifyNoisyDetectors
+Description
+-----------
 
 The process for this algorithm is:
 
@@ -32,4 +33,4 @@ The lower bound for the integration is currently fixed to 2000.
 
 The upper bound for the integration is currently fixed to 19000.
 
-.. categories:: IdentifyNoisyDetectors
+.. algm_categories::

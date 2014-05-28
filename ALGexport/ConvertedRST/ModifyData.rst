@@ -1,13 +1,14 @@
-.. algorithm:: ModifyData
+.. algorithm::
 
-.. summary:: ModifyData
+.. summary::
 
-.. aliases:: ModifyData
+.. alias::
 
-.. usage:: ModifyData
+.. properties::
 
-.. properties:: ModifyData
+Description
+-----------
 
 
 
-.. categories:: ModifyData
+.. algm_categories::

@@ -1,13 +1,14 @@
-.. algorithm:: DeleteWorkspace
+.. algorithm::
 
-.. summary:: DeleteWorkspace
+.. summary::
 
-.. aliases:: DeleteWorkspace
+.. alias::
 
-.. usage:: DeleteWorkspace
+.. properties::
 
-.. properties:: DeleteWorkspace
+Description
+-----------
 
 If the input workspace exists then it is removed from Mantid.
 
-.. categories:: DeleteWorkspace
+.. algm_categories::

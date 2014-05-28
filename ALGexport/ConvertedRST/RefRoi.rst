@@ -1,13 +1,14 @@
-.. algorithm:: RefRoi
+.. algorithm::
 
-.. summary:: RefRoi
+.. summary::
 
-.. aliases:: RefRoi
+.. alias::
 
-.. usage:: RefRoi
+.. properties::
 
-.. properties:: RefRoi
+Description
+-----------
 
 
 
-.. categories:: RefRoi
+.. algm_categories::

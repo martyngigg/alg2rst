@@ -1,12 +1,13 @@
-.. algorithm:: LoadInstrumentFromNexus
+.. algorithm::
 
-.. summary:: LoadInstrumentFromNexus
+.. summary::
 
-.. aliases:: LoadInstrumentFromNexus
+.. alias::
 
-.. usage:: LoadInstrumentFromNexus
+.. properties::
 
-.. properties:: LoadInstrumentFromNexus
+Description
+-----------
 
 Attempts to load information about the instrument from a ISIS NeXus
 file. In particular attempt to read L2 and 2-theta detector position
@@ -18,4 +19,4 @@ LoadInstrumentFromNexus is intended to be used as a child algorithm of
 other Loadxxx algorithms, rather than being used directly. It is used by
 LoadMuonNexus version 1.
 
-.. categories:: LoadInstrumentFromNexus
+.. algm_categories::

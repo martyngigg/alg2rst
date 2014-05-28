@@ -1,12 +1,13 @@
-.. algorithm:: HFIRDarkCurrentSubtraction
+.. algorithm::
 
-.. summary:: HFIRDarkCurrentSubtraction
+.. summary::
 
-.. aliases:: HFIRDarkCurrentSubtraction
+.. alias::
 
-.. usage:: HFIRDarkCurrentSubtraction
+.. properties::
 
-.. properties:: HFIRDarkCurrentSubtraction
+Description
+-----------
 
 Subtract the dark current from a HFIR SANS data set. This workflow
 algorithm will:
@@ -21,4 +22,4 @@ See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for details.
 
-.. categories:: HFIRDarkCurrentSubtraction
+.. algm_categories::

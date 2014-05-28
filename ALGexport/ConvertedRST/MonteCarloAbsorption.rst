@@ -1,12 +1,13 @@
-.. algorithm:: MonteCarloAbsorption
+.. algorithm::
 
-.. summary:: MonteCarloAbsorption
+.. summary::
 
-.. aliases:: MonteCarloAbsorption
+.. alias::
 
-.. usage:: MonteCarloAbsorption
+.. properties::
 
-.. properties:: MonteCarloAbsorption
+Description
+-----------
 
 This algorithm performs a Monte Carlo simulation to calculate the
 attenuation factor of a given sample for an arbitrary arrangement of
@@ -40,4 +41,4 @@ defined because detector, source & sample position are needed.
 
 At a minimum, the input workspace must have a sample shape defined.
 
-.. categories:: MonteCarloAbsorption
+.. algm_categories::

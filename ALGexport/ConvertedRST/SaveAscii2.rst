@@ -1,12 +1,13 @@
-.. algorithm:: SaveAscii2
+.. algorithm::
 
-.. summary:: SaveAscii2
+.. summary::
 
-.. aliases:: SaveAscii2
+.. alias::
 
-.. usage:: SaveAscii2
+.. properties::
 
-.. properties:: SaveAscii2
+Description
+-----------
 
 The workspace data are stored in the file in columns: the first column
 contains the X-values, followed by pairs of Y and E values. Columns are
@@ -20,4 +21,4 @@ The algorithm assumes that the workspace has common X values for all
 spectra (i.e. is not a `ragged workspace <Ragged Workspace>`__). Only
 the X values from the first spectrum in the workspace are saved out.
 
-.. categories:: SaveAscii2
+.. algm_categories::

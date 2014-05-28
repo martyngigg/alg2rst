@@ -1,12 +1,13 @@
-.. algorithm:: SANSWideAngleCorrection
+.. algorithm::
 
-.. summary:: SANSWideAngleCorrection
+.. summary::
 
-.. aliases:: SANSWideAngleCorrection
+.. alias::
 
-.. usage:: SANSWideAngleCorrection
+.. properties::
 
-.. properties:: SANSWideAngleCorrection
+Description
+-----------
 
 Algorithm Reference Discussion
 ------------------------------
@@ -133,4 +134,4 @@ Cryst. (2007). 40
 Ghosh, Egelhaaf & Rennie - Computing guide for Small Angle Scattering
 Experiments
 
-.. categories:: SANSWideAngleCorrection
+.. algm_categories::

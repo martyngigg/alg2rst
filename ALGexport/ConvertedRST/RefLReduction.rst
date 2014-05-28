@@ -1,13 +1,14 @@
-.. algorithm:: RefLReduction
+.. algorithm::
 
-.. summary:: RefLReduction
+.. summary::
 
-.. aliases:: RefLReduction
+.. alias::
 
-.. usage:: RefLReduction
+.. properties::
 
-.. properties:: RefLReduction
+Description
+-----------
 
 Liquids Reflectometer (REFL) reduction
 
-.. categories:: RefLReduction
+.. algm_categories::

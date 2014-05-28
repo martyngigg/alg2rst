@@ -1,12 +1,13 @@
-.. algorithm:: SumEventsByLogValue
+.. algorithm::
 
-.. summary:: SumEventsByLogValue
+.. summary::
 
-.. aliases:: SumEventsByLogValue
+.. alias::
 
-.. usage:: SumEventsByLogValue
+.. properties::
 
-.. properties:: SumEventsByLogValue
+Description
+-----------
 
 This algorithm counts up the events in a workspace against the values of
 a log within the workspace. It will most commonly be used as a
@@ -47,4 +48,4 @@ single spectrum workspace where the X values are derived from the
 OutputBinning property and the Y values are the total counts in each bin
 of the log value.
 
-.. categories:: SumEventsByLogValue
+.. algm_categories::

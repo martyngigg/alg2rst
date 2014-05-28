@@ -1,12 +1,13 @@
-.. algorithm:: SANSBeamFluxCorrection
+.. algorithm::
 
-.. summary:: SANSBeamFluxCorrection
+.. summary::
 
-.. aliases:: SANSBeamFluxCorrection
+.. alias::
 
-.. usage:: SANSBeamFluxCorrection
+.. properties::
 
-.. properties:: SANSBeamFluxCorrection
+Description
+-----------
 
 Performs beam flux correction for TOF SANS data.
 
@@ -18,4 +19,4 @@ where
 
         :math:`\Phi_{sample} = \frac{M_{sample}}{M_{ref}} \Phi_{ref}`
 
-.. categories:: SANSBeamFluxCorrection
+.. algm_categories::

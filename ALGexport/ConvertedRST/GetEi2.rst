@@ -1,12 +1,13 @@
-.. algorithm:: GetEi2
+.. algorithm::
 
-.. summary:: GetEi2
+.. summary::
 
-.. aliases:: GetEi2
+.. alias::
 
-.. usage:: GetEi2
+.. properties::
 
-.. properties:: GetEi2
+Description
+-----------
 
 Uses E= (1/2)mv^2 to calculate the energy of neutrons leaving the
 source. The velocity is calculated from the time it takes for the
@@ -46,4 +47,4 @@ on one line and that the monitors have the same delay time.
 
 .. |Monitor Peak\|centre\|618px| image:: Monitorspect_getei.jpg
 
-.. categories:: GetEi2
+.. algm_categories::

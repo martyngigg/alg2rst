@@ -1,12 +1,13 @@
-.. algorithm:: GreaterThanMD
+.. algorithm::
 
-.. summary:: GreaterThanMD
+.. summary::
 
-.. aliases:: GreaterThanMD
+.. alias::
 
-.. usage:: GreaterThanMD
+.. properties::
 
-.. properties:: GreaterThanMD
+Description
+-----------
 
 Perform the > (greater-than) boolean operation on two MDHistoWorkspaces
 or a MDHistoWorkspace and a scalar. The output workspace has a signal of
@@ -18,4 +19,4 @@ element-by-element.
 For a MDHistoWorkspace and a scalar, the operation is performed on each
 element of the output.
 
-.. categories:: GreaterThanMD
+.. algm_categories::

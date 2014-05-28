@@ -1,12 +1,13 @@
-.. algorithm:: Transpose
+.. algorithm::
 
-.. summary:: Transpose
+.. summary::
 
-.. aliases:: Transpose
+.. alias::
 
-.. usage:: Transpose
+.. properties::
 
-.. properties:: Transpose
+Description
+-----------
 
 This algorithm transposes a workspace, so that an N1 x N2 workspace
 becomes N2 x N1.
@@ -19,4 +20,4 @@ The new axis values are taken from the previous X-vector-values for the
 first specrum in the workspace. For this reason, use with ragged
 workspaces is undefined.
 
-.. categories:: Transpose
+.. algm_categories::

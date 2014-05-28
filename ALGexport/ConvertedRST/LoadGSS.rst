@@ -1,12 +1,13 @@
-.. algorithm:: LoadGSS
+.. algorithm::
 
-.. summary:: LoadGSS
+.. summary::
 
-.. aliases:: LoadGSS
+.. alias::
 
-.. usage:: LoadGSS
+.. properties::
 
-.. properties:: LoadGSS
+Description
+-----------
 
 Loads a GSS file such as that saved by `SaveGSS <SaveGSS>`__.
 
@@ -15,4 +16,4 @@ Two types of GSAS files are supported
 | ``* RALF``
 | ``* SLOG``
 
-.. categories:: LoadGSS
+.. algm_categories::

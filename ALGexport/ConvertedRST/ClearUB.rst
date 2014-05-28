@@ -1,15 +1,16 @@
-.. algorithm:: ClearUB
+.. algorithm::
 
-.. summary:: ClearUB
+.. summary::
 
-.. aliases:: ClearUB
+.. alias::
 
-.. usage:: ClearUB
+.. properties::
 
-.. properties:: ClearUB
+Description
+-----------
 
 Clears the OrientedLattice of each ExperimentInfo attached to the intput
 `Workspace <Workspace>`__. Works with both single ExperimentInfos and
 MultipleExperimentInfo instances.
 
-.. categories:: ClearUB
+.. algm_categories::

@@ -1,15 +1,16 @@
-.. algorithm:: StretchExp
+.. algorithm::
 
-.. summary:: StretchExp
+.. summary::
 
-.. aliases:: StretchExp
+.. alias::
 
-.. usage:: StretchExp
+.. properties::
 
-.. properties:: StretchExp
+Description
+-----------
 
 The Stretched exponential fit function is defined by
 
 .. math:: Height \cdot e^{-(\frac{x}{Lifetime})^{Stretching} }
 
-.. categories:: StretchExp
+.. algm_categories::

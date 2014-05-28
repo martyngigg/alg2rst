@@ -1,13 +1,14 @@
-.. algorithm:: REFLReprocess
+.. algorithm::
 
-.. summary:: REFLReprocess
+.. summary::
 
-.. aliases:: REFLReprocess
+.. alias::
 
-.. usage:: REFLReprocess
+.. properties::
 
-.. properties:: REFLReprocess
+Description
+-----------
 
 Re-reduce REFL data for an entire experiment using saved parameters
 
-.. categories:: REFLReprocess
+.. algm_categories::

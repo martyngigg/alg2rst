@@ -1,12 +1,13 @@
-.. algorithm:: SANSSensitivityCorrection
+.. algorithm::
 
-.. summary:: SANSSensitivityCorrection
+.. summary::
 
-.. aliases:: SANSSensitivityCorrection
+.. alias::
 
-.. usage:: SANSSensitivityCorrection
+.. properties::
 
-.. properties:: SANSSensitivityCorrection
+Description
+-----------
 
 This SANS workflow algorithm will compute the sensitivity correction
 from a given flood field data set. It will apply the proper corrections
@@ -21,4 +22,4 @@ A Nexus file containing a pre-calculated sensitivity correction can also
 be supplied for the case where we simply want to apply the correction to
 an input workspace.
 
-.. categories:: SANSSensitivityCorrection
+.. algm_categories::

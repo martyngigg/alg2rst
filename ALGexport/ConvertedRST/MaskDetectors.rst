@@ -1,12 +1,13 @@
-.. algorithm:: MaskDetectors
+.. algorithm::
 
-.. summary:: MaskDetectors
+.. summary::
 
-.. aliases:: MaskDetectors
+.. alias::
 
-.. usage:: MaskDetectors
+.. properties::
 
-.. properties:: MaskDetectors
+Description
+-----------
 
 This algorithm will flag the detectors listed as
 masked(\ `IDetector <IDetector>`__ isMasked() method) and will zero the
@@ -99,4 +100,4 @@ Concern
 
 -  Speed!
 
-.. categories:: MaskDetectors
+.. algm_categories::

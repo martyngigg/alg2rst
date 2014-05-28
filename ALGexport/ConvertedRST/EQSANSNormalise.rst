@@ -1,13 +1,14 @@
-.. algorithm:: EQSANSNormalise
+.. algorithm::
 
-.. summary:: EQSANSNormalise
+.. summary::
 
-.. aliases:: EQSANSNormalise
+.. alias::
 
-.. usage:: EQSANSNormalise
+.. properties::
 
-.. properties:: EQSANSNormalise
+Description
+-----------
 
 Normalise detector counts by accelerator current and beam spectrum.
 
-.. categories:: EQSANSNormalise
+.. algm_categories::

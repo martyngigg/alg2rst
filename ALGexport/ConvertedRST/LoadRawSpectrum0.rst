@@ -1,14 +1,15 @@
-.. algorithm:: LoadRawSpectrum0
+.. algorithm::
 
-.. summary:: LoadRawSpectrum0
+.. summary::
 
-.. aliases:: LoadRawSpectrum0
+.. alias::
 
-.. usage:: LoadRawSpectrum0
+.. properties::
 
-.. properties:: LoadRawSpectrum0
+Description
+-----------
 
 The LoadRawSpectrum0 algorithm stores spectrum zero data from the
 selected `RAW <RAW_File>`__ file in a `Workspace2D <Workspace2D>`__.
 
-.. categories:: LoadRawSpectrum0
+.. algm_categories::

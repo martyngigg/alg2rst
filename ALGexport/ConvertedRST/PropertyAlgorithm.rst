@@ -1,13 +1,14 @@
-.. algorithm:: PropertyAlgorithm
+.. algorithm::
 
-.. summary:: PropertyAlgorithm
+.. summary::
 
-.. aliases:: PropertyAlgorithm
+.. alias::
 
-.. usage:: PropertyAlgorithm
+.. properties::
 
-.. properties:: PropertyAlgorithm
+Description
+-----------
 
 
 
-.. categories:: PropertyAlgorithm
+.. algm_categories::

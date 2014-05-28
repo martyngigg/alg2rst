@@ -1,12 +1,13 @@
-.. algorithm:: SaveCSV
+.. algorithm::
 
-.. summary:: SaveCSV
+.. summary::
 
-.. aliases:: SaveCSV
+.. alias::
 
-.. usage:: SaveCSV
+.. properties::
 
-.. properties:: SaveCSV
+Description
+-----------
 
 The format of the saved ascii CSV file for a 1D worksspace consists of
 three columns where the numbers of each row are seperated by the
@@ -36,4 +37,4 @@ the same x-axis but the third histogram has a different x-axis.
 The matrix following the ERRORS line lists the errors as recorded for
 each histogram.
 
-.. categories:: SaveCSV
+.. algm_categories::

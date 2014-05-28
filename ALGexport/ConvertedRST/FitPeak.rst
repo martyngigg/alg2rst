@@ -1,12 +1,13 @@
-.. algorithm:: FitPeak
+.. algorithm::
 
-.. summary:: FitPeak
+.. summary::
 
-.. aliases:: FitPeak
+.. alias::
 
-.. usage:: FitPeak
+.. properties::
 
-.. properties:: FitPeak
+Description
+-----------
 
 This algorithm is used to fit a single peak with some checking mechanism
 to ensure its fitting result is physical.
@@ -57,4 +58,4 @@ FitPeak might be able to estimate the peak centre in this situation by
 locating the X-value whose corresponding Y-value is largest within
 user-defined peak range.
 
-.. categories:: FitPeak
+.. algm_categories::

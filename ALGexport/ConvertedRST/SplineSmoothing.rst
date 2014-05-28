@@ -1,12 +1,13 @@
-.. algorithm:: SplineSmoothing
+.. algorithm::
 
-.. summary:: SplineSmoothing
+.. summary::
 
-.. aliases:: SplineSmoothing
+.. alias::
 
-.. usage:: SplineSmoothing
+.. properties::
 
-.. properties:: SplineSmoothing
+Description
+-----------
 
 The algorithm performs a smoothing of the input data using a cubic
 spline. The algorithm takes a 2D workspace and generates a spline for
@@ -24,4 +25,4 @@ If the input workspace contains histograms, rather than data points,
 then SplineInterpolation will automatically convert the input to point
 data. The output returned with be in the same format as the input.
 
-.. categories:: SplineSmoothing
+.. algm_categories::

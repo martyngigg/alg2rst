@@ -1,12 +1,13 @@
-.. algorithm:: ConvertSpectrumAxis2
+.. algorithm::
 
-.. summary:: ConvertSpectrumAxis2
+.. summary::
 
-.. aliases:: ConvertSpectrumAxis2
+.. alias::
 
-.. usage:: ConvertSpectrumAxis2
+.. properties::
 
-.. properties:: ConvertSpectrumAxis2
+Description
+-----------
 
 Converts the representation of the vertical axis (the one up the side of
 a matrix in MantidPlot) of a Workspace2D from its default of holding the
@@ -18,4 +19,4 @@ duplicates will not be aggregated. Any spectrum for which a detector is
 not found (i.e. if the instrument definition is incomplete) will not
 appear in the output workspace.
 
-.. categories:: ConvertSpectrumAxis2
+.. algm_categories::

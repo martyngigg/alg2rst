@@ -1,12 +1,13 @@
-.. algorithm:: SofQW
+.. algorithm::
 
-.. summary:: SofQW
+.. summary::
 
-.. aliases:: SofQW
+.. alias::
 
-.. usage:: SofQW
+.. properties::
 
-.. properties:: SofQW
+Description
+-----------
 
 This algorithm is for use by inelastic instruments and takes as its
 input a workspace where the data's been reduced to be in units of energy
@@ -25,4 +26,4 @@ If the input workspace is a distribution (i.e. counts / meV ) then the
 output workspace will similarly be divided by the bin width in both
 directions (i.e. will contain counts / meV / (1/Angstrom) ).
 
-.. categories:: SofQW
+.. algm_categories::

@@ -1,13 +1,14 @@
-.. algorithm:: EQSANSAzimuthalAverage1D
+.. algorithm::
 
-.. summary:: EQSANSAzimuthalAverage1D
+.. summary::
 
-.. aliases:: EQSANSAzimuthalAverage1D
+.. alias::
 
-.. usage:: EQSANSAzimuthalAverage1D
+.. properties::
 
-.. properties:: EQSANSAzimuthalAverage1D
+Description
+-----------
 
 Compute I(q) for reduced EQSANS data
 
-.. categories:: EQSANSAzimuthalAverage1D
+.. algm_categories::

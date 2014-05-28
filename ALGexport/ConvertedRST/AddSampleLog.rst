@@ -1,12 +1,13 @@
-.. algorithm:: AddSampleLog
+.. algorithm::
 
-.. summary:: AddSampleLog
+.. summary::
 
-.. aliases:: AddSampleLog
+.. alias::
 
-.. usage:: AddSampleLog
+.. properties::
 
-.. properties:: AddSampleLog
+Description
+-----------
 
 Workspaces contain information in logs. Often these detail what happened
 to the sample during the experiment. This algorithm allows one named log
@@ -20,4 +21,4 @@ If the LogText contains a numeric value, the created log will be of
 integer type if an integer is passed and floating point (double)
 otherwise. This applies to both the Number & Number Series options.
 
-.. categories:: AddSampleLog
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: UpdatePeakParameterTableValue
+.. algorithm::
 
-.. summary:: UpdatePeakParameterTableValue
+.. summary::
 
-.. aliases:: UpdatePeakParameterTableValue
+.. alias::
 
-.. usage:: UpdatePeakParameterTableValue
+.. properties::
 
-.. properties:: UpdatePeakParameterTableValue
+Description
+-----------
 
 In algorithms related to `Le Bail Fit <Le Bail Fit>`__ and powder
 diffractomer instrument profile calibration, TableWorkspace containing
@@ -49,4 +50,4 @@ How to use algorithm with other algorithms
 This algorithm is designed to work with `other
 algorithms <Le Bail Fit>`__ to do Le Bail fit.
 
-.. categories:: UpdatePeakParameterTableValue
+.. algm_categories::

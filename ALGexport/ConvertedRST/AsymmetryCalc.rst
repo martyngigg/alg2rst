@@ -1,12 +1,13 @@
-.. algorithm:: AsymmetryCalc
+.. algorithm::
 
-.. summary:: AsymmetryCalc
+.. summary::
 
-.. aliases:: AsymmetryCalc
+.. alias::
 
-.. usage:: AsymmetryCalc
+.. properties::
 
-.. properties:: AsymmetryCalc
+Description
+-----------
 
 This algorithm is used to calculate the asymmetry for a muon workspace.
 The asymmetry is given by:
@@ -27,4 +28,4 @@ Note: this algorithm does not perform any grouping; the grouping must be
 done via the GroupDetectors algorithm or when the NeXus file is loaded
 auto\_group must be set to true.
 
-.. categories:: AsymmetryCalc
+.. algm_categories::

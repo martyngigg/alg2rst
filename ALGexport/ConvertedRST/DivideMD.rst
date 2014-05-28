@@ -1,12 +1,13 @@
-.. algorithm:: DivideMD
+.. algorithm::
 
-.. summary:: DivideMD
+.. summary::
 
-.. aliases:: DivideMD
+.. alias::
 
-.. usage:: DivideMD
+.. properties::
 
-.. properties:: DivideMD
+Description
+-----------
 
 Divide two `MDHistoWorkspace <MDHistoWorkspace>`__'s or a
 MDHistoWorkspace and a scalar.
@@ -31,4 +32,4 @@ The error of :math:`f = a / b` is propagated with
    -  This operation is not supported, as it is not clear what its
       meaning would be.
 
-.. categories:: DivideMD
+.. algm_categories::

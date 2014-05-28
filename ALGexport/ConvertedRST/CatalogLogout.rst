@@ -1,14 +1,15 @@
-.. algorithm:: CatalogLogout
+.. algorithm::
 
-.. summary:: CatalogLogout
+.. summary::
 
-.. aliases:: CatalogLogout
+.. alias::
 
-.. usage:: CatalogLogout
+.. properties::
 
-.. properties:: CatalogLogout
+Description
+-----------
 
-This algorithm disconnects the logged in user from the information
-catalog.
+This algorithm disconnects the logged in user from a specific catalog
+using the session information provided.
 
-.. categories:: CatalogLogout
+.. algm_categories::

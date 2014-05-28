@@ -1,12 +1,13 @@
-.. algorithm:: MuonGroupDetectors
+.. algorithm::
 
-.. summary:: MuonGroupDetectors
+.. summary::
 
-.. aliases:: MuonGroupDetectors
+.. alias::
 
-.. usage:: MuonGroupDetectors
+.. properties::
 
-.. properties:: MuonGroupDetectors
+Description
+-----------
 
 Applies detector grouping to a workspace. (Muon version).
 
@@ -21,4 +22,4 @@ std::invalid\_argument exceptions are thrown if table format is not
 correct, there are no non-empty groups or one of the detector IDs does
 not exist in the workspace.
 
-.. categories:: MuonGroupDetectors
+.. algm_categories::

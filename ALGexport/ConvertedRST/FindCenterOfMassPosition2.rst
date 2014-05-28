@@ -1,12 +1,13 @@
-.. algorithm:: FindCenterOfMassPosition2
+.. algorithm::
 
-.. summary:: FindCenterOfMassPosition2
+.. summary::
 
-.. aliases:: FindCenterOfMassPosition2
+.. alias::
 
-.. usage:: FindCenterOfMassPosition2
+.. properties::
 
-.. properties:: FindCenterOfMassPosition2
+Description
+-----------
 
 If the *Output* property is set, the beam centre will be placed in a
 table workspace. Otherwise, the result is placed in an ArrayProperty
@@ -16,4 +17,4 @@ See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for details.
 
-.. categories:: FindCenterOfMassPosition2
+.. algm_categories::

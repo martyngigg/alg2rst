@@ -1,14 +1,15 @@
-.. algorithm:: LoadRawBin0
+.. algorithm::
 
-.. summary:: LoadRawBin0
+.. summary::
 
-.. aliases:: LoadRawBin0
+.. alias::
 
-.. usage:: LoadRawBin0
+.. properties::
 
-.. properties:: LoadRawBin0
+Description
+-----------
 
 The LoadRawBin0 algorithm stores bin 0 data from the selected
 `RAW <RAW_File>`__ file in a `Workspace2D <Workspace2D>`__.
 
-.. categories:: LoadRawBin0
+.. algm_categories::

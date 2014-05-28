@@ -1,12 +1,13 @@
-.. algorithm:: SumNeighbours
+.. algorithm::
 
-.. summary:: SumNeighbours
+.. summary::
 
-.. aliases:: SumNeighbours
+.. alias::
 
-.. usage:: SumNeighbours
+.. properties::
 
-.. properties:: SumNeighbours
+Description
+-----------
 
 The algorithm looks through the `Instrument <Instrument>`__ to find all
 the `RectangularDetectors <RectangularDetector>`__ defined. For each
@@ -15,4 +16,4 @@ saved in the output workspace as a single spectrum. Therefore, the
 output workspace will have 1/(SumX\*SumY) \* the original number of
 spectra.
 
-.. categories:: SumNeighbours
+.. algm_categories::

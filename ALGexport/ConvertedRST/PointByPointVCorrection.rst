@@ -1,12 +1,13 @@
-.. algorithm:: PointByPointVCorrection
+.. algorithm::
 
-.. summary:: PointByPointVCorrection
+.. summary::
 
-.. aliases:: PointByPointVCorrection
+.. alias::
 
-.. usage:: PointByPointVCorrection
+.. properties::
 
-.. properties:: PointByPointVCorrection
+Description
+-----------
 
 Divides the data spectra by the matching vanadium spectra according to
 the following formula:
@@ -39,4 +40,4 @@ inputs for this algorithm.
 This is normally not a problem unless the setup of the instrument has
 been changed between recording the Vanadium and the sample datasets.
 
-.. categories:: PointByPointVCorrection
+.. algm_categories::

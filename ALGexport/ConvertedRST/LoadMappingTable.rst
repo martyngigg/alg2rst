@@ -1,12 +1,13 @@
-.. algorithm:: LoadMappingTable
+.. algorithm::
 
-.. summary:: LoadMappingTable
+.. summary::
 
-.. aliases:: LoadMappingTable
+.. alias::
 
-.. usage:: LoadMappingTable
+.. properties::
 
-.. properties:: LoadMappingTable
+Description
+-----------
 
 Loads the mapping table between spectra and `IDetector <IDetector>`__
 from a RAW file. It fills the
@@ -23,4 +24,4 @@ contribute to different spectra (for example in DAE2 (Data Aquisition
 Electronic) when a spectra containing electronically focussed data is
 created simultaneously with individual spectra).
 
-.. categories:: LoadMappingTable
+.. algm_categories::

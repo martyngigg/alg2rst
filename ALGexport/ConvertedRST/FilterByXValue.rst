@@ -1,12 +1,13 @@
-.. algorithm:: FilterByXValue
+.. algorithm::
 
-.. summary:: FilterByXValue
+.. summary::
 
-.. aliases:: FilterByXValue
+.. alias::
 
-.. usage:: FilterByXValue
+.. properties::
 
-.. properties:: FilterByXValue
+Description
+-----------
 
 This algorithm filters events outside of the given values (in whatever
 units the workspace possesses). This can be a one or two-sided filter
@@ -17,4 +18,4 @@ affect the bin boundaries as well, or want to remove some
 spectra/pixels, consider using `CropWorkspace <CropWorkspace>`__
 instead.
 
-.. categories:: FilterByXValue
+.. algm_categories::

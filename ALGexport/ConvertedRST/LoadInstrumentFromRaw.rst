@@ -1,13 +1,14 @@
-.. algorithm:: LoadInstrumentFromRaw
+.. algorithm::
 
-.. summary:: LoadInstrumentFromRaw
+.. summary::
 
-.. aliases:: LoadInstrumentFromRaw
+.. alias::
 
-.. usage:: LoadInstrumentFromRaw
+.. properties::
 
-.. properties:: LoadInstrumentFromRaw
+Description
+-----------
 
 
 
-.. categories:: LoadInstrumentFromRaw
+.. algm_categories::

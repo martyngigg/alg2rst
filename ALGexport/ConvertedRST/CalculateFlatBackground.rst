@@ -1,12 +1,13 @@
-.. algorithm:: CalculateFlatBackground
+.. algorithm::
 
-.. summary:: CalculateFlatBackground
+.. summary::
 
-.. aliases:: CalculateFlatBackground
+.. alias::
 
-.. usage:: CalculateFlatBackground
+.. properties::
 
-.. properties:: CalculateFlatBackground
+Description
+-----------
 
 This algorithm takes a list of spectra and for each spectrum calculates
 an average count rate in the given region, usually a region when there
@@ -33,4 +34,4 @@ The `Linear <Linear>`__ algorithm is used when the Mode = Linear Fit.
 From the resulting line of best fit a constant value taken as the value
 of the line at the centre of the fitted range.
 
-.. categories:: CalculateFlatBackground
+.. algm_categories::

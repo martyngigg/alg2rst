@@ -1,12 +1,13 @@
-.. algorithm:: LoadAscii2
+.. algorithm::
 
-.. summary:: LoadAscii2
+.. summary::
 
-.. aliases:: LoadAscii2
+.. alias::
 
-.. usage:: LoadAscii2
+.. properties::
 
-.. properties:: LoadAscii2
+Description
+-----------
 
 The LoadAscii2 algorithm reads in spectra data from a text file and
 stores it in a `Workspace2D <Workspace2D>`__ as data points. The data in
@@ -38,4 +39,4 @@ no X error
 2.00000000,3.00000000,1.00000000 4.00000000,0.00000000,0.00000000 4
 2.00000000,0.00000000,0.00000000 4.00000000,0.00000000,0.00000000
 
-.. categories:: LoadAscii2
+.. algm_categories::

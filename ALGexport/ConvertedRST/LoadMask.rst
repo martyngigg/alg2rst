@@ -1,12 +1,13 @@
-.. algorithm:: LoadMask
+.. algorithm::
 
-.. summary:: LoadMask
+.. summary::
 
-.. aliases:: LoadMask
+.. alias::
 
-.. usage:: LoadMask
+.. properties::
 
-.. properties:: LoadMask
+Description
+-----------
 
 This algorithm is used to load a masking file, which can be in XML
 format (defined later in this page) or old-styled calibration file.
@@ -27,7 +28,10 @@ XML File Format
 
 Example 1:
 
-| `` ``\ 
+.. raw:: html
+
+   <?xml version="1.0" encoding="UTF-8" ?>
+
 | `` ``\ 
 | ``  ``\ 
 | ``   ``\ \ ``3,34-44,47``\ 
@@ -65,4 +69,4 @@ Supporting
 | ``* Detector ID --> Workspace Indexes``
 | ``* Spectrum ID --> Workspace Indexes``
 
-.. categories:: LoadMask
+.. algm_categories::

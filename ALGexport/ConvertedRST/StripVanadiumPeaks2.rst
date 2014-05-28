@@ -1,12 +1,13 @@
-.. algorithm:: StripVanadiumPeaks2
+.. algorithm::
 
-.. summary:: StripVanadiumPeaks2
+.. summary::
 
-.. aliases:: StripVanadiumPeaks2
+.. alias::
 
-.. usage:: StripVanadiumPeaks2
+.. properties::
 
-.. properties:: StripVanadiumPeaks2
+Description
+-----------
 
 -  A list of vanadium peak positions in d-spacing is used for the
    central peak positions:
@@ -18,4 +19,4 @@
 -  The vanadium peaks are fit to a function combined from Gaussian and
    linear/quadratic background.
 
-.. categories:: StripVanadiumPeaks2
+.. algm_categories::

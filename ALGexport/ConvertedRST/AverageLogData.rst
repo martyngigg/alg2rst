@@ -1,12 +1,13 @@
-.. algorithm:: AverageLogData
+.. algorithm::
 
-.. summary:: AverageLogData
+.. summary::
 
-.. aliases:: AverageLogData
+.. alias::
 
-.. usage:: AverageLogData
+.. properties::
 
-.. properties:: AverageLogData
+Description
+-----------
 
 The algorithm will calculate a proton\_charge weighted average and
 standard deviation of any log value of numeric series type. All proton
@@ -17,4 +18,4 @@ and standard deviations are NANs. If all the proton pulses occur after
 the last value, and FixZero is false, the average is equal to the last
 value, and the standard deviation is zero.
 
-.. categories:: AverageLogData
+.. algm_categories::

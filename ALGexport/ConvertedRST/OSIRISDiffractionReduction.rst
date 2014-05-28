@@ -1,12 +1,13 @@
-.. algorithm:: OSIRISDiffractionReduction
+.. algorithm::
 
-.. summary:: OSIRISDiffractionReduction
+.. summary::
 
-.. aliases:: OSIRISDiffractionReduction
+.. alias::
 
-.. usage:: OSIRISDiffractionReduction
+.. properties::
 
-.. properties:: OSIRISDiffractionReduction
+Description
+-----------
 
 Source Code
 -----------
@@ -17,4 +18,4 @@ The source code for the Python Algorithm may be viewed at:
 The source code for the reducer class which is used may be viewed at:
 `osiris\_diffraction\_reducer.py <http://trac.mantidproject.org/mantid/browser/trunk/Code/Mantid/scripts/Inelastic/osiris_diffraction_reducer.py>`__
 
-.. categories:: OSIRISDiffractionReduction
+.. algm_categories::

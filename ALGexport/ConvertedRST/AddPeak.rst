@@ -1,13 +1,14 @@
-.. algorithm:: AddPeak
+.. algorithm::
 
-.. summary:: AddPeak
+.. summary::
 
-.. aliases:: AddPeak
+.. alias::
 
-.. usage:: AddPeak
+.. properties::
 
-.. properties:: AddPeak
+Description
+-----------
 
 Adds a `IPeak <IPeak>`__ to a `PeaksWorkspace <PeaksWorkspace>`__.
 
-.. categories:: AddPeak
+.. algm_categories::

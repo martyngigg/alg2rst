@@ -1,12 +1,13 @@
-.. algorithm:: LoadRaw3
+.. algorithm::
 
-.. summary:: LoadRaw3
+.. summary::
 
-.. aliases:: LoadRaw3
+.. alias::
 
-.. usage:: LoadRaw3
+.. properties::
 
-.. properties:: LoadRaw3
+Description
+-----------
 
 The LoadRaw algorithm stores data from the `RAW <RAW_File>`__ file in a
 `Workspace2D <Workspace2D>`__, which will naturally contain histogram
@@ -66,4 +67,4 @@ been validated and in active use for several years, if you really need a
 previous version of this algorithm you will need to use an earlier
 version of Mantid.
 
-.. categories:: LoadRaw3
+.. algm_categories::

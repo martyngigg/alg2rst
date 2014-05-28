@@ -1,12 +1,13 @@
-.. algorithm:: MuscatFunc
+.. algorithm::
 
-.. summary:: MuscatFunc
+.. summary::
 
-.. aliases:: MuscatFunc
+.. alias::
 
-.. usage:: MuscatFunc
+.. properties::
 
-.. properties:: MuscatFunc
+Description
+-----------
 
 Calculates Multiple Scattering based on the Monte Carlo program MINUS.
 It calculates :math:`S(Q,w)` from specified functions (such as those
@@ -20,4 +21,4 @@ References
 
 #. M W Johnson, AERE Report R7682 (1974)
 
-.. categories:: MuscatFunc
+.. algm_categories::

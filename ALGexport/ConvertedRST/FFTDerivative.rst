@@ -1,13 +1,14 @@
-.. algorithm:: FFTDerivative
+.. algorithm::
 
-.. summary:: FFTDerivative
+.. summary::
 
-.. aliases:: FFTDerivative
+.. alias::
 
-.. usage:: FFTDerivative
+.. properties::
 
-.. properties:: FFTDerivative
+Description
+-----------
 
 
 
-.. categories:: FFTDerivative
+.. algm_categories::

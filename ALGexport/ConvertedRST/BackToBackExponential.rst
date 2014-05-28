@@ -1,12 +1,13 @@
-.. algorithm:: BackToBackExponential
+.. algorithm::
 
-.. summary:: BackToBackExponential
+.. summary::
 
-.. aliases:: BackToBackExponential
+.. alias::
 
-.. usage:: BackToBackExponential
+.. properties::
 
-.. properties:: BackToBackExponential
+Description
+-----------
 
 A back-to-back exponential peakshape function is defined as:
 
@@ -24,6 +25,10 @@ deviation of the gaussian. The parameter :math:`X0` is the location of
 the peak; more specifically it represent the point where the
 exponentially modelled neutron pulse goes from being exponentially
 rising to exponentially decaying. :math:`I` is the integrated intensity.
+
+For information about how to convert Fullprof back-to-back exponential
+parameters into those used for this function see
+`CreateBackToBackParameters <CreateBackToBackParameters>`__.
 
 References
 
@@ -44,4 +49,4 @@ Properties
 based on fitting a couple of peaks in a dataset collected on the ISIS's
 HRPD instrument.*
 
-.. categories:: BackToBackExponential
+.. algm_categories::

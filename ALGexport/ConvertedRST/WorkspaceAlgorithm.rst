@@ -1,13 +1,14 @@
-.. algorithm:: WorkspaceAlgorithm
+.. algorithm::
 
-.. summary:: WorkspaceAlgorithm
+.. summary::
 
-.. aliases:: WorkspaceAlgorithm
+.. alias::
 
-.. usage:: WorkspaceAlgorithm
+.. properties::
 
-.. properties:: WorkspaceAlgorithm
+Description
+-----------
 
 
 
-.. categories:: WorkspaceAlgorithm
+.. algm_categories::

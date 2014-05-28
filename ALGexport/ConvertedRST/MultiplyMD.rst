@@ -1,12 +1,13 @@
-.. algorithm:: MultiplyMD
+.. algorithm::
 
-.. summary:: MultiplyMD
+.. summary::
 
-.. aliases:: MultiplyMD
+.. alias::
 
-.. usage:: MultiplyMD
+.. properties::
 
-.. properties:: MultiplyMD
+Description
+-----------
 
 Multiply two `MDHistoWorkspace <MDHistoWorkspace>`__'s or a
 MDHistoWorkspace and a scalar.
@@ -27,4 +28,4 @@ The error of :math:`f = a * b` is propagated with
    -  This operation is not supported, as it is not clear what its
       meaning would be.
 
-.. categories:: MultiplyMD
+.. algm_categories::

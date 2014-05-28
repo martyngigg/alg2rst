@@ -1,12 +1,13 @@
-.. algorithm:: StepScan
+.. algorithm::
 
-.. summary:: StepScan
+.. summary::
 
-.. aliases:: StepScan
+.. alias::
 
-.. usage:: StepScan
+.. properties::
 
-.. properties:: StepScan
+Description
+-----------
 
 This algorithm is for producing rocking curves from alignment scan runs.
 It is for use only with ADARA-style SNS datasets as it requires the
@@ -22,4 +23,4 @@ called, with 'scan\_index' as the log to sum against. The row of the
 resulting table pertaining to scan\_index=0 (which indicates 'not a scan
 point') is then removed.
 
-.. categories:: StepScan
+.. algm_categories::

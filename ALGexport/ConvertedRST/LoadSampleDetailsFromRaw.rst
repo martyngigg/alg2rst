@@ -1,12 +1,13 @@
-.. algorithm:: LoadSampleDetailsFromRaw
+.. algorithm::
 
-.. summary:: LoadSampleDetailsFromRaw
+.. summary::
 
-.. aliases:: LoadSampleDetailsFromRaw
+.. alias::
 
-.. usage:: LoadSampleDetailsFromRaw
+.. properties::
 
-.. properties:: LoadSampleDetailsFromRaw
+Description
+-----------
 
 The SPB struct within an ISIS raw file defines 4 fields that describe
 the basic geometry of the sample:
@@ -41,4 +42,4 @@ To access these values in Python:
 
 where wksp is a handle to a Mantid workspace.
 
-.. categories:: LoadSampleDetailsFromRaw
+.. algm_categories::

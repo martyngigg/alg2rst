@@ -1,12 +1,13 @@
-.. algorithm:: CalculatePeaksHKL
+.. algorithm::
 
-.. summary:: CalculatePeaksHKL
+.. summary::
 
-.. aliases:: CalculatePeaksHKL
+.. alias::
 
-.. usage:: CalculatePeaksHKL
+.. properties::
 
-.. properties:: CalculatePeaksHKL
+Description
+-----------
 
 Uses the UB matrix on the sample to calculate the Miller indices for all
 peaks in the peaks workspace. Unlike `IndexPeaks <IndexPeaks>`__ this
@@ -18,4 +19,4 @@ Alternatives
 
 `IndexPeaks <IndexPeaks>`__
 
-.. categories:: CalculatePeaksHKL
+.. algm_categories::

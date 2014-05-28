@@ -1,13 +1,14 @@
-.. algorithm:: LoadISISNexus2
+.. algorithm::
 
-.. summary:: LoadISISNexus2
+.. summary::
 
-.. aliases:: LoadISISNexus2
+.. alias::
 
-.. usage:: LoadISISNexus2
+.. properties::
 
-.. properties:: LoadISISNexus2
+Description
+-----------
 
 Loads a Nexus file created from an ISIS instrument.
 
-.. categories:: LoadISISNexus2
+.. algm_categories::

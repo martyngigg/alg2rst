@@ -1,12 +1,13 @@
-.. algorithm:: CloneWorkspace
+.. algorithm::
 
-.. summary:: CloneWorkspace
+.. summary::
 
-.. aliases:: CloneWorkspace
+.. alias::
 
-.. usage:: CloneWorkspace
+.. properties::
 
-.. properties:: CloneWorkspace
+Description
+-----------
 
 This algorithm performs a deep copy of all of the information in the
 workspace. It maintains events if the input is an
@@ -15,4 +16,4 @@ workspace. It maintains events if the input is an
 `MDHistoWorkspace <MDHistoWorkspace>`__. It can also clone a
 `PeaksWorkspace <PeaksWorkspace>`__.
 
-.. categories:: CloneWorkspace
+.. algm_categories::

@@ -1,14 +1,15 @@
-.. algorithm:: FilterPeaks
+.. algorithm::
 
-.. summary:: FilterPeaks
+.. summary::
 
-.. aliases:: FilterPeaks
+.. alias::
 
-.. usage:: FilterPeaks
+.. properties::
 
-.. properties:: FilterPeaks
+Description
+-----------
 
 Filters a `PeaksWorkspace <PeaksWorkspace>`__ using a set number of
 queries. Outputs a filtered PeaksWorkspace.
 
-.. categories:: FilterPeaks
+.. algm_categories::

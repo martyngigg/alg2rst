@@ -1,14 +1,15 @@
-.. algorithm:: ExtractSingleSpectrum
+.. algorithm::
 
-.. summary:: ExtractSingleSpectrum
+.. summary::
 
-.. aliases:: ExtractSingleSpectrum
+.. alias::
 
-.. usage:: ExtractSingleSpectrum
+.. properties::
 
-.. properties:: ExtractSingleSpectrum
+Description
+-----------
 
 Extracts a single spectrum from a `Workspace2D <Workspace2D>`__ and
 stores it in a new workspace.
 
-.. categories:: ExtractSingleSpectrum
+.. algm_categories::

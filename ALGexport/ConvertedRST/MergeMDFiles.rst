@@ -1,12 +1,13 @@
-.. algorithm:: MergeMDFiles
+.. algorithm::
 
-.. summary:: MergeMDFiles
+.. summary::
 
-.. aliases:: MergeMDFiles
+.. alias::
 
-.. usage:: MergeMDFiles
+.. properties::
 
-.. properties:: MergeMDFiles
+Description
+-----------
 
 This algorithm is meant to merge a large number of large
 MDEventWorkspaces together into one file-backed MDEventWorkspace,
@@ -35,4 +36,4 @@ refine it. This is why it requires a common box structure.
 See also: `MergeMD <MergeMD>`__, for merging any MDWorkspaces in system
 memory (faster, but needs more memory).
 
-.. categories:: MergeMDFiles
+.. algm_categories::

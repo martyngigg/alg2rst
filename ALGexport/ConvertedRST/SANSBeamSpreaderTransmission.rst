@@ -1,13 +1,14 @@
-.. algorithm:: SANSBeamSpreaderTransmission
+.. algorithm::
 
-.. summary:: SANSBeamSpreaderTransmission
+.. summary::
 
-.. aliases:: SANSBeamSpreaderTransmission
+.. alias::
 
-.. usage:: SANSBeamSpreaderTransmission
+.. properties::
 
-.. properties:: SANSBeamSpreaderTransmission
+Description
+-----------
 
 Compute transmission using the beam spreader method
 
-.. categories:: SANSBeamSpreaderTransmission
+.. algm_categories::

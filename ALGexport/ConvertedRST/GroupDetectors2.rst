@@ -1,12 +1,13 @@
-.. algorithm:: GroupDetectors2
+.. algorithm::
 
-.. summary:: GroupDetectors2
+.. summary::
 
-.. aliases:: GroupDetectors2
+.. alias::
 
-.. usage:: GroupDetectors2
+.. properties::
 
-.. properties:: GroupDetectors2
+Description
+-----------
 
 This algorithm sums, bin-by-bin, multiple spectra into a single spectra.
 The errors are summed in quadrature and the algorithm checks that the
@@ -110,4 +111,4 @@ moved to belong to the first spectrum. *A technical note: the workspace
 indices previously occupied by summed spectra will have their data
 zeroed and their spectrum number set to a value of -1.*
 
-.. categories:: GroupDetectors2
+.. algm_categories::

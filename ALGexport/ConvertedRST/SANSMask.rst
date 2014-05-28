@@ -1,13 +1,14 @@
-.. algorithm:: SANSMask
+.. algorithm::
 
-.. summary:: SANSMask
+.. summary::
 
-.. aliases:: SANSMask
+.. alias::
 
-.. usage:: SANSMask
+.. properties::
 
-.. properties:: SANSMask
+Description
+-----------
 
 Apply mask to SANS detector
 
-.. categories:: SANSMask
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: CompareMDWorkspaces
+.. algorithm::
 
-.. summary:: CompareMDWorkspaces
+.. summary::
 
-.. aliases:: CompareMDWorkspaces
+.. alias::
 
-.. usage:: CompareMDWorkspaces
+.. properties::
 
-.. properties:: CompareMDWorkspaces
+Description
+-----------
 
 Compare two MDWorkspaces (`MDEventWorkspace <MDEventWorkspace>`__ or
 `MDHistoWorkspace <MDHistoWorkspace>`__) to see if they are the same.
@@ -19,4 +20,4 @@ for each bin of each workspace will be compared.
 be compared if the *CheckEvents* option is checked. The events would
 need to be in the same order to match.
 
-.. categories:: CompareMDWorkspaces
+.. algm_categories::

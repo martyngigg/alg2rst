@@ -1,12 +1,13 @@
-.. algorithm:: ElasticWindow
+.. algorithm::
 
-.. summary:: ElasticWindow
+.. summary::
 
-.. aliases:: ElasticWindow
+.. alias::
 
-.. usage:: ElasticWindow
+.. properties::
 
-.. properties:: ElasticWindow
+Description
+-----------
 
 This algorithm Integrates over the range specified, converts the
 spectrum axis into units of Q and Q^2 and Transposes the result
@@ -14,4 +15,4 @@ workspaces.
 
 There are two output workspaces.
 
-.. categories:: ElasticWindow
+.. algm_categories::

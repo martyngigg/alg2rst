@@ -1,12 +1,13 @@
-.. algorithm:: GetEiMonDet
+.. algorithm::
 
-.. summary:: GetEiMonDet
+.. summary::
 
-.. aliases:: GetEiMonDet
+.. alias::
 
-.. usage:: GetEiMonDet
+.. properties::
 
-.. properties:: GetEiMonDet
+Description
+-----------
 
 Get incident energy from one monitor and some detectors. If the minimum
 distance from the sample to detectors is dmin, one will select detectors
@@ -15,4 +16,4 @@ together, appended to a copy of the monitor workspace, then fed to GetEi
 algorithm. The output of this algorithm is identical to that of
 `GetEi <GetEi>`__.
 
-.. categories:: GetEiMonDet
+.. algm_categories::

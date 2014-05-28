@@ -1,12 +1,13 @@
-.. algorithm:: FindUBUsingFFT
+.. algorithm::
 
-.. summary:: FindUBUsingFFT
+.. summary::
 
-.. aliases:: FindUBUsingFFT
+.. alias::
 
-.. usage:: FindUBUsingFFT
+.. properties::
 
-.. properties:: FindUBUsingFFT
+Description
+-----------
 
 Given a set of peaks, and given a range of possible a,b,c values, this
 algorithm will attempt to find a UB matrix, corresponding to the Niggli
@@ -37,4 +38,4 @@ conventional cell. While this algorithm will occasionally work for as
 few as four peaks, it works quite consistently with at least ten peaks,
 and in general works best with a larger number of peaks.
 
-.. categories:: FindUBUsingFFT
+.. algm_categories::

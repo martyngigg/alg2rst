@@ -1,12 +1,13 @@
-.. algorithm:: ModeratorTzero
+.. algorithm::
 
-.. summary:: ModeratorTzero
+.. summary::
 
-.. aliases:: ModeratorTzero
+.. alias::
 
-.. usage:: ModeratorTzero
+.. properties::
 
-.. properties:: ModeratorTzero
+Description
+-----------
 
 | Corrects the time of flight (TOF) by a time offset that is dependent
 on the energy of the neutron after passing through the moderator. A
@@ -71,4 +72,4 @@ execution times. For indirect instruments that comply with these
 conditions, use of `ModeratorTzeroLinear <ModeratorTzeroLinear>`__ is
 preferred.
 
-.. categories:: ModeratorTzero
+.. algm_categories::

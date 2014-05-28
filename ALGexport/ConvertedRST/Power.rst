@@ -1,12 +1,13 @@
-.. algorithm:: Power
+.. algorithm::
 
-.. summary:: Power
+.. summary::
 
-.. aliases:: Power
+.. alias::
 
-.. usage:: Power
+.. properties::
 
-.. properties:: Power
+Description
+-----------
 
 The algorithm will raise the InputWorkspace to the power of the
 Exponent. When acting on an event workspace, the output will be a
@@ -20,4 +21,4 @@ can describe the error as: :math:`s_{y} = by\left ( s_{a}/a \right )`,
 where :math:`s_{y}` is the error in the result *y* and :math:`s_{a}` is
 the error in the input *a*.
 
-.. categories:: Power
+.. algm_categories::

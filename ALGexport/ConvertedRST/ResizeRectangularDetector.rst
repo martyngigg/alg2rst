@@ -1,12 +1,13 @@
-.. algorithm:: ResizeRectangularDetector
+.. algorithm::
 
-.. summary:: ResizeRectangularDetector
+.. summary::
 
-.. aliases:: ResizeRectangularDetector
+.. alias::
 
-.. usage:: ResizeRectangularDetector
+.. properties::
 
-.. properties:: ResizeRectangularDetector
+Description
+-----------
 
 This algorithm will resize a
 `RectangularDetector <RectangularDetector>`__ by applying X and Y
@@ -33,4 +34,4 @@ See also `MoveInstrumentComponent <MoveInstrumentComponent>`__ and
 `RotateInstrumentComponent <RotateInstrumentComponent>`__ for other ways
 to move components.
 
-.. categories:: ResizeRectangularDetector
+.. algm_categories::

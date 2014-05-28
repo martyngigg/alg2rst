@@ -1,15 +1,16 @@
-.. algorithm:: Multiply
+.. algorithm::
 
-.. summary:: Multiply
+.. summary::
 
-.. aliases:: Multiply
+.. alias::
 
-.. usage:: Multiply
+.. properties::
 
-.. properties:: Multiply
+Description
+-----------
 
 .. raw:: mediawiki
 
    {{BinaryOperation|verb=multiplied|prep=by|symbol=<math>\times</math>}}
 
-.. categories:: Multiply
+.. algm_categories::

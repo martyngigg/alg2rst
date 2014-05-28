@@ -1,12 +1,13 @@
-.. algorithm:: ApplyDeadTimeCorr
+.. algorithm::
 
-.. summary:: ApplyDeadTimeCorr
+.. summary::
 
-.. aliases:: ApplyDeadTimeCorr
+.. alias::
 
-.. usage:: ApplyDeadTimeCorr
+.. properties::
 
-.. properties:: ApplyDeadTimeCorr
+Description
+-----------
 
 Apply deadtime correction to each spectra of a workspace. Define:
 
@@ -22,4 +23,4 @@ counts as a function of the same TOF binning according to
 
 .. math:: N = \frac{M}{(1-M*(\frac{t_{dead}}{t_{bin}*F}))}
 
-.. categories:: ApplyDeadTimeCorr
+.. algm_categories::

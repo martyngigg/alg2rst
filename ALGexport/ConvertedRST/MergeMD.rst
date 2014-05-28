@@ -1,12 +1,13 @@
-.. algorithm:: MergeMD
+.. algorithm::
 
-.. summary:: MergeMD
+.. summary::
 
-.. aliases:: MergeMD
+.. alias::
 
-.. usage:: MergeMD
+.. properties::
 
-.. properties:: MergeMD
+Description
+-----------
 
 This algorithm merges several `MDWorkspaces <MDWorkspace>`__ together
 into one by adding their events together.
@@ -23,4 +24,4 @@ are appended to the output.
 See also: `MergeMDFiles <MergeMDFiles>`__, for merging when system
 memory is too small to keep the entire workspace in memory.
 
-.. categories:: MergeMD
+.. algm_categories::

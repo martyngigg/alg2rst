@@ -1,12 +1,13 @@
-.. algorithm:: CalibrateRectangularDetectors
+.. algorithm::
 
-.. summary:: CalibrateRectangularDetectors
+.. summary::
 
-.. aliases:: CalibrateRectangularDetectors
+.. alias::
 
-.. usage:: CalibrateRectangularDetectors
+.. properties::
 
-.. properties:: CalibrateRectangularDetectors
+Description
+-----------
 
 Here are examples of input and output from PG3 and SNAP:
 
@@ -31,4 +32,4 @@ ends in cc to see if the CrossCorrelationPoints and/or PeakHalfWidth
 should be increased or decreased. Also plot the reference spectra from
 the cc workspace.
 
-.. categories:: CalibrateRectangularDetectors
+.. algm_categories::

@@ -1,13 +1,14 @@
-.. algorithm:: Rebunch
+.. algorithm::
 
-.. summary:: Rebunch
+.. summary::
 
-.. aliases:: Rebunch
+.. alias::
 
-.. usage:: Rebunch
+.. properties::
 
-.. properties:: Rebunch
+Description
+-----------
 
 The algorithm rebins data by adding together *n\_bunch* successive bins.
 
-.. categories:: Rebunch
+.. algm_categories::

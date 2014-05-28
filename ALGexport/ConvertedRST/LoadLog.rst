@@ -1,12 +1,13 @@
-.. algorithm:: LoadLog
+.. algorithm::
 
-.. summary:: LoadLog
+.. summary::
 
-.. aliases:: LoadLog
+.. alias::
 
-.. usage:: LoadLog
+.. properties::
 
-.. properties:: LoadLog
+Description
+-----------
 
 **Parameters Note:** Note that it is possible to use both of the
 optional 'spectrum' properties (i.e. a range and a list) together if so
@@ -52,4 +53,4 @@ The first column is the number of seconds since January 1, 1990, then
 the other columns (space delimited) are the log values. For this mode
 the *name* and *units* parameters must be specified.
 
-.. categories:: LoadLog
+.. algm_categories::

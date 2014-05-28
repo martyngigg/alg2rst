@@ -1,13 +1,14 @@
-.. algorithm:: TestWorkspaceGroupProperty
+.. algorithm::
 
-.. summary:: TestWorkspaceGroupProperty
+.. summary::
 
-.. aliases:: TestWorkspaceGroupProperty
+.. alias::
 
-.. usage:: TestWorkspaceGroupProperty
+.. properties::
 
-.. properties:: TestWorkspaceGroupProperty
+Description
+-----------
 
 This algorithm is only used for testing.
 
-.. categories:: TestWorkspaceGroupProperty
+.. algm_categories::

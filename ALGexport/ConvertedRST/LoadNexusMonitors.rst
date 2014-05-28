@@ -1,12 +1,13 @@
-.. algorithm:: LoadNexusMonitors
+.. algorithm::
 
-.. summary:: LoadNexusMonitors
+.. summary::
 
-.. aliases:: LoadNexusMonitors
+.. alias::
 
-.. usage:: LoadNexusMonitors
+.. properties::
 
-.. properties:: LoadNexusMonitors
+Description
+-----------
 
 This algorithm loads all monitors found in a NeXus file into a single
 `Workspace2D <Workspace2D>`__. The algorithm assumes that all of the
@@ -16,4 +17,4 @@ generically applicable. It is also written for single entry files and
 will need tweaking to handle period data where the monitors are
 different.
 
-.. categories:: LoadNexusMonitors
+.. algm_categories::

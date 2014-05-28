@@ -1,12 +1,13 @@
-.. algorithm:: PolynomialCorrection
+.. algorithm::
 
-.. summary:: PolynomialCorrection
+.. summary::
 
-.. aliases:: PolynomialCorrection
+.. alias::
 
-.. usage:: PolynomialCorrection
+.. properties::
 
-.. properties:: PolynomialCorrection
+Description
+-----------
 
 Corrects the data and error values on a workspace by the value of a
 polynomial function:
@@ -19,4 +20,4 @@ error values are multiplied or divided by the value of this function.
 The order of the polynomial is determined by the length of the
 Coefficients property, which can be of any length.
 
-.. categories:: PolynomialCorrection
+.. algm_categories::

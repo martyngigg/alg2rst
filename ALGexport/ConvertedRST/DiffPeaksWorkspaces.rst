@@ -1,12 +1,13 @@
-.. algorithm:: DiffPeaksWorkspaces
+.. algorithm::
 
-.. summary:: DiffPeaksWorkspaces
+.. summary::
 
-.. aliases:: DiffPeaksWorkspaces
+.. alias::
 
-.. usage:: DiffPeaksWorkspaces
+.. properties::
 
-.. properties:: DiffPeaksWorkspaces
+Description
+-----------
 
 This algorithm takes an input workspace (the LHSWorkspace) and removes
 from it's list of peaks any that are also found in a second workspace
@@ -16,4 +17,4 @@ to each peak in the LHSWorkspace in turn. The first match encountered is
 used, and the matching peak removed from the output before moving onto
 the next RHSWorkspace peak.
 
-.. categories:: DiffPeaksWorkspaces
+.. algm_categories::

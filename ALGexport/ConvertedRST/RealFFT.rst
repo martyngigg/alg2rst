@@ -1,12 +1,13 @@
-.. algorithm:: RealFFT
+.. algorithm::
 
-.. summary:: RealFFT
+.. summary::
 
-.. aliases:: RealFFT
+.. alias::
 
-.. usage:: RealFFT
+.. properties::
 
-.. properties:: RealFFT
+Description
+-----------
 
 This is an algorithm for Fourier transfom of real data. It uses the GSL
 routines gsl\_fft\_real\_transform and gsl\_fft\_halfcomplex\_inverse.
@@ -21,4 +22,4 @@ the real part in the first spectrum and the imaginary part in the second
 one. The output workspace contains a single spectrum with the real
 inverse transform.
 
-.. categories:: RealFFT
+.. algm_categories::

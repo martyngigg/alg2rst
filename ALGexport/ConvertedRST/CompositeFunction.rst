@@ -1,12 +1,13 @@
-.. algorithm:: CompositeFunction
+.. algorithm::
 
-.. summary:: CompositeFunction
+.. summary::
 
-.. aliases:: CompositeFunction
+.. alias::
 
-.. usage:: CompositeFunction
+.. properties::
 
-.. properties:: CompositeFunction
+Description
+-----------
 
 A composite function is a function containing other functions. It
 combines the values calculated by the member functions by adding them.
@@ -64,4 +65,4 @@ inner one in brackets:
 
 ``name=LinearBackground;(composite=Convolution;name=Resolution;name=Lorentzian)``
 
-.. categories:: CompositeFunction
+.. algm_categories::

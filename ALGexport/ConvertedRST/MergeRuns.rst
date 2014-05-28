@@ -1,12 +1,13 @@
-.. algorithm:: MergeRuns
+.. algorithm::
 
-.. summary:: MergeRuns
+.. summary::
 
-.. aliases:: MergeRuns
+.. alias::
 
-.. usage:: MergeRuns
+.. properties::
 
-.. properties:: MergeRuns
+Description
+-----------
 
 Combines the data contained in an arbitrary number of input workspaces.
 If the input workspaces do not have common binning, the bins in the
@@ -62,4 +63,4 @@ ChildAlgorithms used
 The `Rebin <Rebin>`__ algorithm is used, if neccessary, to put all the
 input workspaces onto a common binning.
 
-.. categories:: MergeRuns
+.. algm_categories::

@@ -1,15 +1,16 @@
-.. algorithm:: CalculateEfficiency
+.. algorithm::
 
-.. summary:: CalculateEfficiency
+.. summary::
 
-.. aliases:: CalculateEfficiency
+.. alias::
 
-.. usage:: CalculateEfficiency
+.. properties::
 
-.. properties:: CalculateEfficiency
+Description
+-----------
 
 See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for calculation details.
 
-.. categories:: CalculateEfficiency
+.. algm_categories::

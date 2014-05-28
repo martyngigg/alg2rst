@@ -1,12 +1,13 @@
-.. algorithm:: SetSampleMaterial
+.. algorithm::
 
-.. summary:: SetSampleMaterial
+.. summary::
 
-.. aliases:: SetSampleMaterial
+.. alias::
 
-.. usage:: SetSampleMaterial
+.. properties::
 
-.. properties:: SetSampleMaterial
+Description
+-----------
 
 Sets the neutrons information in the sample. You can either enter
 details about the chemical formula or atomic number, or you can provide
@@ -21,4 +22,4 @@ Neutron scattering lengths and cross sections of the elements and their
 isotopes have been taken from
 `1 <http://www.ncnr.nist.gov/resources/n-lengths/list.html>`__.
 
-.. categories:: SetSampleMaterial
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: MultipleScatteringCylinderAbsorption
+.. algorithm::
 
-.. summary:: MultipleScatteringCylinderAbsorption
+.. summary::
 
-.. aliases:: MultipleScatteringCylinderAbsorption
+.. alias::
 
-.. usage:: MultipleScatteringCylinderAbsorption
+.. properties::
 
-.. properties:: MultipleScatteringCylinderAbsorption
+Description
+-----------
 
 This algorithm is a port to C++ of a multiple scattering absorption
 correction, used to correct the vanadium spectrum for the GPPD
@@ -15,4 +16,4 @@ out by Jack Carpenter and Asfia Huq and implmented in Java by Alok
 Chatterjee. The java code was translated to C++ in Mantid by Dennis
 Mikkelson.
 
-.. categories:: MultipleScatteringCylinderAbsorption
+.. algm_categories::

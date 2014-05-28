@@ -1,12 +1,13 @@
-.. algorithm:: MergeLogs
+.. algorithm::
 
-.. summary:: MergeLogs
+.. summary::
 
-.. aliases:: MergeLogs
+.. alias::
 
-.. usage:: MergeLogs
+.. properties::
 
-.. properties:: MergeLogs
+Description
+-----------
 
 Two `TimeSeriesProperty <TimeSeriesProperty>`__ logs are merged together
 by the time stamps.
@@ -16,4 +17,4 @@ Output
 
 A MatrixWorkspace.
 
-.. categories:: MergeLogs
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: MuscatData
+.. algorithm::
 
-.. summary:: MuscatData
+.. summary::
 
-.. aliases:: MuscatData
+.. alias::
 
-.. usage:: MuscatData
+.. properties::
 
-.. properties:: MuscatData
+Description
+-----------
 
 Calculates Multiple Scattering based on the Monte Carlo program MINUS.
 It takes a sample :math:`S(Q,w)` from an input sqw workspace and
@@ -19,4 +20,4 @@ References
 
 #. M W Johnson, AERE Report R7682 (1974)
 
-.. categories:: MuscatData
+.. algm_categories::

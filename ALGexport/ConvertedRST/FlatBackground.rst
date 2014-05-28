@@ -1,15 +1,16 @@
-.. algorithm:: FlatBackground
+.. algorithm::
 
-.. summary:: FlatBackground
+.. summary::
 
-.. aliases:: FlatBackground
+.. alias::
 
-.. usage:: FlatBackground
+.. properties::
 
-.. properties:: FlatBackground
+Description
+-----------
 
 A Flat background function is defined as:
 
 :math:`y = A_0`
 
-.. categories:: FlatBackground
+.. algm_categories::

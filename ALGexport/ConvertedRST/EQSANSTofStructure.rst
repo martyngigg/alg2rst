@@ -1,13 +1,14 @@
-.. algorithm:: EQSANSTofStructure
+.. algorithm::
 
-.. summary:: EQSANSTofStructure
+.. summary::
 
-.. aliases:: EQSANSTofStructure
+.. alias::
 
-.. usage:: EQSANSTofStructure
+.. properties::
 
-.. properties:: EQSANSTofStructure
+Description
+-----------
 
 Documentation to come.
 
-.. categories:: EQSANSTofStructure
+.. algm_categories::

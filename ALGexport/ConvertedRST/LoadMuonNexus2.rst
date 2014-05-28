@@ -1,12 +1,13 @@
-.. algorithm:: LoadMuonNexus2
+.. algorithm::
 
-.. summary:: LoadMuonNexus2
+.. summary::
 
-.. aliases:: LoadMuonNexus2
+.. alias::
 
-.. usage:: LoadMuonNexus2
+.. properties::
 
-.. properties:: LoadMuonNexus2
+Description
+-----------
 
 The algorithm LoadMuonNexus will read a Muon Nexus data file (original
 format) and place the data into the named workspace. The file name can
@@ -79,4 +80,4 @@ detects that it has been asked to load a previous version muon nexus
 file it will call the previous version of the algorithm to perform the
 task.
 
-.. categories:: LoadMuonNexus2
+.. algm_categories::

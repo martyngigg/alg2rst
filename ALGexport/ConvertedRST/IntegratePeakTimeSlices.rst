@@ -1,12 +1,13 @@
-.. algorithm:: IntegratePeakTimeSlices
+.. algorithm::
 
-.. summary:: IntegratePeakTimeSlices
+.. summary::
 
-.. aliases:: IntegratePeakTimeSlices
+.. alias::
 
-.. usage:: IntegratePeakTimeSlices
+.. properties::
 
-.. properties:: IntegratePeakTimeSlices
+Description
+-----------
 
 This algorithm fits a bivariate normal distribution( plus background) to
 the data on each time slice. The Fit program uses
@@ -44,4 +45,4 @@ give good results.
 This Algorithm is also used by the `PeakIntegration <PeakIntegration>`__
 algorithm when the Fit tag is selected.
 
-.. categories:: IntegratePeakTimeSlices
+.. algm_categories::

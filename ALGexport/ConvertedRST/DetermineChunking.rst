@@ -1,14 +1,15 @@
-.. algorithm:: DetermineChunking
+.. algorithm::
 
-.. summary:: DetermineChunking
+.. summary::
 
-.. aliases:: DetermineChunking
+.. alias::
 
-.. usage:: DetermineChunking
+.. properties::
 
-.. properties:: DetermineChunking
+Description
+-----------
 
 Workflow algorithm to determine chunking strategy for event nexus,
 runinfo.xml, raw, or histo nexus files
 
-.. categories:: DetermineChunking
+.. algm_categories::

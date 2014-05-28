@@ -1,14 +1,14 @@
-.. algorithm:: RemoveLogs
+.. algorithm::
 
-.. summary:: RemoveLogs
+.. summary::
 
-.. aliases:: RemoveLogs
+.. alias::
 
-.. usage:: RemoveLogs
+.. properties::
 
-.. properties:: RemoveLogs
+Description
+-----------
 
-Removes all logs from workspace
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Removes all logs from workspace, except those that are specified
 
-.. categories:: RemoveLogs
+.. algm_categories::

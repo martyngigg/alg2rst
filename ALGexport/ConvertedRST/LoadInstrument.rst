@@ -1,12 +1,13 @@
-.. algorithm:: LoadInstrument
+.. algorithm::
 
-.. summary:: LoadInstrument
+.. summary::
 
-.. aliases:: LoadInstrument
+.. alias::
 
-.. usage:: LoadInstrument
+.. properties::
 
-.. properties:: LoadInstrument
+Description
+-----------
 
 Loads an instrument definition file (`IDF <InstrumentDefinitionFile>`__)
 into a workspace, which contains information about detector positions,
@@ -25,4 +26,4 @@ Filename and InstrumentName properties (given here in order of
 precedence if more than one is set). At present, if the InstrumentXML is
 used the InstrumentName property should also be set.
 
-.. categories:: LoadInstrument
+.. algm_categories::

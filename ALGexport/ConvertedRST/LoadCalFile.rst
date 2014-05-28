@@ -1,12 +1,13 @@
-.. algorithm:: LoadCalFile
+.. algorithm::
 
-.. summary:: LoadCalFile
+.. summary::
 
-.. aliases:: LoadCalFile
+.. alias::
 
-.. usage:: LoadCalFile
+.. properties::
 
-.. properties:: LoadCalFile
+Description
+-----------
 
 This algorithm loads an ARIEL-style 5-column ASCII .cal file into up to
 3 workspaces: a GroupingWorkspace, OffsetsWorkspace and/or
@@ -19,4 +20,4 @@ The format is
 -  Select: 1 if selected (not masked out). Goes to the MaskWorkspace.
 -  Group: group number. Goes to the GroupingWorkspace.
 
-.. categories:: LoadCalFile
+.. algm_categories::

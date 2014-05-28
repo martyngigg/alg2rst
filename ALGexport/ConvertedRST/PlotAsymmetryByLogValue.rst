@@ -1,12 +1,13 @@
-.. algorithm:: PlotAsymmetryByLogValue
+.. algorithm::
 
-.. summary:: PlotAsymmetryByLogValue
+.. summary::
 
-.. aliases:: PlotAsymmetryByLogValue
+.. alias::
 
-.. usage:: PlotAsymmetryByLogValue
+.. properties::
 
-.. properties:: PlotAsymmetryByLogValue
+Description
+-----------
 
 This algorithm calculates asymmetry for a series of muon workspaces. The
 input workspaces must be in Muon Nexus files which names follow the
@@ -36,4 +37,4 @@ of LoadMuonNexus will be used for grouping.
 There is a python script PlotAsymmetryByLogValue.py which if called in
 MantidPlot runs the algorithm and plots the results.
 
-.. categories:: PlotAsymmetryByLogValue
+.. algm_categories::

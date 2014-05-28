@@ -1,12 +1,13 @@
-.. algorithm:: SetInstrumentParameter
+.. algorithm::
 
-.. summary:: SetInstrumentParameter
+.. summary::
 
-.. aliases:: SetInstrumentParameter
+.. alias::
 
-.. usage:: SetInstrumentParameter
+.. properties::
 
-.. properties:: SetInstrumentParameter
+Description
+-----------
 
 This algorithm adds or replaces an parameter attached to an instrument
 component, or the entire instrument. Instrument parameters are specific
@@ -22,4 +23,4 @@ parameter is not specified it will be attached to the whole instrument.
 At present this algorithm only supports simple instrument parameters,
 NOT fitting parameters.
 
-.. categories:: SetInstrumentParameter
+.. algm_categories::

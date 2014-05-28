@@ -1,14 +1,15 @@
-.. algorithm:: LoadIsawDetCal
+.. algorithm::
 
-.. summary:: LoadIsawDetCal
+.. summary::
 
-.. aliases:: LoadIsawDetCal
+.. alias::
 
-.. usage:: LoadIsawDetCal
+.. properties::
 
-.. properties:: LoadIsawDetCal
+Description
+-----------
 
 Moves the detectors in an instrument using the origin and 2 vectors of
 the rotated plane from an ISAW DetCal file.
 
-.. categories:: LoadIsawDetCal
+.. algm_categories::

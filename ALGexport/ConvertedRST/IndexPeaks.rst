@@ -1,12 +1,13 @@
-.. algorithm:: IndexPeaks
+.. algorithm::
 
-.. summary:: IndexPeaks
+.. summary::
 
-.. aliases:: IndexPeaks
+.. alias::
 
-.. usage:: IndexPeaks
+.. properties::
 
-.. properties:: IndexPeaks
+Description
+-----------
 
 Given a PeaksWorkspace with a UB matrix stored with the sample, this
 algorithm will use UB inverse to index the peaks. If there are peaks
@@ -24,4 +25,4 @@ from an integer will have its (h,k,l) set to (0,0,0). The calculated
 Miller indices can either be rounded to the nearest integer value, or
 can be left as decimal fractions.
 
-.. categories:: IndexPeaks
+.. algm_categories::

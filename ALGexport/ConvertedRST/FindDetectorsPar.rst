@@ -1,12 +1,13 @@
-.. algorithm:: FindDetectorsPar
+.. algorithm::
 
-.. summary:: FindDetectorsPar
+.. summary::
 
-.. aliases:: FindDetectorsPar
+.. alias::
 
-.. usage:: FindDetectorsPar
+.. properties::
 
-.. properties:: FindDetectorsPar
+Description
+-----------
 
 Identifies geometrical parameters of detectors and groups of detectors
 after the workspaces were grouped using ASCII or XML map file. Located
@@ -58,4 +59,4 @@ as in nxspe file. There are no reason to use phx files to build nxspe
 files at the moment unless you already have one and need to repeat your
 previous results with Mantid.
 
-.. categories:: FindDetectorsPar
+.. algm_categories::

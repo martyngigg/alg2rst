@@ -1,12 +1,13 @@
-.. algorithm:: InterpolatingRebin
+.. algorithm::
 
-.. summary:: InterpolatingRebin
+.. summary::
 
-.. aliases:: InterpolatingRebin
+.. alias::
 
-.. usage:: InterpolatingRebin
+.. properties::
 
-.. properties:: InterpolatingRebin
+Description
+-----------
 
 This algorithms is useful for increasing the time resolution of spectra
 whose bins have large numbers of counts which vary smoothly e.g. monitor
@@ -49,4 +50,4 @@ The same syntax as for `Rebin <Rebin>`__
 0,100,10000,200,20000
     From 0 rebin in steps of 100 to 10,000 then steps of 200 to 20,000
 
-.. categories:: InterpolatingRebin
+.. algm_categories::

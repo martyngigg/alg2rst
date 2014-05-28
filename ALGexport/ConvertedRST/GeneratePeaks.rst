@@ -1,12 +1,13 @@
-.. algorithm:: GeneratePeaks
+.. algorithm::
 
-.. summary:: GeneratePeaks
+.. summary::
 
-.. aliases:: GeneratePeaks
+.. alias::
 
-.. usage:: GeneratePeaks
+.. properties::
 
-.. properties:: GeneratePeaks
+Description
+-----------
 
 Generate a workspace by summing over the peak functions. The peaks'
 parameters are given in a `TableWorkspace <TableWorkspace>`__.
@@ -40,4 +41,4 @@ Output
 
 Category:Algorithms
 
-.. categories:: GeneratePeaks
+.. algm_categories::

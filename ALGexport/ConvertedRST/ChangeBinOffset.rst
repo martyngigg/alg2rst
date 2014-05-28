@@ -1,12 +1,13 @@
-.. algorithm:: ChangeBinOffset
+.. algorithm::
 
-.. summary:: ChangeBinOffset
+.. summary::
 
-.. aliases:: ChangeBinOffset
+.. alias::
 
-.. usage:: ChangeBinOffset
+.. properties::
 
-.. properties:: ChangeBinOffset
+Description
+-----------
 
 This algorithm can be used to change the time-of-flight bins of a
 workspace by a specified amount (defined above as the Offset). A
@@ -19,4 +20,4 @@ selectively using the IndexMin and IndexMax properties.
 The output workspace will be an exact copy of the input workspace except
 for the changed time bins.
 
-.. categories:: ChangeBinOffset
+.. algm_categories::

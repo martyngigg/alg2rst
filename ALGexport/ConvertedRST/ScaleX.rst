@@ -1,12 +1,13 @@
-.. algorithm:: ScaleX
+.. algorithm::
 
-.. summary:: ScaleX
+.. summary::
 
-.. aliases:: ScaleX
+.. alias::
 
-.. usage:: ScaleX
+.. properties::
 
-.. properties:: ScaleX
+Description
+-----------
 
 Scales the X axis and everty unique X-coordinate of a histogram or every
 event of the input workspace by the amount requested.
@@ -16,4 +17,4 @@ event of the input workspace by the amount requested.
 -  an detector parameter name whose value is retrieved from the
    instrument.
 
-.. categories:: ScaleX
+.. algm_categories::

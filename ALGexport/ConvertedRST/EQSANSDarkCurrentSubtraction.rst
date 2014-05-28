@@ -1,12 +1,13 @@
-.. algorithm:: EQSANSDarkCurrentSubtraction
+.. algorithm::
 
-.. summary:: EQSANSDarkCurrentSubtraction
+.. summary::
 
-.. aliases:: EQSANSDarkCurrentSubtraction
+.. alias::
 
-.. usage:: EQSANSDarkCurrentSubtraction
+.. properties::
 
-.. properties:: EQSANSDarkCurrentSubtraction
+Description
+-----------
 
 Subtract the dark current from an EQSANS data set. This workflow
 algorithm will:
@@ -21,4 +22,4 @@ See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for details.
 
-.. categories:: EQSANSDarkCurrentSubtraction
+.. algm_categories::

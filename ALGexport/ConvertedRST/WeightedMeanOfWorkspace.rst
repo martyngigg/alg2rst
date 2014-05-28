@@ -1,12 +1,13 @@
-.. algorithm:: WeightedMeanOfWorkspace
+.. algorithm::
 
-.. summary:: WeightedMeanOfWorkspace
+.. summary::
 
-.. aliases:: WeightedMeanOfWorkspace
+.. alias::
 
-.. usage:: WeightedMeanOfWorkspace
+.. properties::
 
-.. properties:: WeightedMeanOfWorkspace
+Description
+-----------
 
 This algorithm calculates the weighted mean from all the spectra in a
 given workspace. Monitors and masked spectra are ignored. Also,
@@ -19,4 +20,4 @@ and the variance is calculated by:
 
 :math:`\displaystyle \sigma^{2}_y=\frac{1}{\sum\frac{1}{\sigma^{2}_i}}`
 
-.. categories:: WeightedMeanOfWorkspace
+.. algm_categories::

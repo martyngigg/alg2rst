@@ -1,12 +1,13 @@
-.. algorithm:: UnwrapMonitor
+.. algorithm::
 
-.. summary:: UnwrapMonitor
+.. summary::
 
-.. aliases:: UnwrapMonitor
+.. alias::
 
-.. usage:: UnwrapMonitor
+.. properties::
 
-.. properties:: UnwrapMonitor
+Description
+-----------
 
 This algorithm is for use with white-beam instruments with choppers. The
 chopper cuts the range of wavelengths, so all detectors (including
@@ -86,4 +87,4 @@ makes use of the `rebin <rebin>`__ algorithm to set the bins on the
 output workspace to common values which cover the maximum theoretically
 accessible wavelength range.
 
-.. categories:: UnwrapMonitor
+.. algm_categories::

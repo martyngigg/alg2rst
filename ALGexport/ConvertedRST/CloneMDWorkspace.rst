@@ -1,12 +1,13 @@
-.. algorithm:: CloneMDWorkspace
+.. algorithm::
 
-.. summary:: CloneMDWorkspace
+.. summary::
 
-.. aliases:: CloneMDWorkspace
+.. alias::
 
-.. usage:: CloneMDWorkspace
+.. properties::
 
-.. properties:: CloneMDWorkspace
+Description
+-----------
 
 This algorithm will clones an existing
 `MDEventWorkspace <MDEventWorkspace>`__ or
@@ -23,4 +24,4 @@ MDEventWorkspace, we recommend that you first call `SaveMD <SaveMD>`__
 with UpdateFileBackEnd=True (if necessary), followed by a simple LoadMD
 call to the file in question.
 
-.. categories:: CloneMDWorkspace
+.. algm_categories::

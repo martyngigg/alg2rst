@@ -1,12 +1,13 @@
-.. algorithm:: SaveSPE
+.. algorithm::
 
-.. summary:: SaveSPE
+.. summary::
 
-.. aliases:: SaveSPE
+.. alias::
 
-.. usage:: SaveSPE
+.. properties::
 
-.. properties:: SaveSPE
+Description
+-----------
 
 Saves the data in a workspace into a file in the ASCII 'SPE' format (as
 described `here <Media:Spe_file_format.pdf>`__).
@@ -22,4 +23,4 @@ Restrictions on the input workspace
 The input workspace must contain histogram data with common binning on
 all spectra.
 
-.. categories:: SaveSPE
+.. algm_categories::

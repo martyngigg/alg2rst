@@ -1,12 +1,13 @@
-.. algorithm:: Convolution
+.. algorithm::
 
-.. summary:: Convolution
+.. summary::
 
-.. aliases:: Convolution
+.. alias::
 
-.. usage:: Convolution
+.. properties::
 
-.. properties:: Convolution
+Description
+-----------
 
 Convolution is an extension of `CompositeFunction <CompositeFunction>`__
 which performs convolution of its members using Fast Fourier Transform.
@@ -40,4 +41,4 @@ Note that the box function is defined on interval [-5, 5]:
 
    Box.png
 
-.. categories:: Convolution
+.. algm_categories::

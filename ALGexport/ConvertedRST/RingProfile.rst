@@ -1,12 +1,13 @@
-.. algorithm:: RingProfile
+.. algorithm::
 
-.. summary:: RingProfile
+.. summary::
 
-.. aliases:: RingProfile
+.. alias::
 
-.. usage:: RingProfile
+.. properties::
 
-.. properties:: RingProfile
+Description
+-----------
 
 RingProfile sums the counts against a ring.
 
@@ -61,4 +62,4 @@ While for clockwise sense, the real 3D angle is:
 
 RealAngle = StartAngle - Angle
 
-.. categories:: RingProfile
+.. algm_categories::

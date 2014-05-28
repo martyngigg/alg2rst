@@ -1,13 +1,14 @@
-.. algorithm:: RecordPythonScript
+.. algorithm::
 
-.. summary:: RecordPythonScript
+.. summary::
 
-.. aliases:: RecordPythonScript
+.. alias::
 
-.. usage:: RecordPythonScript
+.. properties::
 
-.. properties:: RecordPythonScript
+Description
+-----------
 
 
 
-.. categories:: RecordPythonScript
+.. algm_categories::

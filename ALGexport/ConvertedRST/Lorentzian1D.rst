@@ -1,12 +1,13 @@
-.. algorithm:: Lorentzian1D
+.. algorithm::
 
-.. summary:: Lorentzian1D
+.. summary::
 
-.. aliases:: Lorentzian1D
+.. alias::
 
-.. usage:: Lorentzian1D
+.. properties::
 
-.. properties:: Lorentzian1D
+Description
+-----------
 
 Takes a histogram in a 2D workspace and fit it to a Lorentzian function,
 i.e. to the function:
@@ -15,11 +16,11 @@ i.e. to the function:
 
 where
 
-#. BG0 - constant background value
-#. BG1 - constant background value
-#. Height - height of peak (at maximum)
-#. PeakCentre - centre of peak
-#. HWHM - half-width at half-maximum
+-  BG0 - constant background value
+-  BG1 - constant background value
+-  Height - height of peak (at maximum)
+-  PeakCentre - centre of peak
+-  HWHM - half-width at half-maximum
 
 Note that the FWHM (Full Width Half Maximum) equals two times HWHM, and
 the integral over the Lorentzian equals
@@ -35,4 +36,4 @@ a TOF peak:
 
    LorentzianWithConstBackground.png
 
-.. categories:: Lorentzian1D
+.. algm_categories::

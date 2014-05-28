@@ -1,12 +1,13 @@
-.. algorithm:: FindSXPeaks
+.. algorithm::
 
-.. summary:: FindSXPeaks
+.. summary::
 
-.. aliases:: FindSXPeaks
+.. alias::
 
-.. usage:: FindSXPeaks
+.. properties::
 
-.. properties:: FindSXPeaks
+Description
+-----------
 
 Detector-space, single crystal peak finding. Finds peaks by searching
 through each spectra and looking for high intensity bins. If a bin has
@@ -21,4 +22,4 @@ Notable points:
    by the provided SignalBackground parameter.
 -  Calculated Qlab follows the Busy, Levy 1967 convention.
 
-.. categories:: FindSXPeaks
+.. algm_categories::

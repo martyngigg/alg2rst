@@ -1,12 +1,13 @@
-.. algorithm:: SaveNexusProcessed
+.. algorithm::
 
-.. summary:: SaveNexusProcessed
+.. summary::
 
-.. aliases:: SaveNexusProcessed
+.. alias::
 
-.. usage:: SaveNexusProcessed
+.. properties::
 
-.. properties:: SaveNexusProcessed
+Description
+-----------
 
 The algorithm SaveNexusProcessed will write a Nexus data file from the
 named workspace. This can later be loaded using
@@ -44,4 +45,4 @@ data. **Warning!** This can be *very* slow, and only gives approx. 40%
 compression because event data is typically denser than histogram data.
 *CompressNexus* is off by default.
 
-.. categories:: SaveNexusProcessed
+.. algm_categories::

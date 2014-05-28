@@ -1,12 +1,13 @@
-.. algorithm:: He3TubeEfficiency
+.. algorithm::
 
-.. summary:: He3TubeEfficiency
+.. summary::
 
-.. aliases:: He3TubeEfficiency
+.. alias::
 
-.. usage:: He3TubeEfficiency
+.. properties::
 
-.. properties:: He3TubeEfficiency
+Description
+-----------
 
 This algorithm corrects the detection efficiency of He3 tubes using an
 exponential function and certain detector properties. The correction
@@ -37,4 +38,4 @@ The input workspace must be in units of wavelength.
 
 The input workspace must be histogram data.
 
-.. categories:: He3TubeEfficiency
+.. algm_categories::

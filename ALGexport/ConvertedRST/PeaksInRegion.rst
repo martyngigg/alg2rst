@@ -1,14 +1,15 @@
-.. algorithm:: PeaksInRegion
+.. algorithm::
 
-.. summary:: PeaksInRegion
+.. summary::
 
-.. aliases:: PeaksInRegion
+.. alias::
 
-.. usage:: PeaksInRegion
+.. properties::
 
-.. properties:: PeaksInRegion
+Description
+-----------
 
 Determines which peaks intersect a defined box region in either QLab,
 QSample or HKL space. Similar to `PeaksOnSurface <PeaksOnSurface>`__.
 
-.. categories:: PeaksInRegion
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: CreatePeaksWorkspace
+.. algorithm::
 
-.. summary:: CreatePeaksWorkspace
+.. summary::
 
-.. aliases:: CreatePeaksWorkspace
+.. alias::
 
-.. usage:: CreatePeaksWorkspace
+.. properties::
 
-.. properties:: CreatePeaksWorkspace
+Description
+-----------
 
 Create an empty `PeaksWorkspace <PeaksWorkspace>`__. Use
 `LoadIsawPeaks <LoadIsawPeaks>`__ or `FindPeaksMD <FindPeaksMD>`__ to
@@ -16,4 +17,4 @@ This workspace can serve as a starting point for modifying the
 `PeaksWorkspace <PeaksWorkspace>`__, using the GUI or python scripting,
 for example.
 
-.. categories:: CreatePeaksWorkspace
+.. algm_categories::

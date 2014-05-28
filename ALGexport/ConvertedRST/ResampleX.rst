@@ -1,12 +1,13 @@
-.. algorithm:: ResampleX
+.. algorithm::
 
-.. summary:: ResampleX
+.. summary::
 
-.. aliases:: ResampleX
+.. alias::
 
-.. usage:: ResampleX
+.. properties::
 
-.. properties:: ResampleX
+Description
+-----------
 
 This method will resample the x-axis with the number of specified bins.
 If the XMin and XMax parameters are supplied it will use those as the
@@ -16,4 +17,4 @@ value.
 The LogBinning option calculates constant delta-X/X binning and rebins
 using that.
 
-.. categories:: ResampleX
+.. algm_categories::

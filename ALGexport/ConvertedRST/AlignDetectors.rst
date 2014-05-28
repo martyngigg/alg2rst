@@ -1,12 +1,13 @@
-.. algorithm:: AlignDetectors
+.. algorithm::
 
-.. summary:: AlignDetectors
+.. summary::
 
-.. aliases:: AlignDetectors
+.. alias::
 
-.. usage:: AlignDetectors
+.. properties::
 
-.. properties:: AlignDetectors
+Description
+-----------
 
 The offsets are a correction to the dSpacing values and are applied
 during the conversion from time-of-flight to dSpacing as follows:
@@ -28,4 +29,4 @@ unit is time-of-flight and the Y data is raw counts. The
 `instrument <instrument>`__ associated with the workspace must be fully
 defined because detector, source & sample position are needed.
 
-.. categories:: AlignDetectors
+.. algm_categories::

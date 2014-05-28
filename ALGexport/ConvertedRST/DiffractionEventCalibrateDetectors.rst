@@ -1,15 +1,16 @@
-.. algorithm:: DiffractionEventCalibrateDetectors
+.. algorithm::
 
-.. summary:: DiffractionEventCalibrateDetectors
+.. summary::
 
-.. aliases:: DiffractionEventCalibrateDetectors
+.. alias::
 
-.. usage:: DiffractionEventCalibrateDetectors
+.. properties::
 
-.. properties:: DiffractionEventCalibrateDetectors
+Description
+-----------
 
 Moves the detectors in an instrument to optimize the maximum intensity
 of each detector using gsl\_multimin\_fminimizer\_nmsimplex. Only bin
 data close to peak you wish to maximize.
 
-.. categories:: DiffractionEventCalibrateDetectors
+.. algm_categories::

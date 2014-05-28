@@ -1,12 +1,13 @@
-.. algorithm:: SaveMD
+.. algorithm::
 
-.. summary:: SaveMD
+.. summary::
 
-.. aliases:: SaveMD
+.. alias::
 
-.. usage:: SaveMD
+.. properties::
 
-.. properties:: SaveMD
+Description
+-----------
 
 Save a `MDEventWorkspace <MDEventWorkspace>`__ to a .nxs file. The
 workspace's current box structure and entire list of events is
@@ -19,4 +20,4 @@ to disk.
 If you specify UpdateFileBackEnd, then any changes (e.g. events added
 using the PlusMD algorithm) will be saved to the file back-end.
 
-.. categories:: SaveMD
+.. algm_categories::

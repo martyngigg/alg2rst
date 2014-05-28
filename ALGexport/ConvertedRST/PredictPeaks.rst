@@ -1,12 +1,13 @@
-.. algorithm:: PredictPeaks
+.. algorithm::
 
-.. summary:: PredictPeaks
+.. summary::
 
-.. aliases:: PredictPeaks
+.. alias::
 
-.. usage:: PredictPeaks
+.. properties::
 
-.. properties:: PredictPeaks
+Description
+-----------
 
 This algorithm will predict the position of single-crystal diffraction
 peaks (both in detector position/TOF and Q-space) and create an output
@@ -45,4 +46,4 @@ with the desired number of peaks. Use python or the GUI to enter the
 desired HKLs. If these are fraction (e.g. magnetic peaks) then make sure
 RoundHKL=False.
 
-.. categories:: PredictPeaks
+.. algm_categories::

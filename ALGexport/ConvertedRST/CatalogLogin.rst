@@ -1,13 +1,14 @@
-.. algorithm:: CatalogLogin
+.. algorithm::
 
-.. summary:: CatalogLogin
+.. summary::
 
-.. aliases:: CatalogLogin
+.. alias::
 
-.. usage:: CatalogLogin
+.. properties::
 
-.. properties:: CatalogLogin
+Description
+-----------
 
 This algorithm connects the logged in user to the information catalog.
 
-.. categories:: CatalogLogin
+.. algm_categories::

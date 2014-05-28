@@ -1,13 +1,14 @@
-.. algorithm:: SimulateResolutionConvolvedModel
+.. algorithm::
 
-.. summary:: SimulateResolutionConvolvedModel
+.. summary::
 
-.. aliases:: SimulateResolutionConvolvedModel
+.. alias::
 
-.. usage:: SimulateResolutionConvolvedModel
+.. properties::
 
-.. properties:: SimulateResolutionConvolvedModel
+Description
+-----------
 
 Runs a simulation of a model with a selected resolution function.
 
-.. categories:: SimulateResolutionConvolvedModel
+.. algm_categories::

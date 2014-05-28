@@ -1,12 +1,13 @@
-.. algorithm:: GenerateGroupingPowder
+.. algorithm::
 
-.. summary:: GenerateGroupingPowder
+.. summary::
 
-.. aliases:: GenerateGroupingPowder
+.. alias::
 
-.. usage:: GenerateGroupingPowder
+.. properties::
 
-.. properties:: GenerateGroupingPowder
+Description
+-----------
 
 For powder samples, with no texture, the scattering consists only of
 rings. This algorithm reads a workspace and an angle step, then
@@ -18,4 +19,4 @@ average distances to the detector groups, and average scattering angles.
 The x and y extents in the par file are radians(step)\*distance and
 0.01, and are not supposed to be accurate.
 
-.. categories:: GenerateGroupingPowder
+.. algm_categories::

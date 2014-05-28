@@ -1,15 +1,16 @@
-.. algorithm:: Squares
+.. algorithm::
 
-.. summary:: Squares
+.. summary::
 
-.. aliases:: Squares
+.. alias::
 
-.. usage:: Squares
+.. properties::
 
-.. properties:: Squares
+Description
+-----------
 
 An example algorithm.
 
 The wiki description of the algorithm should go here.
 
-.. categories:: Squares
+.. algm_categories::

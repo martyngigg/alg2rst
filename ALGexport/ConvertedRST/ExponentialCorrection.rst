@@ -1,12 +1,13 @@
-.. algorithm:: ExponentialCorrection
+.. algorithm::
 
-.. summary:: ExponentialCorrection
+.. summary::
 
-.. aliases:: ExponentialCorrection
+.. alias::
 
-.. usage:: ExponentialCorrection
+.. properties::
 
-.. properties:: ExponentialCorrection
+Description
+-----------
 
 This algorithm corrects the data and error values on a workspace by the
 value of an exponential function of the form
@@ -16,4 +17,4 @@ case of histogram data. The data and error values are either divided or
 multiplied by the value of this function, according to the setting of
 the Operation property.
 
-.. categories:: ExponentialCorrection
+.. algm_categories::

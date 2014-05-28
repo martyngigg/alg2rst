@@ -1,14 +1,15 @@
-.. algorithm:: SignalOverError
+.. algorithm::
 
-.. summary:: SignalOverError
+.. summary::
 
-.. aliases:: SignalOverError
+.. alias::
 
-.. usage:: SignalOverError
+.. properties::
 
-.. properties:: SignalOverError
+Description
+-----------
 
 Take a `MatrixWorkspace <MatrixWorkspace>`__ as input, and replaces the
 Y values by Y/E (signal divided by error)
 
-.. categories:: SignalOverError
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: CorrectKiKf
+.. algorithm::
 
-.. summary:: CorrectKiKf
+.. summary::
 
-.. aliases:: CorrectKiKf
+.. alias::
 
-.. usage:: CorrectKiKf
+.. properties::
 
-.. properties:: CorrectKiKf
+Description
+-----------
 
 Performs ki / kf multiplication, in order to transform differential
 scattering cross section into dynamic structure factor. Both Ei and Ef
@@ -18,4 +19,4 @@ to find Ei in the workspace properties for direct geometry spectrometry,
 or in the instrument definition, for indirect geometry spectrometry.
 Algorithm is event aware. TOF events will be changed to weighted events.
 
-.. categories:: CorrectKiKf
+.. algm_categories::

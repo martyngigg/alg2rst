@@ -1,13 +1,14 @@
-.. algorithm:: BinaryOperationMD
+.. algorithm::
 
-.. summary:: BinaryOperationMD
+.. summary::
 
-.. aliases:: BinaryOperationMD
+.. alias::
 
-.. usage:: BinaryOperationMD
+.. properties::
 
-.. properties:: BinaryOperationMD
+Description
+-----------
 
 Base class for other algorithms.
 
-.. categories:: BinaryOperationMD
+.. algm_categories::

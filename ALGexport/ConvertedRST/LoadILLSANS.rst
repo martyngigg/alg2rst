@@ -1,14 +1,15 @@
-.. algorithm:: LoadILLSANS
+.. algorithm::
 
-.. summary:: LoadILLSANS
+.. summary::
 
-.. aliases:: LoadILLSANS
+.. alias::
 
-.. usage:: LoadILLSANS
+.. properties::
 
-.. properties:: LoadILLSANS
+Description
+-----------
 
 Loads an ILL D33 nexus file into a `Workspace2D <Workspace2D>`__ with
 the given name.
 
-.. categories:: LoadILLSANS
+.. algm_categories::

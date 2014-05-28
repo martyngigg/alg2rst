@@ -1,12 +1,13 @@
-.. algorithm:: SmoothNeighbours
+.. algorithm::
 
-.. summary:: SmoothNeighbours
+.. summary::
 
-.. aliases:: SmoothNeighbours
+.. alias::
 
-.. usage:: SmoothNeighbours
+.. properties::
 
-.. properties:: SmoothNeighbours
+Description
+-----------
 
 This algorithm performs a moving-average smoothing of data by summing
 spectra of nearest neighbours over the face of detectors. The output
@@ -155,4 +156,4 @@ Ignore Masks
 
 The algorithm will ignore masked detectors if this flag is set.
 
-.. categories:: SmoothNeighbours
+.. algm_categories::

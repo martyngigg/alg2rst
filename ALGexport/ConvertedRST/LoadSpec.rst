@@ -1,12 +1,13 @@
-.. algorithm:: LoadSpec
+.. algorithm::
 
-.. summary:: LoadSpec
+.. summary::
 
-.. aliases:: LoadSpec
+.. alias::
 
-.. usage:: LoadSpec
+.. properties::
 
-.. properties:: LoadSpec
+Description
+-----------
 
 The LoadSpec algorithm reads in spectra data from a text file and stores
 it in a Workspace2D as data points. The data in the file must be
@@ -72,4 +73,4 @@ This will create a Workspace2D with 1 spectrum.
 
 This text file will create a Workspace2D with 3 spectra.
 
-.. categories:: LoadSpec
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: FindDetectorsOutsideLimits
+.. algorithm::
 
-.. summary:: FindDetectorsOutsideLimits
+.. summary::
 
-.. aliases:: FindDetectorsOutsideLimits
+.. alias::
 
-.. usage:: FindDetectorsOutsideLimits
+.. properties::
 
-.. properties:: FindDetectorsOutsideLimits
+Description
+-----------
 
 This is intended to identify detectors that are grossly over or under
 counting. It reads the input workspace and identifies all histograms
@@ -21,4 +22,4 @@ ChildAlgorithms used
 
 Uses the `Integration <Integration>`__ algorithm to sum the spectra.
 
-.. categories:: FindDetectorsOutsideLimits
+.. algm_categories::

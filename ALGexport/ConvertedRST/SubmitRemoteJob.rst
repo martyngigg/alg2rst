@@ -1,13 +1,17 @@
-.. algorithm:: SubmitRemoteJob
+.. algorithm::
 
-.. summary:: SubmitRemoteJob
+.. summary::
 
-.. aliases:: SubmitRemoteJob
+.. alias::
 
-.. usage:: SubmitRemoteJob
+.. properties::
 
-.. properties:: SubmitRemoteJob
+Description
+-----------
 
 Submit a job to be executed on the specified remote compute resource.
 
-.. categories:: SubmitRemoteJob
+For more details, see the `remote job submission API
+docs <Remote_Job_Submission_API>`__.
+
+.. algm_categories::

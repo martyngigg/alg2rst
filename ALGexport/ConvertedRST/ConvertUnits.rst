@@ -1,12 +1,13 @@
-.. algorithm:: ConvertUnits
+.. algorithm::
 
-.. summary:: ConvertUnits
+.. summary::
 
-.. aliases:: ConvertUnits
+.. alias::
 
-.. usage:: ConvertUnits
+.. properties::
 
-.. properties:: ConvertUnits
+Description
+-----------
 
 Changes the units in which the X values of a `workspace <workspace>`__
 are represented. The available units are those registered with the `Unit
@@ -47,4 +48,4 @@ The units currently available to this algorithm are listed
 `here <Unit Factory>`__, along with equations specifying exactly how the
 conversions are done.
 
-.. categories:: ConvertUnits
+.. algm_categories::

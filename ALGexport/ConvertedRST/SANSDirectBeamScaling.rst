@@ -1,13 +1,14 @@
-.. algorithm:: SANSDirectBeamScaling
+.. algorithm::
 
-.. summary:: SANSDirectBeamScaling
+.. summary::
 
-.. aliases:: SANSDirectBeamScaling
+.. alias::
 
-.. usage:: SANSDirectBeamScaling
+.. properties::
 
-.. properties:: SANSDirectBeamScaling
+Description
+-----------
 
 
 
-.. categories:: SANSDirectBeamScaling
+.. algm_categories::

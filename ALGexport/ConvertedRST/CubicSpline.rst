@@ -1,12 +1,13 @@
-.. algorithm:: CubicSpline
+.. algorithm::
 
-.. summary:: CubicSpline
+.. summary::
 
-.. aliases:: CubicSpline
+.. alias::
 
-.. usage:: CubicSpline
+.. properties::
 
-.. properties:: CubicSpline
+Description
+-----------
 
 This function creates spline using the set of points and interpolates
 the input between them.
@@ -20,4 +21,4 @@ interpolation points. The parameter names have the form 'yi' where 'y'
 is letter 'y' and 'i' is the parameter's index starting from 0 and have
 the type double. Likewise, the attribute names have the form 'xi'.
 
-.. categories:: CubicSpline
+.. algm_categories::

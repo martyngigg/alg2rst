@@ -1,12 +1,13 @@
-.. algorithm:: BinaryOperateMasks
+.. algorithm::
 
-.. summary:: BinaryOperateMasks
+.. summary::
 
-.. aliases:: BinaryOperateMasks
+.. alias::
 
-.. usage:: BinaryOperateMasks
+.. properties::
 
-.. properties:: BinaryOperateMasks
+Description
+-----------
 
 A binary operation will be conducted on two SpecialWorkspace2D (i.e.,
 masking workspace). The binary operations supported include AND, OR and
@@ -25,4 +26,4 @@ Output
 A SpecialWorkspace2D with the same dimension and geometry as the input
 two SpecialWorkspace2D.
 
-.. categories:: BinaryOperateMasks
+.. algm_categories::

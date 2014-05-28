@@ -1,12 +1,13 @@
-.. algorithm:: LoadMD
+.. algorithm::
 
-.. summary:: LoadMD
+.. summary::
 
-.. aliases:: LoadMD
+.. alias::
 
-.. usage:: LoadMD
+.. properties::
 
-.. properties:: LoadMD
+Description
+-----------
 
 This algorithm loads a `MDEventWorkspace <MDEventWorkspace>`__ that was
 previously saved using the `SaveMD <SaveMD>`__ algorithm to a .nxs file
@@ -27,4 +28,4 @@ Finally, the BoxStructureOnly and MetadataOnly options are for special
 situations and used by other algorithms, they should not be needed in
 daily use.
 
-.. categories:: LoadMD
+.. algm_categories::

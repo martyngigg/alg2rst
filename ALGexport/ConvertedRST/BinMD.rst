@@ -1,12 +1,13 @@
-.. algorithm:: BinMD
+.. algorithm::
 
-.. summary:: BinMD
+.. summary::
 
-.. aliases:: BinMD
+.. alias::
 
-.. usage:: BinMD
+.. properties::
 
-.. properties:: BinMD
+Description
+-----------
 
 This algorithm performs dense binning of the events in multiple
 dimensions of an input `MDEventWorkspace <MDEventWorkspace>`__ and
@@ -108,4 +109,4 @@ Transformations <BinMD Coordinate Transformations>`__.
 
    BinMD\_Coordinate\_Transforms\_withLine.png
 
-.. categories:: BinMD
+.. algm_categories::

@@ -1,14 +1,12 @@
-.. algorithm:: LoadSINQFile
+.. algorithm::
 
-.. summary:: LoadSINQFile
+.. summary::
 
-.. aliases:: LoadSINQFile
+.. alias::
 
-.. usage:: LoadSINQFile
+.. properties::
 
-.. properties:: LoadSINQFile
-
-DESCRIPTION
+Description
 -----------
 
 LoadSINQFile is a wrapper algorithm around LoadFlexiNexus. It locates a
@@ -17,4 +15,4 @@ away to call LoadFlexiNexus with the right arguments. It also performs
 any other magic which might be required to get the data in the right
 shape for further processing in Mantid.
 
-.. categories:: LoadSINQFile
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: FindPeaks
+.. algorithm::
 
-.. summary:: FindPeaks
+.. summary::
 
-.. aliases:: FindPeaks
+.. alias::
 
-.. usage:: FindPeaks
+.. properties::
 
-.. properties:: FindPeaks
+Description
+-----------
 
 This algorithm searches the specified spectra in a workspace for peaks,
 returning a list of the found and successfully fitted peaks. The search
@@ -70,4 +71,4 @@ References
    the presence of background and its application to spectrum analysis*,
    NIM **50** (1967) 309.
 
-.. categories:: FindPeaks
+.. algm_categories::

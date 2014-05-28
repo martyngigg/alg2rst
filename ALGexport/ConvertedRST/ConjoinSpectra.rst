@@ -1,12 +1,13 @@
-.. algorithm:: ConjoinSpectra
+.. algorithm::
 
-.. summary:: ConjoinSpectra
+.. summary::
 
-.. aliases:: ConjoinSpectra
+.. alias::
 
-.. usage:: ConjoinSpectra
+.. properties::
 
-.. properties:: ConjoinSpectra
+Description
+-----------
 
 This algorithm allows a single spectrum to be extracted from a range of
 workspaces and placed into a single workspace for comparison and
@@ -16,4 +17,4 @@ workspace name, but you can specify the name of a log value to use as
 the label, e.g. Temp\_Sample. the LabelValue property allows control of
 how a single value is extracted from time series logs.
 
-.. categories:: ConjoinSpectra
+.. algm_categories::

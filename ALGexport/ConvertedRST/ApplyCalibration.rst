@@ -1,12 +1,13 @@
-.. algorithm:: ApplyCalibration
+.. algorithm::
 
-.. summary:: ApplyCalibration
+.. summary::
 
-.. aliases:: ApplyCalibration
+.. alias::
 
-.. usage:: ApplyCalibration
+.. properties::
 
-.. properties:: ApplyCalibration
+Description
+-----------
 
 Update detector positions from input table workspace. The positions are
 updated as absolute positions and so this update can be repeated.
@@ -17,4 +18,4 @@ to the Detector ID and the enties of the *Detector Position* are
 `V3Ds <V3D>`__ referring to the position of the detector whose ID is in
 same row.
 
-.. categories:: ApplyCalibration
+.. algm_categories::

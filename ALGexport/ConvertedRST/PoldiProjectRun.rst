@@ -1,12 +1,13 @@
-.. algorithm:: PoldiProjectRun
+.. algorithm::
 
-.. summary:: PoldiProjectRun
+.. summary::
 
-.. aliases:: PoldiProjectRun
+.. alias::
 
-.. usage:: PoldiProjectRun
+.. properties::
 
-.. properties:: PoldiProjectRun
+Description
+-----------
 
 PoldiProjectRun algorithm is used to analyze a bunch of POLDI raw data
 files, following a standard POLDI analysis process. This algorithm take
@@ -46,20 +47,20 @@ A MatrixWorkspace is created to store all the information about
 data-files and the future workspace needed during the analysis. The
 stored information are:
 
-#. spl Name - name of the sample, extract from the sample
+-  spl Name - name of the sample, extract from the sample
    ``file name, without the extension ``
 
-#. year - year of the acquisition
-#. number - id number of the acquisition
-#. data file - full path of the data file
-#. spl log - name of the MatrixWorkspace where the data log are loaded
-#. spl corr - name of the MatrixWorkspace where the
+-  year - year of the acquisition
+-  number - id number of the acquisition
+-  data file - full path of the data file
+-  spl log - name of the MatrixWorkspace where the data log are loaded
+-  spl corr - name of the MatrixWorkspace where the
    ``correlated spectra is loaded``
 
-#. spl dead wires - name of the MatrixWorkspace where the
+-  spl dead wires - name of the MatrixWorkspace where the
    ``dead wires are loaded ``
 
-#. spl peak - name of the MatrixWorkspace where the
+-  spl peak - name of the MatrixWorkspace where the
    ``detected peak information are stored ``
 
 POLDI setup manager
@@ -67,8 +68,8 @@ POLDI setup manager
 
 For each acquisition file, the IDF are loaded:
 
-#. Instrument Definition files - The POLDI instrument geometry.
-#. Instrument Parameters files - The setup parameters
+-  Instrument Definition files - The POLDI instrument geometry.
+-  Instrument Parameters files - The setup parameters
    ``for the data, at t he time of the acquisition. ``
 
 The POLDI setup informations can be shared between acquisition obtained
@@ -223,4 +224,4 @@ This algorithm is designed to work with other algorithms to proceed
 POLDI data. The introductions can be found in the wiki page of
 `PoldiProjectRun <PoldiProjectRun>`__.
 
-.. categories:: PoldiProjectRun
+.. algm_categories::

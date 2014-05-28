@@ -1,12 +1,13 @@
-.. algorithm:: HRPDSlabCanAbsorption
+.. algorithm::
 
-.. summary:: HRPDSlabCanAbsorption
+.. summary::
 
-.. aliases:: HRPDSlabCanAbsorption
+.. alias::
 
-.. usage:: HRPDSlabCanAbsorption
+.. properties::
 
-.. properties:: HRPDSlabCanAbsorption
+Description
+-----------
 
 This algorithm is a refinement of the
 `FlatPlateAbsorption <FlatPlateAbsorption>`__ algorithm for the specific
@@ -42,4 +43,4 @@ ChildAlgorithms used
 The `FlatPlateAbsorption <FlatPlateAbsorption>`__ algorithm is used to
 calculate the correction due to the sample itself.
 
-.. categories:: HRPDSlabCanAbsorption
+.. algm_categories::

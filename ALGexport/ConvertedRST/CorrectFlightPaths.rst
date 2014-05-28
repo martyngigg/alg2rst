@@ -1,12 +1,13 @@
-.. algorithm:: CorrectFlightPaths
+.. algorithm::
 
-.. summary:: CorrectFlightPaths
+.. summary::
 
-.. aliases:: CorrectFlightPaths
+.. alias::
 
-.. usage:: CorrectFlightPaths
+.. properties::
 
-.. properties:: CorrectFlightPaths
+Description
+-----------
 
 Corrects the flight paths of a flat detector. Both TOF sample-detector
 and distance sample-detector are corrected to constant values, i.e.,
@@ -16,4 +17,4 @@ detector\_distance must exist in the \_Parameters.xml:
 
 So far this has only be tested on ILL IN5.
 
-.. categories:: CorrectFlightPaths
+.. algm_categories::

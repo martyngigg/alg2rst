@@ -1,12 +1,13 @@
-.. algorithm:: StripVanadiumPeaks
+.. algorithm::
 
-.. summary:: StripVanadiumPeaks
+.. summary::
 
-.. aliases:: StripVanadiumPeaks
+.. alias::
 
-.. usage:: StripVanadiumPeaks
+.. properties::
 
-.. properties:: StripVanadiumPeaks
+Description
+-----------
 
 -  A list of vanadium peak positions in d-spacing is used for the
    central peak positions:
@@ -26,4 +27,4 @@
    -  The values between the average regions are replaced with the
       interpolated linear background drawn as a straight line.
 
-.. categories:: StripVanadiumPeaks
+.. algm_categories::

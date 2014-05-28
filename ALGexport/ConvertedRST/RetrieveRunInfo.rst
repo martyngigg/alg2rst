@@ -1,12 +1,13 @@
-.. algorithm:: RetrieveRunInfo
+.. algorithm::
 
-.. summary:: RetrieveRunInfo
+.. summary::
 
-.. aliases:: RetrieveRunInfo
+.. alias::
 
-.. usage:: RetrieveRunInfo
+.. properties::
 
-.. properties:: RetrieveRunInfo
+Description
+-----------
 
 Strips the log property values of "inst\_abrv", "run\_number",
 "user\_name", "run\_title" and "hd\_dur" from the specified run files,
@@ -29,4 +30,4 @@ log properties are supported.
 `CreateLogPropertyTable <CreateLogPropertyTable>`__ is available to
 those users who wish to "brew their own" version of this algorithm.
 
-.. categories:: RetrieveRunInfo
+.. algm_categories::

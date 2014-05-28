@@ -1,12 +1,13 @@
-.. algorithm:: LogarithmMD
+.. algorithm::
 
-.. summary:: LogarithmMD
+.. summary::
 
-.. aliases:: LogarithmMD
+.. alias::
 
-.. usage:: LogarithmMD
+.. properties::
 
-.. properties:: LogarithmMD
+Description
+-----------
 
 This executes the natural logarithm operation on a MDHistoWorkspace.
 
@@ -19,4 +20,4 @@ This algorithm cannot be run on a
 `MatrixWorkspace <MatrixWorkspace>`__ is called
 `Logarithm <Logarithm>`__.
 
-.. categories:: LogarithmMD
+.. algm_categories::

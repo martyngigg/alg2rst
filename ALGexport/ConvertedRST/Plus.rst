@@ -1,12 +1,13 @@
-.. algorithm:: Plus
+.. algorithm::
 
-.. summary:: Plus
+.. summary::
 
-.. aliases:: Plus
+.. alias::
 
-.. usage:: Plus
+.. properties::
 
-.. properties:: Plus
+Description
+-----------
 
 .. raw:: mediawiki
 
@@ -28,4 +29,4 @@ EventWorkspaces while matching their detectors together, use the
 not both been processed in an identical fashion and the detectors have
 somehow been grouped differently.
 
-.. categories:: Plus
+.. algm_categories::

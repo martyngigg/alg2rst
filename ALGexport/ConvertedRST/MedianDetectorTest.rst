@@ -1,12 +1,13 @@
-.. algorithm:: MedianDetectorTest
+.. algorithm::
 
-.. summary:: MedianDetectorTest
+.. summary::
 
-.. aliases:: MedianDetectorTest
+.. alias::
 
-.. usage:: MedianDetectorTest
+.. properties::
 
-.. properties:: MedianDetectorTest
+Description
+-----------
 
 If instrument geometry information is available the
 `SolidAngle <SolidAngle>`__ algorithm is used to calculate the number of
@@ -42,4 +43,4 @@ ChildAlgorithms used
 Uses the `SolidAngle <SolidAngle>`__, `Integration <Integration>`__ and
 `ConvertToDistribution <ConvertToDistribution>`__ algorithms.
 
-.. categories:: MedianDetectorTest
+.. algm_categories::

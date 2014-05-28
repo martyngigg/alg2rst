@@ -1,12 +1,13 @@
-.. algorithm:: CreateWorkspace
+.. algorithm::
 
-.. summary:: CreateWorkspace
+.. summary::
 
-.. aliases:: CreateWorkspace
+.. alias::
 
-.. usage:: CreateWorkspace
+.. properties::
 
-.. properties:: CreateWorkspace
+Description
+-----------
 
 Example of use in Python for create a simple histogram workspace and
 automatically populating the VerticalAxis with SpectraNumber values.
@@ -28,4 +29,4 @@ automatically populating the VerticalAxis with SpectraNumber values.
 
    </div>
 
-.. categories:: CreateWorkspace
+.. algm_categories::

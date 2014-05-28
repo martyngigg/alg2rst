@@ -1,12 +1,13 @@
-.. algorithm:: EQSANSLoad
+.. algorithm::
 
-.. summary:: EQSANSLoad
+.. summary::
 
-.. aliases:: EQSANSLoad
+.. alias::
 
-.. usage:: EQSANSLoad
+.. properties::
 
-.. properties:: EQSANSLoad
+Description
+-----------
 
 Workflow algorithm that loads EQSANS event data and applies basic
 corrections to the workspace. Those include:
@@ -26,4 +27,4 @@ See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for details.
 
-.. categories:: EQSANSLoad
+.. algm_categories::

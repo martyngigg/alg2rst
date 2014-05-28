@@ -1,12 +1,13 @@
-.. algorithm:: LoadMuonLog
+.. algorithm::
 
-.. summary:: LoadMuonLog
+.. summary::
 
-.. aliases:: LoadMuonLog
+.. alias::
 
-.. usage:: LoadMuonLog
+.. properties::
 
-.. properties:: LoadMuonLog
+Description
+-----------
 
 The Algorithm is very similar to `LoadLog <LoadLog>`__ except that the
 source of the data is a Muon Nexus file.
@@ -18,4 +19,4 @@ LoadMuonLog is also a child algorithm of
 `LoadMuonNexus <LoadMuonNexus>`__, i.e. it gets called whenever
 LoadMuonNexus is executed.
 
-.. categories:: LoadMuonLog
+.. algm_categories::

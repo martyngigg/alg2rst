@@ -1,15 +1,16 @@
-.. algorithm:: StretchExpMuon
+.. algorithm::
 
-.. summary:: StretchExpMuon
+.. summary::
 
-.. aliases:: StretchExpMuon
+.. alias::
 
-.. usage:: StretchExpMuon
+.. properties::
 
-.. properties:: StretchExpMuon
+Description
+-----------
 
 The Stretched exponential fit function is defined by
 
 .. math:: A \cdot e^{ (-{Lambda} \times {x}) ^{Beta} }
 
-.. categories:: StretchExpMuon
+.. algm_categories::

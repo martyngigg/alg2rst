@@ -1,15 +1,24 @@
-.. algorithm:: DgsRemap
+.. algorithm::
 
-.. summary:: DgsRemap
+.. summary::
 
-.. aliases:: DgsRemap
+.. alias::
 
-.. usage:: DgsRemap
+.. properties::
 
-.. properties:: DgsRemap
+Description
+-----------
 
 This algorithm is responsible for masking and grouping the given input
 workspace. One can use the ExecuteOppositeOrder to do grouping first
 then masking.
 
-.. categories:: DgsRemap
+Workflow
+~~~~~~~~
+
+.. figure:: images\DgsRemapWorkflow.png
+   :alt: DgsRemapWorkflow.png
+
+   DgsRemapWorkflow.png
+
+.. algm_categories::

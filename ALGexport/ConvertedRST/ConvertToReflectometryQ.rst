@@ -1,12 +1,13 @@
-.. algorithm:: ConvertToReflectometryQ
+.. algorithm::
 
-.. summary:: ConvertToReflectometryQ
+.. summary::
 
-.. aliases:: ConvertToReflectometryQ
+.. alias::
 
-.. usage:: ConvertToReflectometryQ
+.. properties::
 
-.. properties:: ConvertToReflectometryQ
+Description
+-----------
 
 Prerequisites
 ~~~~~~~~~~~~~
@@ -54,4 +55,4 @@ You will usually want to rebin using `BinMD <BinMD>`__ or
 `SliceMD <SliceMD>`__ after transformation because the output workspaces
 are not regularly binned.
 
-.. categories:: ConvertToReflectometryQ
+.. algm_categories::

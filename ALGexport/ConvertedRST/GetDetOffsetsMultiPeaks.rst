@@ -1,12 +1,13 @@
-.. algorithm:: GetDetOffsetsMultiPeaks
+.. algorithm::
 
-.. summary:: GetDetOffsetsMultiPeaks
+.. summary::
 
-.. aliases:: GetDetOffsetsMultiPeaks
+.. alias::
 
-.. usage:: GetDetOffsetsMultiPeaks
+.. properties::
 
-.. properties:: GetDetOffsetsMultiPeaks
+Description
+-----------
 
 Description
 -----------
@@ -187,4 +188,4 @@ Usage
 OutputW,NumberPeaksFitted,Mask =
 GetDetOffsetsMultiPeaks("InputW",0.01,2.0,1.8,2.2,"output.cal")
 
-.. categories:: GetDetOffsetsMultiPeaks
+.. algm_categories::

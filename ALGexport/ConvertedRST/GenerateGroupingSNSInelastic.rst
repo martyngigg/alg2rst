@@ -1,12 +1,13 @@
-.. algorithm:: GenerateGroupingSNSInelastic
+.. algorithm::
 
-.. summary:: GenerateGroupingSNSInelastic
+.. summary::
 
-.. aliases:: GenerateGroupingSNSInelastic
+.. alias::
 
-.. usage:: GenerateGroupingSNSInelastic
+.. properties::
 
-.. properties:: GenerateGroupingSNSInelastic
+Description
+-----------
 
 Generate grouping files for ARCS, CNCS, HYSPEC, and SEQUOIA, by grouping
 py pixels along a tube and px tubes. py is 1, 2, 4, 8, 16, 32, 64, or
@@ -14,4 +15,4 @@ py pixels along a tube and px tubes. py is 1, 2, 4, 8, 16, 32, 64, or
 
 Author: A. Savici
 
-.. categories:: GenerateGroupingSNSInelastic
+.. algm_categories::

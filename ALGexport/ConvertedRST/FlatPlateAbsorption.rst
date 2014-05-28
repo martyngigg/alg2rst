@@ -1,12 +1,13 @@
-.. algorithm:: FlatPlateAbsorption
+.. algorithm::
 
-.. summary:: FlatPlateAbsorption
+.. summary::
 
-.. aliases:: FlatPlateAbsorption
+.. alias::
 
-.. usage:: FlatPlateAbsorption
+.. properties::
 
-.. properties:: FlatPlateAbsorption
+Description
+-----------
 
 This algorithm uses a numerical integration method to calculate
 attenuation factors resulting from absorption and single scattering in a
@@ -29,4 +30,4 @@ The input workspace must have units of wavelength. The
 `instrument <instrument>`__ associated with the workspace must be fully
 defined because detector, source & sample position are needed.
 
-.. categories:: FlatPlateAbsorption
+.. algm_categories::

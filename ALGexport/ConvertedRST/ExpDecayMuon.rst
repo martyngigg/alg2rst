@@ -1,15 +1,16 @@
-.. algorithm:: ExpDecayMuon
+.. algorithm::
 
-.. summary:: ExpDecayMuon
+.. summary::
 
-.. aliases:: ExpDecayMuon
+.. alias::
 
-.. usage:: ExpDecayMuon
+.. properties::
 
-.. properties:: ExpDecayMuon
+Description
+-----------
 
 Exponential decay for use by Muon scientists defined by
 
 .. math:: \mbox{A}\times \exp(-{Lambda} \times {x})
 
-.. categories:: ExpDecayMuon
+.. algm_categories::

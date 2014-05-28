@@ -1,12 +1,13 @@
-.. algorithm:: OptimizeCrystalPlacement
+.. algorithm::
 
-.. summary:: OptimizeCrystalPlacement
+.. summary::
 
-.. aliases:: OptimizeCrystalPlacement
+.. alias::
 
-.. usage:: OptimizeCrystalPlacement
+.. properties::
 
-.. properties:: OptimizeCrystalPlacement
+Description
+-----------
 
 This algorithm basically optimizes h,k, and l offsets from an integer by
 varying the parameters sample positions, sample orientations ( chi,phi,
@@ -33,11 +34,14 @@ degrees. The usage for this information is as follows:
 
 ``    rotate('x',GonRotx)*rotate('y',GonRoty)*rotate('z',GonRotz)* SampleOrientation( i.e. omegaRot*chiRot*phiRot)).``
 
-| ``-Note: To optimize by the tilt in the goniometer and then by the angles or by the sample position, it is possible to``
-| ``run with one optimization, then using the resultant PeaksWorkspace for input, run another optimization.``
+-Note: To optimize by the tilt in the goniometer and then by the angles
+or by the sample position, it is possible to run with one optimization,
+then using the resultant PeaksWorkspace for input, run another
+optimization.
 
-| ``Rerunning the same optimization with the result is also a good idea. If the first guess is very close, the optimize algorithm``
-| ``does try cases far away and may not get back to the best value.  Check the chisquared values.  If they increase, that optimization``
-| ``should probably not be used.``
+Rerunning the same optimization with the result is also a good idea. If
+the first guess is very close, the optimize algorithm does try cases far
+away and may not get back to the best value. Check the chisquared
+values. If they increase, that optimization should probably not be used.
 
-.. categories:: OptimizeCrystalPlacement
+.. algm_categories::

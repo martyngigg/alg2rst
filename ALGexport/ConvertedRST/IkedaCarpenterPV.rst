@@ -1,12 +1,13 @@
-.. algorithm:: IkedaCarpenterPV
+.. algorithm::
 
-.. summary:: IkedaCarpenterPV
+.. summary::
 
-.. aliases:: IkedaCarpenterPV
+.. alias::
 
-.. usage:: IkedaCarpenterPV
+.. properties::
 
-.. properties:: IkedaCarpenterPV
+Description
+-----------
 
 This peakshape function is designed to be used to fit time-of-flight
 peaks. In particular this function is the convolution of the
@@ -70,4 +71,4 @@ peak:
 
    IkedaCarpenterPVwithBackground.png
 
-.. categories:: IkedaCarpenterPV
+.. algm_categories::

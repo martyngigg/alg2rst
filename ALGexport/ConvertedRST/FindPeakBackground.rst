@@ -1,12 +1,13 @@
-.. algorithm:: FindPeakBackground
+.. algorithm::
 
-.. summary:: FindPeakBackground
+.. summary::
 
-.. aliases:: FindPeakBackground
+.. alias::
 
-.. usage:: FindPeakBackground
+.. properties::
 
-.. properties:: FindPeakBackground
+Description
+-----------
 
 Algorithm written using this paper: J. Appl. Cryst. (2013). 46, 663-671
 
@@ -25,4 +26,4 @@ the sample mean and the sample variance of the data set is within k
 standard deviations of the variance, the default value of k being 1. The
 k value is called SigmaConstant in the algorithm input.
 
-.. categories:: FindPeakBackground
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: LoadLiveData
+.. algorithm::
 
-.. summary:: LoadLiveData
+.. summary::
 
-.. aliases:: LoadLiveData
+.. alias::
 
-.. usage:: LoadLiveData
+.. properties::
 
-.. properties:: LoadLiveData
+Description
+-----------
 
 This algorithm is called on a regular interval by the
 `MonitorLiveData <MonitorLiveData>`__ algorithm. **It should not be
@@ -100,4 +101,4 @@ Post-Processing Step
    *PostProcessingScript* (same way as above), the
    *AccumulationWorkspace* is processed into the *OutputWorkspace*
 
-.. categories:: LoadLiveData
+.. algm_categories::

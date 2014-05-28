@@ -1,12 +1,13 @@
-.. algorithm:: SNSPowderReduction
+.. algorithm::
 
-.. summary:: SNSPowderReduction
+.. summary::
 
-.. aliases:: SNSPowderReduction
+.. alias::
 
-.. usage:: SNSPowderReduction
+.. properties::
 
-.. properties:: SNSPowderReduction
+Description
+-----------
 
 About Filter Wall
 ^^^^^^^^^^^^^^^^^
@@ -18,4 +19,4 @@ of time. Here is how the filter is used:
 | ``   2. There is NO lower boundary of the filter wall if wall[0] is ZERO;``
 | ``   3. There is NO upper boundary of the filter wall if wall[1] is ZERO;``
 
-.. categories:: SNSPowderReduction
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: SaveGSS
+.. algorithm::
 
-.. summary:: SaveGSS
+.. summary::
 
-.. aliases:: SaveGSS
+.. alias::
 
-.. usage:: SaveGSS
+.. properties::
 
-.. properties:: SaveGSS
+Description
+-----------
 
 Saves a focused data set into a three column GSAS format containing
 X\_i, Y\_i\*step, and E\_I\*step. Exclusively for the crystallography
@@ -36,4 +37,4 @@ From the GSAS manual a description of the format options:
 The format is limited to saving 99 spectra in total. Trying to save more
 will generate an error.
 
-.. categories:: SaveGSS
+.. algm_categories::

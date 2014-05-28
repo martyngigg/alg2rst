@@ -1,13 +1,14 @@
-.. algorithm:: OptimizeExtinctionParameters
+.. algorithm::
 
-.. summary:: OptimizeExtinctionParameters
+.. summary::
 
-.. aliases:: OptimizeExtinctionParameters
+.. alias::
 
-.. usage:: OptimizeExtinctionParameters
+.. properties::
 
-.. properties:: OptimizeExtinctionParameters
+Description
+-----------
 
 
 
-.. categories:: OptimizeExtinctionParameters
+.. algm_categories::

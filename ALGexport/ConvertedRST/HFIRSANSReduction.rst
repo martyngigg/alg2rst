@@ -1,13 +1,14 @@
-.. algorithm:: HFIRSANSReduction
+.. algorithm::
 
-.. summary:: HFIRSANSReduction
+.. summary::
 
-.. aliases:: HFIRSANSReduction
+.. alias::
 
-.. usage:: HFIRSANSReduction
+.. properties::
 
-.. properties:: HFIRSANSReduction
+Description
+-----------
 
 HFIR SANS reduction workflow
 
-.. categories:: HFIRSANSReduction
+.. algm_categories::

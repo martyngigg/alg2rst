@@ -1,12 +1,13 @@
-.. algorithm:: ReactorSANSResolution
+.. algorithm::
 
-.. summary:: ReactorSANSResolution
+.. summary::
 
-.. aliases:: ReactorSANSResolution
+.. alias::
 
-.. usage:: ReactorSANSResolution
+.. properties::
 
-.. properties:: ReactorSANSResolution
+Description
+-----------
 
 Compute the resolution in Q according to Mildner-Carpenter.
 
@@ -14,4 +15,4 @@ See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for details.
 
-.. categories:: ReactorSANSResolution
+.. algm_categories::

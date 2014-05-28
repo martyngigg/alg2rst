@@ -1,12 +1,13 @@
-.. algorithm:: SaveZODS
+.. algorithm::
 
-.. summary:: SaveZODS
+.. summary::
 
-.. aliases:: SaveZODS
+.. alias::
 
-.. usage:: SaveZODS
+.. properties::
 
-.. properties:: SaveZODS
+Description
+-----------
 
 Saves a HDF5 file to the ZODS (Zurich Oak Ridge Disorder Simulation
 program) format. This format consists of a slice of a
@@ -69,4 +70,4 @@ Description of data fields
    -  The grid of points (r = origin+i\*a1+j\*a2+k\*a3) specifies the
       centers of histogram, not the corners.
 
-.. categories:: SaveZODS
+.. algm_categories::

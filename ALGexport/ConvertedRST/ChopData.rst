@@ -1,12 +1,13 @@
-.. algorithm:: ChopData
+.. algorithm::
 
-.. summary:: ChopData
+.. summary::
 
-.. aliases:: ChopData
+.. alias::
 
-.. usage:: ChopData
+.. properties::
 
-.. properties:: ChopData
+Description
+-----------
 
 This algorithm will chop the input workspace into equally sized
 workspaces, and adjust the X-values given so that they all begin from
@@ -43,4 +44,4 @@ expected and recommended that you use a monitor spectrum for this
 purpose, it is not enforced so you may use a regular detector if you
 have cause to do so.
 
-.. categories:: ChopData
+.. algm_categories::

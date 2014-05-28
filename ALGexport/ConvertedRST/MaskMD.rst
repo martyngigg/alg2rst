@@ -1,12 +1,13 @@
-.. algorithm:: MaskMD
+.. algorithm::
 
-.. summary:: MaskMD
+.. summary::
 
-.. aliases:: MaskMD
+.. alias::
 
-.. usage:: MaskMD
+.. properties::
 
-.. properties:: MaskMD
+Description
+-----------
 
 This algorithm masks a `MDWorkspace <MDWorkspace>`__ in-situ.
 
@@ -39,4 +40,4 @@ values for the first {X,Y,Z} and the latter 6 {+1,+2,+1,+2,+1,+2} relate
 to the last {X,Y,Z}. Applying this maksing will result in two completely
 separate areas masked in a single call to the algorithm.
 
-.. categories:: MaskMD
+.. algm_categories::

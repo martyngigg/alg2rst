@@ -1,12 +1,13 @@
-.. algorithm:: FindPeaksMD
+.. algorithm::
 
-.. summary:: FindPeaksMD
+.. summary::
 
-.. aliases:: FindPeaksMD
+.. alias::
 
-.. usage:: FindPeaksMD
+.. properties::
 
-.. properties:: FindPeaksMD
+Description
+-----------
 
 This algorithm is used to find single-crystal peaks in a
 multi-dimensional workspace (`MDEventWorkspace <MDEventWorkspace>`__ or
@@ -43,4 +44,4 @@ is not accessible. It may give better results on
 `Workspace2D <Workspace2D>`__'s that were converted to
 `MDWorkspaces <MDWorkspace>`__.
 
-.. categories:: FindPeaksMD
+.. algm_categories::

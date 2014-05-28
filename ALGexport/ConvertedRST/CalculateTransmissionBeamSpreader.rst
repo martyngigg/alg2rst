@@ -1,15 +1,16 @@
-.. algorithm:: CalculateTransmissionBeamSpreader
+.. algorithm::
 
-.. summary:: CalculateTransmissionBeamSpreader
+.. summary::
 
-.. aliases:: CalculateTransmissionBeamSpreader
+.. alias::
 
-.. usage:: CalculateTransmissionBeamSpreader
+.. properties::
 
-.. properties:: CalculateTransmissionBeamSpreader
+Description
+-----------
 
 See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for details.
 
-.. categories:: CalculateTransmissionBeamSpreader
+.. algm_categories::

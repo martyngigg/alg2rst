@@ -1,12 +1,13 @@
-.. algorithm:: IntegrateEllipsoids
+.. algorithm::
 
-.. summary:: IntegrateEllipsoids
+.. summary::
 
-.. aliases:: IntegrateEllipsoids
+.. alias::
 
-.. usage:: IntegrateEllipsoids
+.. properties::
 
-.. properties:: IntegrateEllipsoids
+Description
+-----------
 
 Overview
 ~~~~~~~~
@@ -148,4 +149,4 @@ ellipsoid. The outer surface of the background ellipsoidal shell is an
 ellipsoidal surface with the same relative axis lengths as the inner
 surface.
 
-.. categories:: IntegrateEllipsoids
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: DiffractionFocussing
+.. algorithm::
 
-.. summary:: DiffractionFocussing
+.. summary::
 
-.. aliases:: DiffractionFocussing
+.. alias::
 
-.. usage:: DiffractionFocussing
+.. properties::
 
-.. properties:: DiffractionFocussing
+Description
+-----------
 
 |Example of RAW GEM data focused across the 5 detector banks| Given an
 InputWorkspace and a Grouping filename, the algorithm performs the
@@ -51,4 +52,4 @@ all; binning can be performed as the very last step.
 
 .. |Example of RAW GEM data focused across the 5 detector banks| image:: GEM_Focused.png
 
-.. categories:: DiffractionFocussing
+.. algm_categories::

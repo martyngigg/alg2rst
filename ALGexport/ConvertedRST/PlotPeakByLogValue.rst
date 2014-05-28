@@ -1,12 +1,13 @@
-.. algorithm:: PlotPeakByLogValue
+.. algorithm::
 
-.. summary:: PlotPeakByLogValue
+.. summary::
 
-.. aliases:: PlotPeakByLogValue
+.. alias::
 
-.. usage:: PlotPeakByLogValue
+.. properties::
 
-.. properties:: PlotPeakByLogValue
+Description
+-----------
 
 This algorithm fits a series of spectra with the same function. Each
 spectrum is fit independently and the result is a table of fitting
@@ -62,4 +63,4 @@ workspace:
 In this example a group of three Matrix workspaces were fitted with a
 `Gaussian <Gaussian>`__ on a linear background.
 
-.. categories:: PlotPeakByLogValue
+.. algm_categories::

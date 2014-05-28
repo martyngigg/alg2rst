@@ -1,15 +1,15 @@
-.. algorithm:: CatalogListInvestigationTypes
+.. algorithm::
 
-.. summary:: CatalogListInvestigationTypes
+.. summary::
 
-.. aliases:: CatalogListInvestigationTypes
+.. alias::
 
-.. usage:: CatalogListInvestigationTypes
+.. properties::
 
-.. properties:: CatalogListInvestigationTypes
+Description
+-----------
 
-This algorithm retrieves the investigation types from the information
-catalog and saves investigation types lists to a mantid internal data
-structure.
+This algorithm is responsible for obtaining a list of investigation
+types from the catalog.
 
-.. categories:: CatalogListInvestigationTypes
+.. algm_categories::

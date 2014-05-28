@@ -1,13 +1,14 @@
-.. algorithm:: SaveIsawPeaks
+.. algorithm::
 
-.. summary:: SaveIsawPeaks
+.. summary::
 
-.. aliases:: SaveIsawPeaks
+.. alias::
 
-.. usage:: SaveIsawPeaks
+.. properties::
 
-.. properties:: SaveIsawPeaks
+Description
+-----------
 
 Save a PeaksWorkspace to a ISAW-style ASCII .peaks file.
 
-.. categories:: SaveIsawPeaks
+.. algm_categories::

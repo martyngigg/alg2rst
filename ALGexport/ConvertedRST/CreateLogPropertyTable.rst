@@ -1,12 +1,13 @@
-.. algorithm:: CreateLogPropertyTable
+.. algorithm::
 
-.. summary:: CreateLogPropertyTable
+.. summary::
 
-.. aliases:: CreateLogPropertyTable
+.. alias::
 
-.. usage:: CreateLogPropertyTable
+.. properties::
 
-.. properties:: CreateLogPropertyTable
+Description
+-----------
 
 Data is loaded into Mantid workspaces along with various log properties.
 This algorithm enables a user to easily compile a TableWorkspace of
@@ -55,4 +56,4 @@ Excludes GroupWorkspaces altogether.
    the property names "inst\_abrv", "run\_number", "user\_name",
    "run\_title" and "hd\_dur".
 
-.. categories:: CreateLogPropertyTable
+.. algm_categories::

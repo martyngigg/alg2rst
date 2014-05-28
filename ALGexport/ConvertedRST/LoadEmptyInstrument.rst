@@ -1,12 +1,13 @@
-.. algorithm:: LoadEmptyInstrument
+.. algorithm::
 
-.. summary:: LoadEmptyInstrument
+.. summary::
 
-.. aliases:: LoadEmptyInstrument
+.. alias::
 
-.. usage:: LoadEmptyInstrument
+.. properties::
 
-.. properties:: LoadEmptyInstrument
+Description
+-----------
 
 This algorithm is to enable you to look at an instrument without having
 to load a full data file. Instead of loading a data file, it loads the
@@ -15,4 +16,4 @@ instrument, which has information about the instrument. The instrument
 is referred to as being empty because there is no data associated with
 it.
 
-.. categories:: LoadEmptyInstrument
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: ConjoinWorkspaces
+.. algorithm::
 
-.. summary:: ConjoinWorkspaces
+.. summary::
 
-.. aliases:: ConjoinWorkspaces
+.. alias::
 
-.. usage:: ConjoinWorkspaces
+.. properties::
 
-.. properties:: ConjoinWorkspaces
+Description
+-----------
 
 This algorithm can be useful when working with large datasets. It
 enables the raw file to be loaded in two parts (not necessarily of equal
@@ -46,4 +47,4 @@ The input workspaces must come from the same instrument, have common
 units and bins and no detectors that contribute to spectra should
 overlap.
 
-.. categories:: ConjoinWorkspaces
+.. algm_categories::

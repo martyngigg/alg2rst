@@ -1,12 +1,13 @@
-.. algorithm:: SaveIsawUB
+.. algorithm::
 
-.. summary:: SaveIsawUB
+.. summary::
 
-.. aliases:: SaveIsawUB
+.. alias::
 
-.. usage:: SaveIsawUB
+.. properties::
 
-.. properties:: SaveIsawUB
+Description
+-----------
 
 This saves a workspace's UB matrix to an ISAW-style UB matrix text file.
 
@@ -19,4 +20,4 @@ the column vector (h,k,l ) to the column vector (q'x,q'y,q'z).
 where x is the beam direction and z is vertically upward. (IPNS
 convention)
 
-.. categories:: SaveIsawUB
+.. algm_categories::

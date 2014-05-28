@@ -1,12 +1,13 @@
-.. algorithm:: ReplaceSpecialValues
+.. algorithm::
 
-.. summary:: ReplaceSpecialValues
+.. summary::
 
-.. aliases:: ReplaceSpecialValues
+.. alias::
 
-.. usage:: ReplaceSpecialValues
+.. properties::
 
-.. properties:: ReplaceSpecialValues
+Description
+-----------
 
 The algorithm searches over all of the values in a workspace and if it
 finds a value set to NaN (not a number), infinity or larger than the
@@ -19,4 +20,4 @@ case it would not be checking anything.
 
 Algorithm is now event aware.
 
-.. categories:: ReplaceSpecialValues
+.. algm_categories::

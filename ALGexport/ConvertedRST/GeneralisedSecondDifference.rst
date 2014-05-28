@@ -1,12 +1,13 @@
-.. algorithm:: GeneralisedSecondDifference
+.. algorithm::
 
-.. summary:: GeneralisedSecondDifference
+.. summary::
 
-.. aliases:: GeneralisedSecondDifference
+.. alias::
 
-.. usage:: GeneralisedSecondDifference
+.. properties::
 
-.. properties:: GeneralisedSecondDifference
+Description
+-----------
 
 Compute the generalised second difference of a spectrum or several
 spectra based on the method described by M.A. Mariscotti., Nuclear
@@ -15,4 +16,4 @@ Instruments and Methods 50, 309 (1967). Given a spectrum with value yi
 difference curve, smoothed by averaging each point in the interval
 [-m,+m], and applying this procedure z times.
 
-.. categories:: GeneralisedSecondDifference
+.. algm_categories::

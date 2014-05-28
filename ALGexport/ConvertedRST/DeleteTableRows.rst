@@ -1,14 +1,15 @@
-.. algorithm:: DeleteTableRows
+.. algorithm::
 
-.. summary:: DeleteTableRows
+.. summary::
 
-.. aliases:: DeleteTableRows
+.. alias::
 
-.. usage:: DeleteTableRows
+.. properties::
 
-.. properties:: DeleteTableRows
+Description
+-----------
 
 If the specified rows exist they will be deleted form the workspace. If
 the row list is empty the algorithm does nothing.
 
-.. categories:: DeleteTableRows
+.. algm_categories::

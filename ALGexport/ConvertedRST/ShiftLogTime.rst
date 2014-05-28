@@ -1,13 +1,14 @@
-.. algorithm:: ShiftLogTime
+.. algorithm::
 
-.. summary:: ShiftLogTime
+.. summary::
 
-.. aliases:: ShiftLogTime
+.. alias::
 
-.. usage:: ShiftLogTime
+.. properties::
 
-.. properties:: ShiftLogTime
+Description
+-----------
 
 
 
-.. categories:: ShiftLogTime
+.. algm_categories::

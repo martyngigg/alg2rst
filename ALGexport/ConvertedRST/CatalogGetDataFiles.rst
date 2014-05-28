@@ -1,15 +1,16 @@
-.. algorithm:: CatalogGetDataFiles
+.. algorithm::
 
-.. summary:: CatalogGetDataFiles
+.. summary::
 
-.. aliases:: CatalogGetDataFiles
+.. alias::
 
-.. usage:: CatalogGetDataFiles
+.. properties::
 
-.. properties:: CatalogGetDataFiles
+Description
+-----------
 
 This algorithm retrieves the files associated to selected investigation
 from the information catalog and saves the file search results to mantid
 workspace.
 
-.. categories:: CatalogGetDataFiles
+.. algm_categories::

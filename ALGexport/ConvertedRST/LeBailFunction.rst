@@ -1,12 +1,13 @@
-.. algorithm:: LeBailFunction
+.. algorithm::
 
-.. summary:: LeBailFunction
+.. summary::
 
-.. aliases:: LeBailFunction
+.. alias::
 
-.. usage:: LeBailFunction
+.. properties::
 
-.. properties:: LeBailFunction
+Description
+-----------
 
 Set parameters to Le Bail Function
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -16,4 +17,4 @@ The public method to set parameters values to Le Bail function is
 parameters is each peak function. Set up a new peak parameter value does
 not necessarily trigger each peak to calculate profile value
 
-.. categories:: LeBailFunction
+.. algm_categories::

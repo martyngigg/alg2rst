@@ -1,12 +1,13 @@
-.. algorithm:: FindUBUsingMinMaxD
+.. algorithm::
 
-.. summary:: FindUBUsingMinMaxD
+.. summary::
 
-.. aliases:: FindUBUsingMinMaxD
+.. alias::
 
-.. usage:: FindUBUsingMinMaxD
+.. properties::
 
-.. properties:: FindUBUsingMinMaxD
+Description
+-----------
 
 Given a set of peaks, and given a range of possible a,b,c values, this
 algorithm will attempt to find a UB matrix, corresponding to the `Niggli
@@ -25,4 +26,4 @@ accurate and belong to a single crystal, this method should produce some
 UB matrix that indexes the peaks. However, other software will usually
 be needed to adjust this UB to match a desired conventional cell.
 
-.. categories:: FindUBUsingMinMaxD
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: SANSBeamFinder
+.. algorithm::
 
-.. summary:: SANSBeamFinder
+.. summary::
 
-.. aliases:: SANSBeamFinder
+.. alias::
 
-.. usage:: SANSBeamFinder
+.. properties::
 
-.. properties:: SANSBeamFinder
+Description
+-----------
 
 Beam finder workflow algorithm for SANS instruments.
 
@@ -14,4 +15,4 @@ See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for details.
 
-.. categories:: SANSBeamFinder
+.. algm_categories::

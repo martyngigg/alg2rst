@@ -1,12 +1,13 @@
-.. algorithm:: ShowPossibleCells
+.. algorithm::
 
-.. summary:: ShowPossibleCells
+.. summary::
 
-.. aliases:: ShowPossibleCells
+.. alias::
 
-.. usage:: ShowPossibleCells
+.. properties::
 
-.. properties:: ShowPossibleCells
+Description
+-----------
 
 Given a PeaksWorkspace with a UB matrix corresponding to a Niggli
 reduced cell, this algorithm will display a list of possible
@@ -24,4 +25,4 @@ Journal of Research of the National Institute of Standards and
 Technology, available from:
 nvlpubs.nist.gov/nistpubs/jres/106/6/j66mig.pdf.
 
-.. categories:: ShowPossibleCells
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: PDFFourierTransform
+.. algorithm::
 
-.. summary:: PDFFourierTransform
+.. summary::
 
-.. aliases:: PDFFourierTransform
+.. alias::
 
-.. usage:: PDFFourierTransform
+.. properties::
 
-.. properties:: PDFFourierTransform
+Description
+-----------
 
 The algorithm PDFFourierTransform transforms :math:`S(Q)`,
 :math:`S(Q)-1`, or :math:`Q[S(Q)-1]` (as a fuction of MomentumTransfer
@@ -57,4 +58,4 @@ transforms to
 
 :math:`RDF(r) = r G(r) + 4 \pi \rho_0 r^2`
 
-.. categories:: PDFFourierTransform
+.. algm_categories::

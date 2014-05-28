@@ -1,13 +1,14 @@
-.. algorithm:: SaveISISNexus
+.. algorithm::
 
-.. summary:: SaveISISNexus
+.. summary::
 
-.. aliases:: SaveISISNexus
+.. alias::
 
-.. usage:: SaveISISNexus
+.. properties::
 
-.. properties:: SaveISISNexus
+Description
+-----------
 
 
 
-.. categories:: SaveISISNexus
+.. algm_categories::

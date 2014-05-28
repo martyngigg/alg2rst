@@ -1,12 +1,13 @@
-.. algorithm:: SliceMD
+.. algorithm::
 
-.. summary:: SliceMD
+.. summary::
 
-.. aliases:: SliceMD
+.. alias::
 
-.. usage:: SliceMD
+.. properties::
 
-.. properties:: SliceMD
+Description
+-----------
 
 Algorithm that can take a slice out of an original
 `MDEventWorkspace <MDEventWorkspace>`__ while preserving all the events
@@ -60,4 +61,4 @@ Only the non-axis aligned slice method can be performed on a
 MDHistoWorkspace! Of course, your basis vectors can be aligned with the
 dimensions, which is equivalent.
 
-.. categories:: SliceMD
+.. algm_categories::

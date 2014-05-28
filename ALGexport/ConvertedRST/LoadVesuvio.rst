@@ -1,14 +1,15 @@
-.. algorithm:: LoadVesuvio
+.. algorithm::
 
-.. summary:: LoadVesuvio
+.. summary::
 
-.. aliases:: LoadVesuvio
+.. alias::
 
-.. usage:: LoadVesuvio
+.. properties::
 
-.. properties:: LoadVesuvio
+Description
+-----------
 
 A Workflow algorithm to load the data from the VESUVIO instrument at
 ISIS.
 
-.. categories:: LoadVesuvio
+.. algm_categories::

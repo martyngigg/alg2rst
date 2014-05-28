@@ -1,12 +1,13 @@
-.. algorithm:: LoadSINQ
+.. algorithm::
 
-.. summary:: LoadSINQ
+.. summary::
 
-.. aliases:: LoadSINQ
+.. alias::
 
-.. usage:: LoadSINQ
+.. properties::
 
-.. properties:: LoadSINQ
+Description
+-----------
 
 Description
 -----------
@@ -20,4 +21,4 @@ The Mantid standard Load algorithm selects based on file extensions. The
 file extensions used at SINQ, mainly .hdf and .h5, were already taken.
 Thus the need for a separate loader.
 
-.. categories:: LoadSINQ
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: LessThanMD
+.. algorithm::
 
-.. summary:: LessThanMD
+.. summary::
 
-.. aliases:: LessThanMD
+.. alias::
 
-.. usage:: LessThanMD
+.. properties::
 
-.. properties:: LessThanMD
+Description
+-----------
 
 Perform the < (less-than) boolean operation on two MDHistoWorkspaces or
 a MDHistoWorkspace and a scalar. The output workspace has a signal of
@@ -18,4 +19,4 @@ element-by-element.
 For a MDHistoWorkspace and a scalar, the operation is performed on each
 element of the output.
 
-.. categories:: LessThanMD
+.. algm_categories::

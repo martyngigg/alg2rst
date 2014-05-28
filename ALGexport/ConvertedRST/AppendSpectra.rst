@@ -1,12 +1,13 @@
-.. algorithm:: AppendSpectra
+.. algorithm::
 
-.. summary:: AppendSpectra
+.. summary::
 
-.. aliases:: AppendSpectra
+.. alias::
 
-.. usage:: AppendSpectra
+.. properties::
 
-.. properties:: AppendSpectra
+Description
+-----------
 
 This algorithm appends the spectra of two workspaces together.
 
@@ -46,4 +47,4 @@ See Also
 -  `ConjoinWorkspaces <ConjoinWorkspaces>`__ for joining parts of the
    same workspace.
 
-.. categories:: AppendSpectra
+.. algm_categories::

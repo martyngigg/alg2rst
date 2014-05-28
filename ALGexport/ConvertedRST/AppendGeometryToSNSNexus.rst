@@ -1,12 +1,13 @@
-.. algorithm:: AppendGeometryToSNSNexus
+.. algorithm::
 
-.. summary:: AppendGeometryToSNSNexus
+.. summary::
 
-.. aliases:: AppendGeometryToSNSNexus
+.. alias::
 
-.. usage:: AppendGeometryToSNSNexus
+.. properties::
 
-.. properties:: AppendGeometryToSNSNexus
+Description
+-----------
 
 This algorithm is intended to append the geometry information into a raw
 NeXus file. It is initially for use only at the SNS, as it is needed for
@@ -17,4 +18,4 @@ The algorithm takes the geometry information in the IDF togther with the
 log values in a given NeXus file and calculates the resolved positions
 of all the detectors and then writes this into the NeXus file specified.
 
-.. categories:: AppendGeometryToSNSNexus
+.. algm_categories::

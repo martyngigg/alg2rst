@@ -1,12 +1,13 @@
-.. algorithm:: RemoveExpDecay
+.. algorithm::
 
-.. summary:: RemoveExpDecay
+.. summary::
 
-.. aliases:: RemoveExpDecay
+.. alias::
 
-.. usage:: RemoveExpDecay
+.. properties::
 
-.. properties:: RemoveExpDecay
+Description
+-----------
 
 This algorithm removes the exponential time decay from a specified muon
 spectra. By default, all the spectra in a workspace will be corrected.
@@ -18,4 +19,4 @@ The formula for removing the exponential decay is given by:
 where τ is the muon lifetime (2.197019e-6 seconds). :math:`N_0` is a
 fitted normalisation constant.
 
-.. categories:: RemoveExpDecay
+.. algm_categories::

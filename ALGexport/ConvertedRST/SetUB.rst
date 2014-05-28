@@ -1,12 +1,13 @@
-.. algorithm:: SetUB
+.. algorithm::
 
-.. summary:: SetUB
+.. summary::
 
-.. aliases:: SetUB
+.. alias::
 
-.. usage:: SetUB
+.. properties::
 
-.. properties:: SetUB
+Description
+-----------
 
 The algorithms will attach an OrientedLattice object to a sample in the
 workspace. For MD workspaces, you can select to which sample to attach
@@ -20,4 +21,4 @@ calculate it from lattice parameters and orientation vectors. The
 algorithm will throw an exception if u and v are collinear, or one of
 them is very small in magnitude.
 
-.. categories:: SetUB
+.. algm_categories::

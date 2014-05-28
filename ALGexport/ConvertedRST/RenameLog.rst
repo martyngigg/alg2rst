@@ -1,14 +1,15 @@
-.. algorithm:: RenameLog
+.. algorithm::
 
-.. summary:: RenameLog
+.. summary::
 
-.. aliases:: RenameLog
+.. alias::
 
-.. usage:: RenameLog
+.. properties::
 
-.. properties:: RenameLog
+Description
+-----------
 
 Rename a specified sample log of type TimeSeriesProperty in a given
 Workspace.
 
-.. categories:: RenameLog
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: AddTimeSeriesLog
+.. algorithm::
 
-.. summary:: AddTimeSeriesLog
+.. summary::
 
-.. aliases:: AddTimeSeriesLog
+.. alias::
 
-.. usage:: AddTimeSeriesLog
+.. properties::
 
-.. properties:: AddTimeSeriesLog
+Description
+-----------
 
 Creates/updates a time-series log entry on a chosen workspace. The given
 timestamp & value are appended to the named log entry. If the named
@@ -18,4 +19,4 @@ series is either created or expected. However, if the "Type" is set to
 "int" then the value is interpreted as an integer and an integer is
 either created or expected.
 
-.. categories:: AddTimeSeriesLog
+.. algm_categories::

@@ -1,14 +1,15 @@
-.. algorithm:: ConvertMDHistoToMatrixWorkspace
+.. algorithm::
 
-.. summary:: ConvertMDHistoToMatrixWorkspace
+.. summary::
 
-.. aliases:: ConvertMDHistoToMatrixWorkspace
+.. alias::
 
-.. usage:: ConvertMDHistoToMatrixWorkspace
+.. properties::
 
-.. properties:: ConvertMDHistoToMatrixWorkspace
+Description
+-----------
 
 Creates a single spectrum Workspace2D with X,Y, and E copied from an
 first non-integrated dimension of a IMDHistoWorkspace.
 
-.. categories:: ConvertMDHistoToMatrixWorkspace
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: LoadFlexiNexus
+.. algorithm::
 
-.. summary:: LoadFlexiNexus
+.. summary::
 
-.. aliases:: LoadFlexiNexus
+.. alias::
 
-.. usage:: LoadFlexiNexus
+.. properties::
 
-.. properties:: LoadFlexiNexus
+Description
+-----------
 
 Description
 -----------
@@ -56,4 +57,4 @@ when compared with the ones in the NeXus file. This is a fix which
 allows to efficiently transfer the NeXus data in C storage order into
 the MDHistoWorkspace which has fortran storage order.
 
-.. categories:: LoadFlexiNexus
+.. algm_categories::

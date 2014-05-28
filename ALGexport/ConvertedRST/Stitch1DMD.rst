@@ -1,12 +1,13 @@
-.. algorithm:: Stitch1DMD
+.. algorithm::
 
-.. summary:: Stitch1DMD
+.. summary::
 
-.. aliases:: Stitch1DMD
+.. alias::
 
-.. usage:: Stitch1DMD
+.. properties::
 
-.. properties:: Stitch1DMD
+Description
+-----------
 
 Performs 1D stitching of Reflectometry 2D MDHistoWorkspaces. Based on
 the Quick script developed at ISIS. This only works on 1D Histogrammed
@@ -19,4 +20,4 @@ Calculates the weighted mean values in the overlap region and then
 combines the overlap region with the difference of the LHS and RHS
 workspaces
 
-.. categories:: Stitch1DMD
+.. algm_categories::

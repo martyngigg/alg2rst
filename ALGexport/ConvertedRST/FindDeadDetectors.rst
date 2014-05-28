@@ -1,12 +1,13 @@
-.. algorithm:: FindDeadDetectors
+.. algorithm::
 
-.. summary:: FindDeadDetectors
+.. summary::
 
-.. aliases:: FindDeadDetectors
+.. alias::
 
-.. usage:: FindDeadDetectors
+.. properties::
 
-.. properties:: FindDeadDetectors
+Description
+-----------
 
 This is then used to mark all 'dead' detectors with a 'dead' marker
 value, while all spectra from live detectors are given a 'live' marker
@@ -20,4 +21,4 @@ ChildAlgorithms used
 
 Uses the `Integration <Integration>`__ algorithm to sum the spectra.
 
-.. categories:: FindDeadDetectors
+.. algm_categories::

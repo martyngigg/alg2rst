@@ -1,12 +1,13 @@
-.. algorithm:: MonitorLiveData
+.. algorithm::
 
-.. summary:: MonitorLiveData
+.. summary::
 
-.. aliases:: MonitorLiveData
+.. alias::
 
-.. usage:: MonitorLiveData
+.. properties::
 
-.. properties:: MonitorLiveData
+Description
+-----------
 
 The MonitorLiveData algorithm is started in the background by
 `StartLiveData <StartLiveData>`__ and repeatedly calls
@@ -20,4 +21,4 @@ This algorithm simply calls `LoadLiveData <LoadLiveData>`__ at the given
 For details on the way to specify the data processing steps, see:
 `LoadLiveData <LoadLiveData#Description>`__.
 
-.. categories:: MonitorLiveData
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: IndexSXPeaks
+.. algorithm::
 
-.. summary:: IndexSXPeaks
+.. summary::
 
-.. aliases:: IndexSXPeaks
+.. alias::
 
-.. usage:: IndexSXPeaks
+.. properties::
 
-.. properties:: IndexSXPeaks
+Description
+-----------
 
 Given a PeaksWorkspace and a set of lattice parameters, attempts to tag
 each peak with a HKL value by comparing d-spacings between potential HKL
@@ -20,4 +21,4 @@ Run CalculateUMatrix algorithm after executing this algorithm in order
 to attach a UB Matrix onto the sample. The CopySample algorithm will
 allow this UB Matrix to be transfered between workspaces.
 
-.. categories:: IndexSXPeaks
+.. algm_categories::

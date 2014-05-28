@@ -1,12 +1,13 @@
-.. algorithm:: DetectorDiagnostic
+.. algorithm::
 
-.. summary:: DetectorDiagnostic
+.. summary::
 
-.. aliases:: DetectorDiagnostic
+.. alias::
 
-.. usage:: DetectorDiagnostic
+.. properties::
 
-.. properties:: DetectorDiagnostic
+Description
+-----------
 
 This algorithm is a C++ replacement for the Python diagnostics.diagnose
 function located in the scripts/inelastic directory. The algorithm
@@ -22,4 +23,4 @@ tested with FindDetectorsOutsideLimits. The background workspace is run
 through MedianDetector test. A processed sample workspace can be given
 to perform and CreatePSDBleedMask will be run on it.
 
-.. categories:: DetectorDiagnostic
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: NormaliseByDetector
+.. algorithm::
 
-.. summary:: NormaliseByDetector
+.. summary::
 
-.. aliases:: NormaliseByDetector
+.. alias::
 
-.. usage:: NormaliseByDetector
+.. properties::
 
-.. properties:: NormaliseByDetector
+Description
+-----------
 
 This algorithm is designed to normalise a workspace via detector
 efficiency functions. **For this algorithm to work, the Instrument
@@ -178,4 +179,4 @@ definitions on different components in the tree.
 
    </div>
 
-.. categories:: NormaliseByDetector
+.. algm_categories::

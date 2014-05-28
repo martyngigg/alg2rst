@@ -1,14 +1,15 @@
-.. algorithm:: GroupWorkspaces
+.. algorithm::
 
-.. summary:: GroupWorkspaces
+.. summary::
 
-.. aliases:: GroupWorkspaces
+.. alias::
 
-.. usage:: GroupWorkspaces
+.. properties::
 
-.. properties:: GroupWorkspaces
+Description
+-----------
 
 This algorithm takes two or more workspaces as input and creates an
 output workspace group.
 
-.. categories:: GroupWorkspaces
+.. algm_categories::

@@ -1,14 +1,15 @@
-.. algorithm:: RayTracerTester
+.. algorithm::
 
-.. summary:: RayTracerTester
+.. summary::
 
-.. aliases:: RayTracerTester
+.. alias::
 
-.. usage:: RayTracerTester
+.. properties::
 
-.. properties:: RayTracerTester
+Description
+-----------
 
 Algorithm to test ray tracer by spraying evenly spaced rays around. Only
 for debugging / testing.
 
-.. categories:: RayTracerTester
+.. algm_categories::

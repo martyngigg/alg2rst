@@ -1,12 +1,13 @@
-.. algorithm:: MuonFInteraction
+.. algorithm::
 
-.. summary:: MuonFInteraction
+.. summary::
 
-.. aliases:: MuonFInteraction
+.. alias::
 
-.. usage:: MuonFInteraction
+.. properties::
 
-.. properties:: MuonFInteraction
+Description
+-----------
 
 Muon F interaction function defined by
 
@@ -29,4 +30,4 @@ and
 
 .
 
-.. categories:: MuonFInteraction
+.. algm_categories::

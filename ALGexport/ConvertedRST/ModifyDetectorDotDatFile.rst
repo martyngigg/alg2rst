@@ -1,12 +1,13 @@
-.. algorithm:: ModifyDetectorDotDatFile
+.. algorithm::
 
-.. summary:: ModifyDetectorDotDatFile
+.. summary::
 
-.. aliases:: ModifyDetectorDotDatFile
+.. alias::
 
-.. usage:: ModifyDetectorDotDatFile
+.. properties::
 
-.. properties:: ModifyDetectorDotDatFile
+Description
+-----------
 
 Modifies an ISIS detector dot data file, so that the detector positions
 are as in the given workspace. This algorithm can be used to transfer a
@@ -33,4 +34,4 @@ which indicates a PSD gas tube. For more details about the detector dot
 data file see
 `LoadDetectorInfo#File\_format <LoadDetectorInfo#File_format>`__.
 
-.. categories:: ModifyDetectorDotDatFile
+.. algm_categories::

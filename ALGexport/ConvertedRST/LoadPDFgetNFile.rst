@@ -1,12 +1,13 @@
-.. algorithm:: LoadPDFgetNFile
+.. algorithm::
 
-.. summary:: LoadPDFgetNFile
+.. summary::
 
-.. aliases:: LoadPDFgetNFile
+.. alias::
 
-.. usage:: LoadPDFgetNFile
+.. properties::
 
-.. properties:: LoadPDFgetNFile
+Description
+-----------
 
 Loads a PDFgetN file such as that saved by PDFgetN.
 
@@ -24,4 +25,4 @@ The file types include
 | `` * .sqa``
 | `` * .gr``
 
-.. categories:: LoadPDFgetNFile
+.. algm_categories::

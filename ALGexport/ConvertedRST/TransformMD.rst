@@ -1,12 +1,13 @@
-.. algorithm:: TransformMD
+.. algorithm::
 
-.. summary:: TransformMD
+.. summary::
 
-.. aliases:: TransformMD
+.. alias::
 
-.. usage:: TransformMD
+.. properties::
 
-.. properties:: TransformMD
+Description
+-----------
 
 This algorithm applies a simple linear transformation to a
 `MDWorkspace <MDWorkspace>`__ or
@@ -49,4 +50,4 @@ Performance Notes
    better performance if you perform the change in-place (input=output),
    because the data gets written out to disk twice otherwise.
 
-.. categories:: TransformMD
+.. algm_categories::

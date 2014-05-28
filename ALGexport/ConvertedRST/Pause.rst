@@ -1,12 +1,13 @@
-.. algorithm:: Pause
+.. algorithm::
 
-.. summary:: Pause
+.. summary::
 
-.. aliases:: Pause
+.. alias::
 
-.. usage:: Pause
+.. properties::
 
-.. properties:: Pause
+Description
+-----------
 
 This is a very simple algorithm that does nothing for a given number of
 seconds.
@@ -14,4 +15,4 @@ seconds.
 This can be used during debugging, for example, to slow down the
 execution of a fast script.
 
-.. categories:: Pause
+.. algm_categories::

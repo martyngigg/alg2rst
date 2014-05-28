@@ -1,15 +1,16 @@
-.. algorithm:: ExpDecay
+.. algorithm::
 
-.. summary:: ExpDecay
+.. summary::
 
-.. aliases:: ExpDecay
+.. alias::
 
-.. usage:: ExpDecay
+.. properties::
 
-.. properties:: ExpDecay
+Description
+-----------
 
 Exponential decay function is defined by
 
 .. math:: \mbox{Height}\times \exp(-\frac{x}{\mbox{Lifetime}})
 
-.. categories:: ExpDecay
+.. algm_categories::

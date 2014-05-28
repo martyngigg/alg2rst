@@ -1,12 +1,13 @@
-.. algorithm:: SANSSolidAngleCorrection
+.. algorithm::
 
-.. summary:: SANSSolidAngleCorrection
+.. summary::
 
-.. aliases:: SANSSolidAngleCorrection
+.. alias::
 
-.. usage:: SANSSolidAngleCorrection
+.. properties::
 
-.. properties:: SANSSolidAngleCorrection
+Description
+-----------
 
 Performs a solid angle correction on all detector (non-monitor) spectra.
 
@@ -14,4 +15,4 @@ See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for details.
 
-.. categories:: SANSSolidAngleCorrection
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: SetupHFIRReduction
+.. algorithm::
 
-.. summary:: SetupHFIRReduction
+.. summary::
 
-.. aliases:: SetupHFIRReduction
+.. alias::
 
-.. usage:: SetupHFIRReduction
+.. properties::
 
-.. properties:: SetupHFIRReduction
+Description
+-----------
 
 Create a PropertyManager object setting the reduction options for HFIR
 SANS. The property manager object is then added to the
@@ -16,4 +17,4 @@ See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for details.
 
-.. categories:: SetupHFIRReduction
+.. algm_categories::

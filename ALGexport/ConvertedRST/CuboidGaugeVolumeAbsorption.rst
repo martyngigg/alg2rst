@@ -1,12 +1,13 @@
-.. algorithm:: CuboidGaugeVolumeAbsorption
+.. algorithm::
 
-.. summary:: CuboidGaugeVolumeAbsorption
+.. summary::
 
-.. aliases:: CuboidGaugeVolumeAbsorption
+.. alias::
 
-.. usage:: CuboidGaugeVolumeAbsorption
+.. properties::
 
-.. properties:: CuboidGaugeVolumeAbsorption
+Description
+-----------
 
 This algorithm uses a numerical integration method to calculate
 attenuation factors resulting from absorption and single scattering
@@ -39,4 +40,4 @@ shape must have been defined using, e.g.,
 `CreateSampleShape <CreateSampleShape>`__ and the gauge volume must be
 fully within the sample.
 
-.. categories:: CuboidGaugeVolumeAbsorption
+.. algm_categories::

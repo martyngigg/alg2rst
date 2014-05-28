@@ -1,13 +1,14 @@
-.. algorithm:: SANSAbsoluteScale
+.. algorithm::
 
-.. summary:: SANSAbsoluteScale
+.. summary::
 
-.. aliases:: SANSAbsoluteScale
+.. alias::
 
-.. usage:: SANSAbsoluteScale
+.. properties::
 
-.. properties:: SANSAbsoluteScale
+Description
+-----------
 
 Calculate and apply absolute scale correction for SANS data
 
-.. categories:: SANSAbsoluteScale
+.. algm_categories::

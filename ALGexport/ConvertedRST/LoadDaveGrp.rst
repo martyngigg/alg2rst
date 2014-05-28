@@ -1,15 +1,16 @@
-.. algorithm:: LoadDaveGrp
+.. algorithm::
 
-.. summary:: LoadDaveGrp
+.. summary::
 
-.. aliases:: LoadDaveGrp
+.. alias::
 
-.. usage:: LoadDaveGrp
+.. properties::
 
-.. properties:: LoadDaveGrp
+Description
+-----------
 
 This algorithm loads data from a DAVE grouped ASCII file. These have
 been generated at the SNS for all the inelastic beamlines, hence the
 choice in the defaults for the axis units.
 
-.. categories:: LoadDaveGrp
+.. algm_categories::

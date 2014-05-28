@@ -1,12 +1,13 @@
-.. algorithm:: MoveInstrumentComponent
+.. algorithm::
 
-.. summary:: MoveInstrumentComponent
+.. summary::
 
-.. aliases:: MoveInstrumentComponent
+.. alias::
 
-.. usage:: MoveInstrumentComponent
+.. properties::
 
-.. properties:: MoveInstrumentComponent
+Description
+-----------
 
 This moves an instrument component, e.g. a bank or a pixel.
 
@@ -19,4 +20,4 @@ You can either specify an absolute position or a relative position. The
 relative position will be applied to the current position, so applying
 this twice will move the detector twice.
 
-.. categories:: MoveInstrumentComponent
+.. algm_categories::

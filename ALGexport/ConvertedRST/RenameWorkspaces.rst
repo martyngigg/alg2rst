@@ -1,12 +1,13 @@
-.. algorithm:: RenameWorkspaces
+.. algorithm::
 
-.. summary:: RenameWorkspaces
+.. summary::
 
-.. aliases:: RenameWorkspaces
+.. alias::
 
-.. usage:: RenameWorkspaces
+.. properties::
 
-.. properties:: RenameWorkspaces
+Description
+-----------
 
 Renames a list of workspaces in the data service. This renaming is done
 by either replacing with new names in a list or adding a prefix, suffix
@@ -24,4 +25,4 @@ or by adding a prefix, suffix or both a prefix and suffix.
 if that existing workspace is also being renamed. Duplicate names may
 cause the loss of a workspace.
 
-.. categories:: RenameWorkspaces
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: ConvertToDetectorFaceMD
+.. algorithm::
 
-.. summary:: ConvertToDetectorFaceMD
+.. summary::
 
-.. aliases:: ConvertToDetectorFaceMD
+.. alias::
 
-.. usage:: ConvertToDetectorFaceMD
+.. properties::
 
-.. properties:: ConvertToDetectorFaceMD
+Description
+-----------
 
 This algorithm takes a a `MatrixWorkspace <MatrixWorkspace>`__ and
 converts it into a `MDEventWorkspace <MDEventWorkspace>`__ that can be
@@ -49,4 +50,4 @@ If you specify more than one bank number, then the algorithm will create
 a 4D MDEventWorkspace. The fourth dimension will be equal to the bank
 number, allowing you to easily pick a bank to view.
 
-.. categories:: ConvertToDetectorFaceMD
+.. algm_categories::

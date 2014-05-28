@@ -1,12 +1,13 @@
-.. algorithm:: SaveMask
+.. algorithm::
 
-.. summary:: SaveMask
+.. summary::
 
-.. aliases:: SaveMask
+.. alias::
 
-.. usage:: SaveMask
+.. properties::
 
-.. properties:: SaveMask
+Description
+-----------
 
 This algorithm is used to save the masking from a workspace to an XML
 file. This algorithm has previously been renamed from
@@ -42,7 +43,10 @@ XML File Format
 
 Example 1:
 
-| `` ``\ 
+.. raw:: html
+
+   <?xml version="1.0" encoding="UTF-8" ?>
+
 | `` ``\ 
 | ``  ``\ 
 | ``   ``\ \ ``3,34-44,47``\ 
@@ -51,4 +55,4 @@ Example 1:
 | ``  ``\ 
 | `` ``\
 
-.. categories:: SaveMask
+.. algm_categories::

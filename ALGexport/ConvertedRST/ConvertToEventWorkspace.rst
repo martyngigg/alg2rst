@@ -1,12 +1,13 @@
-.. algorithm:: ConvertToEventWorkspace
+.. algorithm::
 
-.. summary:: ConvertToEventWorkspace
+.. summary::
 
-.. aliases:: ConvertToEventWorkspace
+.. alias::
 
-.. usage:: ConvertToEventWorkspace
+.. properties::
 
-.. properties:: ConvertToEventWorkspace
+Description
+-----------
 
 This algorithm takes a Workspace2D with any binning or units as its
 input. An event is created for each bin of each histogram, except if the
@@ -26,4 +27,4 @@ calculated by N = (Y/E)^2. However, it is limited to a max of
 Note that using *GenerateZeros* or *GenerateMultipleEvents* may use a
 lot of memory!
 
-.. categories:: ConvertToEventWorkspace
+.. algm_categories::

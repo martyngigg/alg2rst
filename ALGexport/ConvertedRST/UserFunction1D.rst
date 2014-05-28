@@ -1,12 +1,13 @@
-.. algorithm:: UserFunction1D
+.. algorithm::
 
-.. summary:: UserFunction1D
+.. summary::
 
-.. aliases:: UserFunction1D
+.. alias::
 
-.. usage:: UserFunction1D
+.. properties::
 
-.. properties:: UserFunction1D
+Description
+-----------
 
 This algorithm fits a spectrum to a user defined function. The function
 is supplied to the algorithm as a text string. The function here is a
@@ -95,4 +96,4 @@ Example
 In this example the fitting function is a\*exp(-(x-c)^2\*s). The
 parameter *s* is fixed.
 
-.. categories:: UserFunction1D
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: InvertMask
+.. algorithm::
 
-.. summary:: InvertMask
+.. summary::
 
-.. aliases:: InvertMask
+.. alias::
 
-.. usage:: InvertMask
+.. properties::
 
-.. properties:: InvertMask
+Description
+-----------
 
 A NOT operation will be conducted on the input masking workspace
 (SpecialWorkspace2D)
@@ -17,4 +18,4 @@ Output
 A SpecialWorkspace2D with the same dimension and geometry as the input
 two SpecialWorkspace2D.
 
-.. categories:: InvertMask
+.. algm_categories::

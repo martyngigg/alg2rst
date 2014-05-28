@@ -1,12 +1,13 @@
-.. algorithm:: ImportMDEventWorkspace
+.. algorithm::
 
-.. summary:: ImportMDEventWorkspace
+.. summary::
 
-.. aliases:: ImportMDEventWorkspace
+.. alias::
 
-.. usage:: ImportMDEventWorkspace
+.. properties::
 
-.. properties:: ImportMDEventWorkspace
+Description
+-----------
 
 Creates an MDEventWorkspace from a plain ASCII file. Uses a simple
 format for the file described below. This algorithm is suitable for
@@ -56,4 +57,4 @@ Other alternatives to importing/creating MDWorkspaces are
 `CreateMDHistoWorkspace <CreateMDHistoWorkspace>`__ and
 `CreateMDWorkspace <CreateMDWorkspace>`__
 
-.. categories:: ImportMDEventWorkspace
+.. algm_categories::

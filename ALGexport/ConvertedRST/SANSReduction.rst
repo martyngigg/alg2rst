@@ -1,13 +1,14 @@
-.. algorithm:: SANSReduction
+.. algorithm::
 
-.. summary:: SANSReduction
+.. summary::
 
-.. aliases:: SANSReduction
+.. alias::
 
-.. usage:: SANSReduction
+.. properties::
 
-.. properties:: SANSReduction
+Description
+-----------
 
 Basic SANS reduction workflow
 
-.. categories:: SANSReduction
+.. algm_categories::

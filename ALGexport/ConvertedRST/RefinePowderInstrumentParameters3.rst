@@ -1,12 +1,13 @@
-.. algorithm:: RefinePowderInstrumentParameters3
+.. algorithm::
 
-.. summary:: RefinePowderInstrumentParameters3
+.. summary::
 
-.. aliases:: RefinePowderInstrumentParameters3
+.. alias::
 
-.. usage:: RefinePowderInstrumentParameters3
+.. properties::
 
-.. properties:: RefinePowderInstrumentParameters3
+Description
+-----------
 
 This algorithm refines the instrumental geometry parameters for powder
 diffractomers. The parameters that can be refined are Dtt1, Zero, Dtt1t,
@@ -60,4 +61,4 @@ This algorithm is designed to work with other algorithms to do Le Bail
 fit. The introduction can be found in the wiki page of
 `LeBailFit <LeBailFit>`__.
 
-.. categories:: RefinePowderInstrumentParameters3
+.. algm_categories::

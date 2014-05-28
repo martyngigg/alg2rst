@@ -1,12 +1,13 @@
-.. algorithm:: CropWorkspace
+.. algorithm::
 
-.. summary:: CropWorkspace
+.. summary::
 
-.. aliases:: CropWorkspace
+.. alias::
 
-.. usage:: CropWorkspace
+.. properties::
 
-.. properties:: CropWorkspace
+Description
+-----------
 
 Extracts a 'block' from a workspace and places it in a new workspace
 (or, to look at it another way, lops bins or spectra off a workspace).
@@ -25,4 +26,4 @@ boundary within the range will be used. Note that if none of the
 optional properties are given, then the output workspace will be a copy
 of the input one.
 
-.. categories:: CropWorkspace
+.. algm_categories::

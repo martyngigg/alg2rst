@@ -1,13 +1,14 @@
-.. algorithm:: NormaliseByThickness
+.. algorithm::
 
-.. summary:: NormaliseByThickness
+.. summary::
 
-.. aliases:: NormaliseByThickness
+.. alias::
 
-.. usage:: NormaliseByThickness
+.. properties::
 
-.. properties:: NormaliseByThickness
+Description
+-----------
 
 Normalise detector counts by the sample thickness
 
-.. categories:: NormaliseByThickness
+.. algm_categories::

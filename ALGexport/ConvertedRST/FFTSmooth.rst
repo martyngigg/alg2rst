@@ -1,12 +1,13 @@
-.. algorithm:: FFTSmooth
+.. algorithm::
 
-.. summary:: FFTSmooth
+.. summary::
 
-.. aliases:: FFTSmooth
+.. alias::
 
-.. usage:: FFTSmooth
+.. properties::
 
-.. properties:: FFTSmooth
+Description
+-----------
 
 FFTSmooth uses the FFT algorithm to create a Fourier transform of a
 spectrum, applies a filter to it and transforms it back. The filters
@@ -44,4 +45,4 @@ action of the "Butterworth" filter will approach the action of the
 For both filter types, the resulting spectrum has the same size as the
 original one.
 
-.. categories:: FFTSmooth
+.. algm_categories::

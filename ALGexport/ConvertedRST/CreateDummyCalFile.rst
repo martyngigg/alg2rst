@@ -1,12 +1,13 @@
-.. algorithm:: CreateDummyCalFile
+.. algorithm::
 
-.. summary:: CreateDummyCalFile
+.. summary::
 
-.. aliases:: CreateDummyCalFile
+.. alias::
 
-.. usage:: CreateDummyCalFile
+.. properties::
 
-.. properties:: CreateDummyCalFile
+Description
+-----------
 
 .. figure:: images\InstrumentTree.jpg
    :alt: Instrument Tree
@@ -22,4 +23,4 @@ specified.
 Detectors will be assigned to group one when using AlignDetector or
 DiffractionFocussing algorithms.
 
-.. categories:: CreateDummyCalFile
+.. algm_categories::

@@ -1,13 +1,14 @@
-.. algorithm:: HelloWorldAlgorithm
+.. algorithm::
 
-.. summary:: HelloWorldAlgorithm
+.. summary::
 
-.. aliases:: HelloWorldAlgorithm
+.. alias::
 
-.. usage:: HelloWorldAlgorithm
+.. properties::
 
-.. properties:: HelloWorldAlgorithm
+Description
+-----------
 
 
 
-.. categories:: HelloWorldAlgorithm
+.. algm_categories::

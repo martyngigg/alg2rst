@@ -1,14 +1,15 @@
-.. algorithm:: SaveIsawQvector
+.. algorithm::
 
-.. summary:: SaveIsawQvector
+.. summary::
 
-.. aliases:: SaveIsawQvector
+.. alias::
 
-.. usage:: SaveIsawQvector
+.. properties::
 
-.. properties:: SaveIsawQvector
+Description
+-----------
 
 This takes an unprocessed event workspace and writes out a file where
 each event has the :math:`(Q_x, Q_y, Q_z)` as a set of 32-bit floats.
 
-.. categories:: SaveIsawQvector
+.. algm_categories::

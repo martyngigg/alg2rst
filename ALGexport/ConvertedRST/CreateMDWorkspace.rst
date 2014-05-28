@@ -1,12 +1,13 @@
-.. algorithm:: CreateMDWorkspace
+.. algorithm::
 
-.. summary:: CreateMDWorkspace
+.. summary::
 
-.. aliases:: CreateMDWorkspace
+.. alias::
 
-.. usage:: CreateMDWorkspace
+.. properties::
 
-.. properties:: CreateMDWorkspace
+Description
+-----------
 
 This algorithm creates an empty MDEventWorkspace from scratch. The
 workspace can have any number of dimensions (up to ~20). Each dimension
@@ -25,4 +26,4 @@ memory with the overhead of boxes.
 You can create a file-backed MDEventWorkspace by specifying the Filename
 and Memory parameters.
 
-.. categories:: CreateMDWorkspace
+.. algm_categories::

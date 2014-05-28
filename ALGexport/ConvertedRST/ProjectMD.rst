@@ -1,12 +1,13 @@
-.. algorithm:: ProjectMD
+.. algorithm::
 
-.. summary:: ProjectMD
+.. summary::
 
-.. aliases:: ProjectMD
+.. alias::
 
-.. usage:: ProjectMD
+.. properties::
 
-.. properties:: ProjectMD
+Description
+-----------
 
 Description
 -----------
@@ -31,4 +32,4 @@ K
 The summation range also has to be specified. This is in indices into
 the appropriate axis.
 
-.. categories:: ProjectMD
+.. algm_categories::

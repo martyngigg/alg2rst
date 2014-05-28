@@ -1,12 +1,13 @@
-.. algorithm:: NexusTester
+.. algorithm::
 
-.. summary:: NexusTester
+.. summary::
 
-.. aliases:: NexusTester
+.. alias::
 
-.. usage:: NexusTester
+.. properties::
 
-.. properties:: NexusTester
+Description
+-----------
 
 **This algorithm is meant for developers only!**
 
@@ -22,4 +23,4 @@ back a file created with this algorithm.
 The *SaveSpeed* and *LoadSpeed* output properties are set to the saving
 and loading rates, in MB per second.
 
-.. categories:: NexusTester
+.. algm_categories::

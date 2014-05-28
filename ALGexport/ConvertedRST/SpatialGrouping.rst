@@ -1,12 +1,13 @@
-.. algorithm:: SpatialGrouping
+.. algorithm::
 
-.. summary:: SpatialGrouping
+.. summary::
 
-.. aliases:: SpatialGrouping
+.. alias::
 
-.. usage:: SpatialGrouping
+.. properties::
 
-.. properties:: SpatialGrouping
+Description
+-----------
 
 This algorithm creates an XML Grouping file of the form:
 
@@ -29,4 +30,4 @@ This algorithm creates an XML Grouping file of the form:
 Based on information retrieved from the `Nearest
 Neighbours <Nearest Neighbours>`__ class in Mantid Geometry.
 
-.. categories:: SpatialGrouping
+.. algm_categories::

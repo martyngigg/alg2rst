@@ -1,12 +1,13 @@
-.. algorithm:: ReadGroupsFromFile
+.. algorithm::
 
-.. summary:: ReadGroupsFromFile
+.. summary::
 
-.. aliases:: ReadGroupsFromFile
+.. alias::
 
-.. usage:: ReadGroupsFromFile
+.. properties::
 
-.. properties:: ReadGroupsFromFile
+Description
+-----------
 
 |Instrument view of grouping using ReadFromFile with
 ShowUnselected=True| All of the detectors in each group are given the a
@@ -18,4 +19,4 @@ The instrumentView is the best way to visualize the grouping using the
 
 .. |Instrument view of grouping using ReadFromFile with ShowUnselected=True| image:: ReadFromFile-Grouping.png
 
-.. categories:: ReadGroupsFromFile
+.. algm_categories::

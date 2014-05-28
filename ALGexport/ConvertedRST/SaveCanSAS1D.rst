@@ -1,12 +1,13 @@
-.. algorithm:: SaveCanSAS1D
+.. algorithm::
 
-.. summary:: SaveCanSAS1D
+.. summary::
 
-.. aliases:: SaveCanSAS1D
+.. alias::
 
-.. usage:: SaveCanSAS1D
+.. properties::
 
-.. properties:: SaveCanSAS1D
+Description
+-----------
 
 Saves the given workspace to a file which will be in canSAS 1-D format
 specified by canSAS 1-D Data Formats Working Group schema
@@ -17,4 +18,4 @@ http://www.smallangles.net/wgwiki/index.php/canSAS_Working_Groups
 Workspace group members and appended workspaces are stored in separate
 SASentry `xml <http://en.wikipedia.org/wiki/Xml>`__ elements.
 
-.. categories:: SaveCanSAS1D
+.. algm_categories::

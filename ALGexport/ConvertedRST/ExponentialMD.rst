@@ -1,12 +1,13 @@
-.. algorithm:: ExponentialMD
+.. algorithm::
 
-.. summary:: ExponentialMD
+.. summary::
 
-.. aliases:: ExponentialMD
+.. alias::
 
-.. usage:: ExponentialMD
+.. properties::
 
-.. properties:: ExponentialMD
+Description
+-----------
 
 This executes the exponential function on a MDHistoWorkspace.
 
@@ -19,4 +20,4 @@ This algorithm cannot be run on a
 `MatrixWorkspace <MatrixWorkspace>`__ is called
 `Exponential <Exponential>`__.
 
-.. categories:: ExponentialMD
+.. algm_categories::

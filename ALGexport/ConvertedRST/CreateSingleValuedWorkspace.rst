@@ -1,15 +1,16 @@
-.. algorithm:: CreateSingleValuedWorkspace
+.. algorithm::
 
-.. summary:: CreateSingleValuedWorkspace
+.. summary::
 
-.. aliases:: CreateSingleValuedWorkspace
+.. alias::
 
-.. usage:: CreateSingleValuedWorkspace
+.. properties::
 
-.. properties:: CreateSingleValuedWorkspace
+Description
+-----------
 
 Creates a 2D workspace that contains a single value and an optional
 error value. This is useful if, for example, there is a need to multiply
 (or divide etc) a workspace by a single value.
 
-.. categories:: CreateSingleValuedWorkspace
+.. algm_categories::

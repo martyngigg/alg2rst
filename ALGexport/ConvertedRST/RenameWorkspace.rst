@@ -1,12 +1,13 @@
-.. algorithm:: RenameWorkspace
+.. algorithm::
 
-.. summary:: RenameWorkspace
+.. summary::
 
-.. aliases:: RenameWorkspace
+.. alias::
 
-.. usage:: RenameWorkspace
+.. properties::
 
-.. properties:: RenameWorkspace
+Description
+-----------
 
 Renames a workspace to a different name in the data service. If the same
 name is provided for input and output then the algorithm will fail with
@@ -19,4 +20,4 @@ will be renamed to newName\_1, newname\_2, etc.). Otherwise, only the
 group itself will be renamed - the members will keep their previous
 names.
 
-.. categories:: RenameWorkspace
+.. algm_categories::

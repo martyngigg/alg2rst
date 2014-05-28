@@ -1,12 +1,13 @@
-.. algorithm:: ModeratorTzeroLinear
+.. algorithm::
 
-.. summary:: ModeratorTzeroLinear
+.. summary::
 
-.. aliases:: ModeratorTzeroLinear
+.. alias::
 
-.. usage:: ModeratorTzeroLinear
+.. properties::
 
-.. properties:: ModeratorTzeroLinear
+Description
+-----------
 
 This algorithm Corrects the time of flight (TOF) of an indirect geometry
 instrument by substracting a time offset :math:`t_0` linearly dependent
@@ -60,4 +61,4 @@ detector. Thus, we use the previous formula inserting the time from
 sample to detector :math:`t_f = 0` and with the initial fligh path
 :math:`L_i` as the distance from source to monitor.
 
-.. categories:: ModeratorTzeroLinear
+.. algm_categories::

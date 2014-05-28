@@ -1,12 +1,13 @@
-.. algorithm:: NormaliseToMonitor
+.. algorithm::
 
-.. summary:: NormaliseToMonitor
+.. summary::
 
-.. aliases:: NormaliseToMonitor
+.. alias::
 
-.. usage:: NormaliseToMonitor
+.. properties::
 
-.. properties:: NormaliseToMonitor
+Description
+-----------
 
 Bin-by-bin mode
 ~~~~~~~~~~~~~~~
@@ -61,4 +62,4 @@ spectrum.
 In both cases, the `Divide <Divide>`__ algorithm is used to perform the
 normalisation.
 
-.. categories:: NormaliseToMonitor
+.. algm_categories::

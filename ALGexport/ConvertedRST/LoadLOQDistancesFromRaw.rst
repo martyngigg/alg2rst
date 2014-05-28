@@ -1,12 +1,13 @@
-.. algorithm:: LoadLOQDistancesFromRaw
+.. algorithm::
 
-.. summary:: LoadLOQDistancesFromRaw
+.. summary::
 
-.. aliases:: LoadLOQDistancesFromRaw
+.. alias::
 
-.. usage:: LoadLOQDistancesFromRaw
+.. properties::
 
-.. properties:: LoadLOQDistancesFromRaw
+Description
+-----------
 
 The ISIS TS1 instrument
 `LOQ <http://www.isis.stfc.ac.uk/instruments/loq/>`__ writes values for
@@ -16,4 +17,4 @@ extracts the information from the ``i_l1`` and ``i_sddist`` variables of
 the IVPB struct respectively and moves the appropriate components so
 that the Mantid instrument satisfies these values.
 
-.. categories:: LoadLOQDistancesFromRaw
+.. algm_categories::

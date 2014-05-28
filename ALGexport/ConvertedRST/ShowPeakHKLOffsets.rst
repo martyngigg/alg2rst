@@ -1,18 +1,20 @@
-.. algorithm:: ShowPeakHKLOffsets
+.. algorithm::
 
-.. summary:: ShowPeakHKLOffsets
+.. summary::
 
-.. aliases:: ShowPeakHKLOffsets
+.. alias::
 
-.. usage:: ShowPeakHKLOffsets
+.. properties::
 
-.. properties:: ShowPeakHKLOffsets
+Description
+-----------
 
 Creates a TableWorkspace with offsets of h,k,and l from an integer along
 with bank and run number.
 
-``   The maximum of these offsets is also included.``
+The maximum of these offsets is also included.
 
-``   Histograms, scatterplots, etc. of this data can be used to detect problems.``
+Histograms, scatterplots, etc. of this data can be used to detect
+problems.
 
-.. categories:: ShowPeakHKLOffsets
+.. algm_categories::

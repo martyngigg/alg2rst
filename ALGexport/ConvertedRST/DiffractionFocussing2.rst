@@ -1,12 +1,13 @@
-.. algorithm:: DiffractionFocussing2
+.. algorithm::
 
-.. summary:: DiffractionFocussing2
+.. summary::
 
-.. aliases:: DiffractionFocussing2
+.. alias::
 
-.. usage:: DiffractionFocussing2
+.. properties::
 
-.. properties:: DiffractionFocussing2
+Description
+-----------
 
 |Example of RAW GEM data focused across the 5 detector banks| Given an
 InputWorkspace and a Grouping filename, the algorithm performs the
@@ -60,4 +61,4 @@ workspaces and only worked with CalFiles.
 
 .. |Example of RAW GEM data focused across the 5 detector banks| image:: GEM_Focused.png
 
-.. categories:: DiffractionFocussing2
+.. algm_categories::

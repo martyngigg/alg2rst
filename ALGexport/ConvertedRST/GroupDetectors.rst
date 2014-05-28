@@ -1,12 +1,13 @@
-.. algorithm:: GroupDetectors
+.. algorithm::
 
-.. summary:: GroupDetectors
+.. summary::
 
-.. aliases:: GroupDetectors
+.. alias::
 
-.. usage:: GroupDetectors
+.. properties::
 
-.. properties:: GroupDetectors
+Description
+-----------
 
 This algorithm sums, bin-by-bin, multiple spectra into a single spectra.
 The errors are summed in quadrature and the algorithm checks that the
@@ -95,4 +96,4 @@ In addition the following XML grouping format is also supported
 
 where is used to specify spectra IDs and detector IDs.
 
-.. categories:: GroupDetectors
+.. algm_categories::

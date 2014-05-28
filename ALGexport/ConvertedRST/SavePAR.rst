@@ -1,12 +1,13 @@
-.. algorithm:: SavePAR
+.. algorithm::
 
-.. summary:: SavePAR
+.. summary::
 
-.. aliases:: SavePAR
+.. alias::
 
-.. usage:: SavePAR
+.. properties::
 
-.. properties:: SavePAR
+Description
+-----------
 
 Saves the geometry information of the detectors in a workspace into a
 PAR format ASCII file. The angular positions and linear sizes of the
@@ -32,4 +33,4 @@ detectors). The column has the following information about a detector:
 You should expect to find column 6 to be the detector ID in
 Mantid-generated par files only.
 
-.. categories:: SavePAR
+.. algm_categories::

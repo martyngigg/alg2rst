@@ -1,12 +1,13 @@
-.. algorithm:: LoadNexusProcessed
+.. algorithm::
 
-.. summary:: LoadNexusProcessed
+.. summary::
 
-.. aliases:: LoadNexusProcessed
+.. alias::
 
-.. usage:: LoadNexusProcessed
+.. properties::
 
-.. properties:: LoadNexusProcessed
+Description
+-----------
 
 The algorithm LoadNexusProcessed will read a Nexus data file created by
 `SaveNexusProcessed <SaveNexusProcessed>`__ and place the data into the
@@ -40,4 +41,4 @@ The Child Algorithms used by LoadMuonNexus are:
 -  LoadInstrument - this algorithm looks for an XML description of the
    instrument and if found reads it.
 
-.. categories:: LoadNexusProcessed
+.. algm_categories::

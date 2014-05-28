@@ -1,14 +1,18 @@
-.. algorithm:: Authenticate
+.. algorithm::
 
-.. summary:: Authenticate
+.. summary::
 
-.. aliases:: Authenticate
+.. alias::
 
-.. usage:: Authenticate
+.. properties::
 
-.. properties:: Authenticate
+Description
+-----------
 
 Authenticate to the remote compute resource. This must be executed
 before calling any other remote algorithms.
 
-.. categories:: Authenticate
+For more details, see the `remote job submission API
+docs <Remote_Job_Submission_API>`__.
+
+.. algm_categories::

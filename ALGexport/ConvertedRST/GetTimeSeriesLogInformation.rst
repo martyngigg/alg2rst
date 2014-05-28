@@ -1,13 +1,14 @@
-.. algorithm:: GetTimeSeriesLogInformation
+.. algorithm::
 
-.. summary:: GetTimeSeriesLogInformation
+.. summary::
 
-.. aliases:: GetTimeSeriesLogInformation
+.. alias::
 
-.. usage:: GetTimeSeriesLogInformation
+.. properties::
 
-.. properties:: GetTimeSeriesLogInformation
+Description
+-----------
 
 Get information from a TimeSeriesProperty log.
 
-.. categories:: GetTimeSeriesLogInformation
+.. algm_categories::

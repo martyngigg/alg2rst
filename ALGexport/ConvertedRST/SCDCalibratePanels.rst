@@ -1,12 +1,13 @@
-.. algorithm:: SCDCalibratePanels
+.. algorithm::
 
-.. summary:: SCDCalibratePanels
+.. summary::
 
-.. aliases:: SCDCalibratePanels
+.. alias::
 
-.. usage:: SCDCalibratePanels
+.. properties::
 
-.. properties:: SCDCalibratePanels
+Description
+-----------
 
 This algorithm calibrates sets of Rectangular Detectors in one
 instrument. The initial path, time offset,panel widths, panel heights,
@@ -94,4 +95,4 @@ algorithm. To do so select the workspace, which you have calibrated as
 the InputWorkspace and the workspace you want to copy the calibration
 to, the OutputWorkspace.
 
-.. categories:: SCDCalibratePanels
+.. algm_categories::

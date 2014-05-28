@@ -1,12 +1,13 @@
-.. algorithm:: PoldiPeakDetection2
+.. algorithm::
 
-.. summary:: PoldiPeakDetection2
+.. summary::
 
-.. aliases:: PoldiPeakDetection2
+.. alias::
 
-.. usage:: PoldiPeakDetection2
+.. properties::
 
-.. properties:: PoldiPeakDetection2
+Description
+-----------
 
 How to use algorithm with other algorithms
 ------------------------------------------
@@ -15,4 +16,4 @@ This algorithm is designed to work with other algorithms to proceed
 POLDI data. The introductions can be found in the wiki page of
 `PoldiProjectRun <PoldiProjectRun>`__.
 
-.. categories:: PoldiPeakDetection2
+.. algm_categories::

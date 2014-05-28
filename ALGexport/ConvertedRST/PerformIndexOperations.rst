@@ -1,13 +1,14 @@
-.. algorithm:: PerformIndexOperations
+.. algorithm::
 
-.. summary:: PerformIndexOperations
+.. summary::
 
-.. aliases:: PerformIndexOperations
+.. alias::
 
-.. usage:: PerformIndexOperations
+.. properties::
 
-.. properties:: PerformIndexOperations
+Description
+-----------
 
 
 
-.. categories:: PerformIndexOperations
+.. algm_categories::

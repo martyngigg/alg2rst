@@ -1,12 +1,13 @@
-.. algorithm:: PeakIntensityVsRadius
+.. algorithm::
 
-.. summary:: PeakIntensityVsRadius
+.. summary::
 
-.. aliases:: PeakIntensityVsRadius
+.. alias::
 
-.. usage:: PeakIntensityVsRadius
+.. properties::
 
-.. properties:: PeakIntensityVsRadius
+Description
+-----------
 
 Integrates SCD peaks with a range of radii, in order to plot graphs of
 the integrated intensity vs radius. This can be useful to determine the
@@ -69,4 +70,4 @@ Sample Usage
     # Plot a few of the peaks
     plotSpectrum('peak_vs_rad', [0,2,3], error_bars=True)
 
-.. categories:: PeakIntensityVsRadius
+.. algm_categories::

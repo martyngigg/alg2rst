@@ -1,12 +1,13 @@
-.. algorithm:: CopyLogs
+.. algorithm::
 
-.. summary:: CopyLogs
+.. summary::
 
-.. aliases:: CopyLogs
+.. alias::
 
-.. usage:: CopyLogs
+.. properties::
 
-.. properties:: CopyLogs
+Description
+-----------
 
 The algorithm will copy the sample logs in the input workspace to the
 the output workspace using one of three merge strategies.
@@ -24,4 +25,4 @@ workspace, leaving it untouched.
 -  WipeExisting: Dump any logs that are in the output workspace and
    replace them with the logs from the input workspace.
 
-.. categories:: CopyLogs
+.. algm_categories::

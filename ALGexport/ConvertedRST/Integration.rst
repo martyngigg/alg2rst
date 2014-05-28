@@ -1,12 +1,13 @@
-.. algorithm:: Integration
+.. algorithm::
 
-.. summary:: Integration
+.. summary::
 
-.. aliases:: Integration
+.. alias::
 
-.. usage:: Integration
+.. properties::
 
-.. properties:: Integration
+Description
+-----------
 
 Integration sums up spectra in a `Workspace <Workspace>`__ and outputs a
 `Workspace <Workspace>`__ that contains only 1 value per spectrum (i.e.
@@ -41,4 +42,4 @@ output will be a `MatrixWorkspace <MatrixWorkspace>`__.
 `Rebin <Rebin>`__ is recommended if you want to keep the workspace as an
 EventWorkspace.
 
-.. categories:: Integration
+.. algm_categories::

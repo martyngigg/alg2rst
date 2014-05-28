@@ -1,13 +1,14 @@
-.. algorithm:: SetUncertainties
+.. algorithm::
 
-.. summary:: SetUncertainties
+.. summary::
 
-.. aliases:: SetUncertainties
+.. alias::
 
-.. usage:: SetUncertainties
+.. properties::
 
-.. properties:: SetUncertainties
+Description
+-----------
 
 
 
-.. categories:: SetUncertainties
+.. algm_categories::

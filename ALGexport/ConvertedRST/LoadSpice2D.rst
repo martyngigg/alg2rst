@@ -1,13 +1,14 @@
-.. algorithm:: LoadSpice2D
+.. algorithm::
 
-.. summary:: LoadSpice2D
+.. summary::
 
-.. aliases:: LoadSpice2D
+.. alias::
 
-.. usage:: LoadSpice2D
+.. properties::
 
-.. properties:: LoadSpice2D
+Description
+-----------
 
 
 
-.. categories:: LoadSpice2D
+.. algm_categories::

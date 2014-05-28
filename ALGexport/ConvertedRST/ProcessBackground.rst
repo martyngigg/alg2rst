@@ -1,12 +1,13 @@
-.. algorithm:: ProcessBackground
+.. algorithm::
 
-.. summary:: ProcessBackground
+.. summary::
 
-.. aliases:: ProcessBackground
+.. alias::
 
-.. usage:: ProcessBackground
+.. properties::
 
-.. properties:: ProcessBackground
+Description
+-----------
 
 The algorithm ProcessBackground() provides several functions for user to
 process background to prepare Le Bail Fit.
@@ -30,4 +31,25 @@ simple input. User is required to select only a few background points in
 the middle of two adjacent peaks. Algorithm will fit these few points
 (*BackgroundPoints*) to a background function of specified type.
 
-.. categories:: ProcessBackground
+Examples
+--------
+
+Selecting background
+^^^^^^^^^^^^^^^^^^^^
+
+Here is a good example to select background points from a powder
+diffraction pattern by calling ProcessBackground() in a self-consistent
+manner.
+
+| ``1. Select a set of background points (X values only), which can roughly describes the background, manually;``
+| ``2. Call ProcessBackground with Option='SelectBackgroundPoints' and SelectionMode='UserSpecifyBackground'.``
+| ``   A good choice for background function to enter is 6-th order polynomial;``
+| ``3. Plot spectra 2 to 4 in UserBackgroundWorkspace to check whether 'Tolerance' is proper or not.``
+| ``   If not then reset the tolerance and run ProcessBackground again with previous setup;``
+| ``4. Fit OutputWorkspace (the selected background) with a background function;``
+| ``5. Call ProcessBackground with Option='SelectBackgroundPoints' and SelectionMode='UserFunction'.``
+| ``   Set the background parameter workspace as the output parameter table workspace obtained in the last step;``
+| ``6. Repeat step 4 and 5 for a few times until the background plot by fitted background function``
+| ``   from selected background points is close enough to real background.``
+
+.. algm_categories::

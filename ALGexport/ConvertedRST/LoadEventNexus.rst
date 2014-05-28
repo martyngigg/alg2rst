@@ -1,12 +1,13 @@
-.. algorithm:: LoadEventNexus
+.. algorithm::
 
-.. summary:: LoadEventNexus
+.. summary::
 
-.. aliases:: LoadEventNexus
+.. alias::
 
-.. usage:: LoadEventNexus
+.. properties::
 
-.. properties:: LoadEventNexus
+Description
+-----------
 
 The LoadEventNeXus algorithm loads data from an EventNexus file into an
 `EventWorkspace <EventWorkspace>`__. The default histogram bin
@@ -49,4 +50,4 @@ Veto pulses can be filtered out in a separate step using
 
 ``FilterByLogValue(InputWorkspace="ws", OutputWorkspace="ws", LogName="veto_pulse_time", PulseFilter="1")``
 
-.. categories:: LoadEventNexus
+.. algm_categories::

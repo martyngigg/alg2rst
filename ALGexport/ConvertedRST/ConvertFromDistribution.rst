@@ -1,12 +1,13 @@
-.. algorithm:: ConvertFromDistribution
+.. algorithm::
 
-.. summary:: ConvertFromDistribution
+.. summary::
 
-.. aliases:: ConvertFromDistribution
+.. alias::
 
-.. usage:: ConvertFromDistribution
+.. properties::
 
-.. properties:: ConvertFromDistribution
+Description
+-----------
 
 Converts a histogram workspace from a distribution i.e. multiplies by
 the bin width to take out the bin width dependency.
@@ -17,4 +18,4 @@ Restrictions on the input workspace
 The workspace to convert must contain histogram data which is flagged as
 being a distribution.
 
-.. categories:: ConvertFromDistribution
+.. algm_categories::

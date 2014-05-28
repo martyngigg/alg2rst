@@ -1,12 +1,13 @@
-.. algorithm:: DefineGaugeVolume
+.. algorithm::
 
-.. summary:: DefineGaugeVolume
+.. summary::
 
-.. aliases:: DefineGaugeVolume
+.. alias::
 
-.. usage:: DefineGaugeVolume
+.. properties::
 
-.. properties:: DefineGaugeVolume
+Description
+-----------
 
 Intended for use on data from engineering beamlines, this algorithm
 creates a shape object for use as the 'gauge volume' (i.e. the portion
@@ -21,4 +22,4 @@ Internally, this works by attaching the XML string (after validating it)
 to a property called "GaugeVolume" on the workspace's `Run <Run>`__
 object.
 
-.. categories:: DefineGaugeVolume
+.. algm_categories::

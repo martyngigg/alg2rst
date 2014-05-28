@@ -1,12 +1,13 @@
-.. algorithm:: ThermalNeutronBk2BkExpConvPVoigt
+.. algorithm::
 
-.. summary:: ThermalNeutronBk2BkExpConvPVoigt
+.. summary::
 
-.. aliases:: ThermalNeutronBk2BkExpConvPVoigt
+.. alias::
 
-.. usage:: ThermalNeutronBk2BkExpConvPVoigt
+.. properties::
 
-.. properties:: ThermalNeutronBk2BkExpConvPVoigt
+Description
+-----------
 
 Notice
 ------
@@ -171,4 +172,4 @@ where
 
 :math:`erfc(x)` and :math:`E_1(z)` will be calculated numerically.
 
-.. categories:: ThermalNeutronBk2BkExpConvPVoigt
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: LoadNexus
+.. algorithm::
 
-.. summary:: LoadNexus
+.. summary::
 
-.. aliases:: LoadNexus
+.. alias::
 
-.. usage:: LoadNexus
+.. properties::
 
-.. properties:: LoadNexus
+Description
+-----------
 
 The algorithm LoadNexus will read the given Nexus file and try to
 identify its type so that it can be read into a workspace. The file name
@@ -23,4 +24,4 @@ which spectra are loaded into the workspace. If spectrum\_min and
 spectrum\_max are given, then only that range to data will be loaded. If
 a spectrum\_list is given than those values will be loaded.
 
-.. categories:: LoadNexus
+.. algm_categories::

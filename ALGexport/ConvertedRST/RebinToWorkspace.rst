@@ -1,16 +1,17 @@
-.. algorithm:: RebinToWorkspace
+.. algorithm::
 
-.. summary:: RebinToWorkspace
+.. summary::
 
-.. aliases:: RebinToWorkspace
+.. alias::
 
-.. usage:: RebinToWorkspace
+.. properties::
 
-.. properties:: RebinToWorkspace
+Description
+-----------
 
 Takes an input workspace and alters the binning so that all it's spectra
 match that of the **first spectrum** of the second workspace. This
 algorithm simply builds a parameter list that is passed to the
 `Rebin <Rebin>`__ algorithm, which actually does the work.
 
-.. categories:: RebinToWorkspace
+.. algm_categories::

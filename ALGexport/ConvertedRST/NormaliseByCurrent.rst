@@ -1,12 +1,13 @@
-.. algorithm:: NormaliseByCurrent
+.. algorithm::
 
-.. summary:: NormaliseByCurrent
+.. summary::
 
-.. aliases:: NormaliseByCurrent
+.. alias::
 
-.. usage:: NormaliseByCurrent
+.. properties::
 
-.. properties:: NormaliseByCurrent
+Description
+-----------
 
 Normalises a workspace according to the good proton charge figure taken
 from the Input Workspace log data, which is stored in the workspace's
@@ -33,4 +34,4 @@ the output will be as well. Weighted events are used to scale by the
 current (see the `Divide <Divide>`__ algorithm, which is a child
 algorithm being used).
 
-.. categories:: NormaliseByCurrent
+.. algm_categories::

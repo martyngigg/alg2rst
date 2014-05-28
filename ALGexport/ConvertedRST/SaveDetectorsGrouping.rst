@@ -1,12 +1,13 @@
-.. algorithm:: SaveDetectorsGrouping
+.. algorithm::
 
-.. summary:: SaveDetectorsGrouping
+.. summary::
 
-.. aliases:: SaveDetectorsGrouping
+.. alias::
 
-.. usage:: SaveDetectorsGrouping
+.. properties::
 
-.. properties:: SaveDetectorsGrouping
+Description
+-----------
 
 This algorithm is used to save a GroupingWorkspace to a file in XML
 format.
@@ -30,7 +31,10 @@ Parameters
 
 Example 1:
 
-| `` ``\ 
+.. raw:: html
+
+   <?xml version="1.0" encoding="UTF-8" ?>
+
 | `` ``\ 
 | ``  ``\ 
 | ``   ``\ \ ``1-30,34-44,47-100``\ 
@@ -39,4 +43,4 @@ Example 1:
 | ``  ``\ 
 | `` ``\
 
-.. categories:: SaveDetectorsGrouping
+.. algm_categories::

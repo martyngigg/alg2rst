@@ -1,12 +1,13 @@
-.. algorithm:: AbsorptionCorrection
+.. algorithm::
 
-.. summary:: AbsorptionCorrection
+.. summary::
 
-.. aliases:: AbsorptionCorrection
+.. alias::
 
-.. usage:: AbsorptionCorrection
+.. properties::
 
-.. properties:: AbsorptionCorrection
+Description
+-----------
 
 This algorithm uses a numerical integration method to calculate
 attenuation factors resulting from absorption and single scattering in a
@@ -68,4 +69,4 @@ defined because detector, source & sample position are needed.
 
 .. |AbsorptionFlow.png| image:: AbsorptionFlow.png
 
-.. categories:: AbsorptionCorrection
+.. algm_categories::

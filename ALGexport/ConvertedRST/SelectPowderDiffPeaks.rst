@@ -1,13 +1,14 @@
-.. algorithm:: SelectPowderDiffPeaks
+.. algorithm::
 
-.. summary:: SelectPowderDiffPeaks
+.. summary::
 
-.. aliases:: SelectPowderDiffPeaks
+.. alias::
 
-.. usage:: SelectPowderDiffPeaks
+.. properties::
 
-.. properties:: SelectPowderDiffPeaks
+Description
+-----------
 
 Select the powder diffraction peaks for `Le Bail Fit <Le Bail Fit>`__
 
-.. categories:: SelectPowderDiffPeaks
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: LoadIsawPeaks
+.. algorithm::
 
-.. summary:: LoadIsawPeaks
+.. summary::
 
-.. aliases:: LoadIsawPeaks
+.. alias::
 
-.. usage:: LoadIsawPeaks
+.. properties::
 
-.. properties:: LoadIsawPeaks
+Description
+-----------
 
 Reads an ISAW-style .peaks or .integrate file into a PeaksWorkspace. Any
 detector calibration information is ignored.
@@ -16,4 +17,4 @@ NOTE: The instrument used is determined by reading the 'Instrument:' and
 latest `Instrument Definition File <Instrument Definition File>`__ is
 used.
 
-.. categories:: LoadIsawPeaks
+.. algm_categories::

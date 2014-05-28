@@ -1,15 +1,16 @@
-.. algorithm:: OrMD
+.. algorithm::
 
-.. summary:: OrMD
+.. summary::
 
-.. aliases:: OrMD
+.. alias::
 
-.. usage:: OrMD
+.. properties::
 
-.. properties:: OrMD
+Description
+-----------
 
 Perform the Or boolean operation on two MDHistoWorkspaces. The \|\|
 operation is performed element-by-element. A signal of 0.0 means "false"
 and any non-zero signal is "true".
 
-.. categories:: OrMD
+.. algm_categories::

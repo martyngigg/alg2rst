@@ -1,13 +1,14 @@
-.. algorithm:: CheckForSampleLogs
+.. algorithm::
 
-.. summary:: CheckForSampleLogs
+.. summary::
 
-.. aliases:: CheckForSampleLogs
+.. alias::
 
-.. usage:: CheckForSampleLogs
+.. properties::
 
-.. properties:: CheckForSampleLogs
+Description
+-----------
 
 Check if the workspace has some given sample logs
 
-.. categories:: CheckForSampleLogs
+.. algm_categories::

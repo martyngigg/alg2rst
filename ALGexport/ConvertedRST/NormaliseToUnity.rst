@@ -1,12 +1,13 @@
-.. algorithm:: NormaliseToUnity
+.. algorithm::
 
-.. summary:: NormaliseToUnity
+.. summary::
 
-.. aliases:: NormaliseToUnity
+.. alias::
 
-.. usage:: NormaliseToUnity
+.. properties::
 
-.. properties:: NormaliseToUnity
+Description
+-----------
 
 NormaliseToUnity uses `Integration <Integration>`__ to sum up all the X
 bins, then sums up the resulting spectra using
@@ -16,4 +17,4 @@ the sum or not. It is thus possible to normalize a workspace so that a
 range of X bins and spectra sums to 1. In that case the sum of the whole
 workspace will likely not be equal to 1.
 
-.. categories:: NormaliseToUnity
+.. algm_categories::

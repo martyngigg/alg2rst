@@ -1,13 +1,14 @@
-.. algorithm:: LoadPreNexus
+.. algorithm::
 
-.. summary:: LoadPreNexus
+.. summary::
 
-.. aliases:: LoadPreNexus
+.. alias::
 
-.. usage:: LoadPreNexus
+.. properties::
 
-.. properties:: LoadPreNexus
+Description
+-----------
 
 Workflow algorithm to load all of the preNeXus files.
 
-.. categories:: LoadPreNexus
+.. algm_categories::

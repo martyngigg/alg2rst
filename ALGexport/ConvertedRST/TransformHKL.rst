@@ -1,12 +1,13 @@
-.. algorithm:: TransformHKL
+.. algorithm::
 
-.. summary:: TransformHKL
+.. summary::
 
-.. aliases:: TransformHKL
+.. alias::
 
-.. usage:: TransformHKL
+.. properties::
 
-.. properties:: TransformHKL
+Description
+-----------
 
 Given a PeaksWorkspace with a UB matrix stored with the sample, this
 algoritm will accept a 3x3 transformation matrix M, change UB to
@@ -19,4 +20,4 @@ a negative or zero determinant is entered, the algorithm with throw an
 exception. The 9 elements of the transformation must be specified as a
 comma separated list of numbers.
 
-.. categories:: TransformHKL
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: Voigt
+.. algorithm::
 
-.. summary:: Voigt
+.. summary::
 
-.. aliases:: Voigt
+.. alias::
 
-.. usage:: Voigt
+.. properties::
 
-.. properties:: Voigt
+Description
+-----------
 
 A Voigt function is a convolution between a Lorentzian and Gaussian and
 is defined as:
@@ -34,4 +35,4 @@ described in
 The approximation uses a combination of 4 Lorentzians in two variables
 to generate good approximation to the true function.
 
-.. categories:: Voigt
+.. algm_categories::

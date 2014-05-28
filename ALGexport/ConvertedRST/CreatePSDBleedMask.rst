@@ -1,12 +1,13 @@
-.. algorithm:: CreatePSDBleedMask
+.. algorithm::
 
-.. summary:: CreatePSDBleedMask
+.. summary::
 
-.. aliases:: CreatePSDBleedMask
+.. alias::
 
-.. usage:: CreatePSDBleedMask
+.. properties::
 
-.. properties:: CreatePSDBleedMask
+Description
+-----------
 
 The diagnostic test attempts to find all tubes within the instrument
 attached to the workspace. If successful, each tube is tested for
@@ -20,4 +21,4 @@ Restrictions on the input workspace
 
 -  The workspace must contain either raw counts or counts/us.
 
-.. categories:: CreatePSDBleedMask
+.. algm_categories::

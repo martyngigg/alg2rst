@@ -1,12 +1,13 @@
-.. algorithm:: LoadTOFRawNexus
+.. algorithm::
 
-.. summary:: LoadTOFRawNexus
+.. summary::
 
-.. aliases:: LoadTOFRawNexus
+.. alias::
 
-.. usage:: LoadTOFRawNexus
+.. properties::
 
-.. properties:: LoadTOFRawNexus
+Description
+-----------
 
 This algorithm loads a NeXus file that conforms to the TOFRaw format and
 stores it in a 2D workspace. The TOFRaw format is used at SNS and
@@ -28,4 +29,4 @@ change!):
 -  Signal 6: d-spacing. The data field containing the bin boundaries is
    *dspacing*
 
-.. categories:: LoadTOFRawNexus
+.. algm_categories::

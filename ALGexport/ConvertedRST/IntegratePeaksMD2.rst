@@ -1,12 +1,13 @@
-.. algorithm:: IntegratePeaksMD2
+.. algorithm::
 
-.. summary:: IntegratePeaksMD2
+.. summary::
 
-.. aliases:: IntegratePeaksMD2
+.. alias::
 
-.. usage:: IntegratePeaksMD2
+.. properties::
 
-.. properties:: IntegratePeaksMD2
+Description
+-----------
 
 This algorithm performs integration of single-crystal peaks within a
 radius (with optional background subtraction) in reciprocal space.
@@ -100,4 +101,4 @@ Sample Usage
         PeakRadius=0.12, BackgroundOuterRadius=0.2, BackgroundInnerRadius=0.16,
         OutputWorkspace='peaks')
 
-.. categories:: IntegratePeaksMD2
+.. algm_categories::

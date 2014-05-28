@@ -1,12 +1,13 @@
-.. algorithm:: SaveNXSPE
+.. algorithm::
 
-.. summary:: SaveNXSPE
+.. summary::
 
-.. aliases:: SaveNXSPE
+.. alias::
 
-.. usage:: SaveNXSPE
+.. properties::
 
-.. properties:: SaveNXSPE
+Description
+-----------
 
 Saves the data in a workspace into a file in the NeXus based 'NXSPE'
 format.
@@ -23,4 +24,4 @@ Child Algorithms used
 `FindDetectorsPar <FindDetectorsPar>`__ algorithm is used to calculate
 detectors parameters from the instrument description.
 
-.. categories:: SaveNXSPE
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: RemoveBins
+.. algorithm::
 
-.. summary:: RemoveBins
+.. summary::
 
-.. aliases:: RemoveBins
+.. alias::
 
-.. usage:: RemoveBins
+.. properties::
 
-.. properties:: RemoveBins
+Description
+-----------
 
 This algorithm removes bins from a workspace. A minimum and maximum X
 value to be removed needs to be provided. This can be in a different
@@ -55,4 +56,4 @@ importantly also marks those bins as masked, so that further algorithms
 should not include this data in their grouping calculations. This is
 particularly used for Diffraction Focussing.
 
-.. categories:: RemoveBins
+.. algm_categories::

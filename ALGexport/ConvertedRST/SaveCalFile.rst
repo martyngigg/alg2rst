@@ -1,12 +1,13 @@
-.. algorithm:: SaveCalFile
+.. algorithm::
 
-.. summary:: SaveCalFile
+.. summary::
 
-.. aliases:: SaveCalFile
+.. alias::
 
-.. usage:: SaveCalFile
+.. properties::
 
-.. properties:: SaveCalFile
+Description
+-----------
 
 This algorithm saves an ARIEL-style 5-column ASCII .cal file.
 
@@ -19,4 +20,4 @@ The format is
 -  Group: group number. Comes from the GroupingWorkspace, or 1 if none
    is given.
 
-.. categories:: SaveCalFile
+.. algm_categories::

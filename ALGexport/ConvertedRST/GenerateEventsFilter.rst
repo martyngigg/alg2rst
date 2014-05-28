@@ -1,12 +1,13 @@
-.. algorithm:: GenerateEventsFilter
+.. algorithm::
 
-.. summary:: GenerateEventsFilter
+.. summary::
 
-.. aliases:: GenerateEventsFilter
+.. alias::
 
-.. usage:: GenerateEventsFilter
+.. properties::
 
-.. properties:: GenerateEventsFilter
+Description
+-----------
 
 This algorithm is able to generate event splitters according to user's
 requirement for filtering events. The generated time splitters are
@@ -126,4 +127,4 @@ splitter will start from the first log time.
 while `GenerateEventsFilter <GenerateEventsFilter>`__ can improve the
 resolution to 1 micro second.
 
-.. categories:: GenerateEventsFilter
+.. algm_categories::

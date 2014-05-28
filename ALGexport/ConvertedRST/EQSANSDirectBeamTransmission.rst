@@ -1,13 +1,14 @@
-.. algorithm:: EQSANSDirectBeamTransmission
+.. algorithm::
 
-.. summary:: EQSANSDirectBeamTransmission
+.. summary::
 
-.. aliases:: EQSANSDirectBeamTransmission
+.. alias::
 
-.. usage:: EQSANSDirectBeamTransmission
+.. properties::
 
-.. properties:: EQSANSDirectBeamTransmission
+Description
+-----------
 
 Compute the transmission using the direct beam method on EQSANS
 
-.. categories:: EQSANSDirectBeamTransmission
+.. algm_categories::

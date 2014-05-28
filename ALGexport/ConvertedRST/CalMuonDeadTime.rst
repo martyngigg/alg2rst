@@ -1,12 +1,13 @@
-.. algorithm:: CalMuonDeadTime
+.. algorithm::
 
-.. summary:: CalMuonDeadTime
+.. summary::
 
-.. aliases:: CalMuonDeadTime
+.. alias::
 
-.. usage:: CalMuonDeadTime
+.. properties::
 
-.. properties:: CalMuonDeadTime
+Description
+-----------
 
 Calculate Muon deadtime for each spectra in a workspace.
 
@@ -29,4 +30,4 @@ where :math:`\displaystyle{M\exp ( t/t_{\mu})}` as a function of
 :math:`{\displaystyle{N_0}}` and a slope of
 :math:`{\displaystyle{N_0*(\frac{t_{dead}}{t_{bin}*F})}}`.
 
-.. categories:: CalMuonDeadTime
+.. algm_categories::

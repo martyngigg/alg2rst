@@ -1,12 +1,13 @@
-.. algorithm:: RadiusSum
+.. algorithm::
 
-.. summary:: RadiusSum
+.. summary::
 
-.. aliases:: RadiusSum
+.. alias::
 
-.. usage:: RadiusSum
+.. properties::
 
-.. properties:: RadiusSum
+Description
+-----------
 
 RadiusSum sums the counts in rings against radius.
 
@@ -49,4 +50,4 @@ to apply this algorithm to Workspaces attached to instruments.
 
     800 px
 
-.. categories:: RadiusSum
+.. algm_categories::

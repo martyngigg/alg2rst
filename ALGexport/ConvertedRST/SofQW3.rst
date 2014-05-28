@@ -1,12 +1,13 @@
-.. algorithm:: SofQW3
+.. algorithm::
 
-.. summary:: SofQW3
+.. summary::
 
-.. aliases:: SofQW3
+.. alias::
 
-.. usage:: SofQW3
+.. properties::
 
-.. properties:: SofQW3
+Description
+-----------
 
 Converts a 2D workspace from units of spectrum number, energy transfer
 to the intensity as a function of momentum transfer and energy. The
@@ -25,4 +26,4 @@ file: *detector-neighbour-offset*. The integer value of this parameter
 should be the number of pixels that separates two pixels at the same
 vertical position in adjacent tubes.
 
-.. categories:: SofQW3
+.. algm_categories::

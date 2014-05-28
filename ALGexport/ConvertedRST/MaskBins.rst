@@ -1,12 +1,13 @@
-.. algorithm:: MaskBins
+.. algorithm::
 
-.. summary:: MaskBins
+.. summary::
 
-.. aliases:: MaskBins
+.. alias::
 
-.. usage:: MaskBins
+.. properties::
 
-.. properties:: MaskBins
+Description
+-----------
 
 Masks bins in a workspace. Masked bins should properly be regarded as
 having been completely removed from the workspace. Bins falling within
@@ -43,4 +44,4 @@ included in further claculations. This means that when you Focus the
 data these values are simply missed out of the summing that is
 performed.
 
-.. categories:: MaskBins
+.. algm_categories::

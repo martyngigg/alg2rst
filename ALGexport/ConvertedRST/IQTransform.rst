@@ -1,12 +1,13 @@
-.. algorithm:: IQTransform
+.. algorithm::
 
-.. summary:: IQTransform
+.. summary::
 
-.. aliases:: IQTransform
+.. alias::
 
-.. usage:: IQTransform
+.. properties::
 
-.. properties:: IQTransform
+Description
+-----------
 
 This algorithm is intended to take the output of a SANS reduction and
 apply a transformation to the data in an attempt to linearise the curve.
@@ -50,4 +51,4 @@ always point data.
 \* The constants :math:`C_1 - C_{10}` are, in subscript order, the ten
 constants passed to the GeneralFunctionConstants property.
 
-.. categories:: IQTransform
+.. algm_categories::

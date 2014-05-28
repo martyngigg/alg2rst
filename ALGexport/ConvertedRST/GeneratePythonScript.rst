@@ -1,12 +1,13 @@
-.. algorithm:: GeneratePythonScript
+.. algorithm::
 
-.. summary:: GeneratePythonScript
+.. summary::
 
-.. aliases:: GeneratePythonScript
+.. alias::
 
-.. usage:: GeneratePythonScript
+.. properties::
 
-.. properties:: GeneratePythonScript
+Description
+-----------
 
 Retrieves the algorithm history of the workspace and saves it to a
 Python script file or Python variable.
@@ -43,4 +44,4 @@ Example usage:
 
    {{AlgorithmLinks|GeneratePythonScript}}
 
-.. categories:: GeneratePythonScript
+.. algm_categories::

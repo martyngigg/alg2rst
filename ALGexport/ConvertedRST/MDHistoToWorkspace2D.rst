@@ -1,12 +1,10 @@
-.. algorithm:: MDHistoToWorkspace2D
+.. algorithm::
 
-.. summary:: MDHistoToWorkspace2D
+.. summary::
 
-.. aliases:: MDHistoToWorkspace2D
+.. alias::
 
-.. usage:: MDHistoToWorkspace2D
-
-.. properties:: MDHistoToWorkspace2D
+.. properties::
 
 Description
 -----------
@@ -21,4 +19,4 @@ This tool is useful as many algorithms in Mantid only apply to
 Workspace2D. After conversion with MDHistoToWorkspace2D such algorithms
 can also be applied to MD data.
 
-.. categories:: MDHistoToWorkspace2D
+.. algm_categories::

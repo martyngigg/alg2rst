@@ -1,12 +1,13 @@
-.. algorithm:: CopySample
+.. algorithm::
 
-.. summary:: CopySample
+.. summary::
 
-.. aliases:: CopySample
+.. alias::
 
-.. usage:: CopySample
+.. properties::
 
-.. properties:: CopySample
+Description
+-----------
 
 The algorithm copies some/all the sample information from one workspace
 to another.For MD workspaces, if no input sample number is specified, or
@@ -24,4 +25,4 @@ One can copy the orientation matrix only. To do this, select both
 CopyLattice and CopyOrientationOnly. If only CopyOrientationOnly is
 true, the algorithm will throw an error.
 
-.. categories:: CopySample
+.. algm_categories::

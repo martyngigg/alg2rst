@@ -1,12 +1,13 @@
-.. algorithm:: ApplyDetailedBalance
+.. algorithm::
 
-.. summary:: ApplyDetailedBalance
+.. summary::
 
-.. aliases:: ApplyDetailedBalance
+.. alias::
 
-.. usage:: ApplyDetailedBalance
+.. properties::
 
-.. properties:: ApplyDetailedBalance
+Description
+-----------
 
 The fluctuation dissipation theorem [1,2] relates the dynamic
 susceptibility to the scattering function
@@ -27,4 +28,4 @@ vol 1
 [2] I. A. Zaliznyak and S. H. Lee - Magnetic Neutron Scattering in
 "Modern techniques for characterizing magnetic materials"
 
-.. categories:: ApplyDetailedBalance
+.. algm_categories::

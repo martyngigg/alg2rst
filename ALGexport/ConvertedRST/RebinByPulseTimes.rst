@@ -1,12 +1,13 @@
-.. algorithm:: RebinByPulseTimes
+.. algorithm::
 
-.. summary:: RebinByPulseTimes
+.. summary::
 
-.. aliases:: RebinByPulseTimes
+.. alias::
 
-.. usage:: RebinByPulseTimes
+.. properties::
 
-.. properties:: RebinByPulseTimes
+Description
+-----------
 
 Rebins an EventWorkspace according to the pulse times of each event
 rather than the time of flight `Rebin <Rebin>`__. The Params inputs may
@@ -43,4 +44,4 @@ as a colour map.
 
    RebinByPulseTime.png
 
-.. categories:: RebinByPulseTimes
+.. algm_categories::

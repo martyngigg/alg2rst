@@ -1,12 +1,13 @@
-.. algorithm:: CreateGroupingWorkspace
+.. algorithm::
 
-.. summary:: CreateGroupingWorkspace
+.. summary::
 
-.. aliases:: CreateGroupingWorkspace
+.. alias::
 
-.. usage:: CreateGroupingWorkspace
+.. properties::
 
-.. properties:: CreateGroupingWorkspace
+Description
+-----------
 
 A `GroupingWorkspace <GroupingWorkspace>`__ is a simple workspace with
 one value per detector pixel; this value corresponds to the group number
@@ -23,4 +24,4 @@ If the GroupNames parameter is given, the names of banks matching the
 comma-separated strings in the parameter will be used to sequentially
 number the groups in the output.
 
-.. categories:: CreateGroupingWorkspace
+.. algm_categories::

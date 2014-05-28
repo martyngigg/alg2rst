@@ -1,14 +1,15 @@
-.. algorithm:: ConjoinFiles
+.. algorithm::
 
-.. summary:: ConjoinFiles
+.. summary::
 
-.. aliases:: ConjoinFiles
+.. alias::
 
-.. usage:: ConjoinFiles
+.. properties::
 
-.. properties:: ConjoinFiles
+Description
+-----------
 
 Conjoin two workspaces, which are file based. Uses
 `ConjoinWorkspaces <ConjoinWorkspaces>`__ to do the heavy-lifting.
 
-.. categories:: ConjoinFiles
+.. algm_categories::

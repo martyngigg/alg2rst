@@ -1,12 +1,13 @@
-.. algorithm:: LoadSPE
+.. algorithm::
 
-.. summary:: LoadSPE
+.. summary::
 
-.. aliases:: LoadSPE
+.. alias::
 
-.. usage:: LoadSPE
+.. properties::
 
-.. properties:: LoadSPE
+Description
+-----------
 
 Loads the file given into a `Workspace2D <Workspace2D>`__ with the given
 name. The file should be in the SPE format, which is described
@@ -16,4 +17,4 @@ have units of either `Momentum transfer / Q <Unit_Factory>`__ or
 degrees, depending on the label in the input file. The workspace will be
 flagged as a distribution.
 
-.. categories:: LoadSPE
+.. algm_categories::

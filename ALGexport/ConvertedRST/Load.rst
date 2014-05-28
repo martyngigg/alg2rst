@@ -1,12 +1,13 @@
-.. algorithm:: Load
+.. algorithm::
 
-.. summary:: Load
+.. summary::
 
-.. aliases:: Load
+.. alias::
 
-.. usage:: Load
+.. properties::
 
-.. properties:: Load
+Description
+-----------
 
 The Load algorithm is a more intelligent algorithm than most other load
 algorithms. When passed a filename it attempts to search the existing
@@ -25,4 +26,4 @@ about these properties until it has been told the filename and found the
 correct loader. Once this has happened the properties of the specific
 Load algorithm are redeclared on to that copy of Load.
 
-.. categories:: Load
+.. algm_categories::

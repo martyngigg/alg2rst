@@ -1,15 +1,16 @@
-.. algorithm:: GausDecay
+.. algorithm::
 
-.. summary:: GausDecay
+.. summary::
 
-.. aliases:: GausDecay
+.. alias::
 
-.. usage:: GausDecay
+.. properties::
 
-.. properties:: GausDecay
+Description
+-----------
 
 Gaussian decay for use by Muon scientists defined by
 
 .. math:: \mbox{A}\times \exp(-{Sigma}^2 \times {x}^2 )
 
-.. categories:: GausDecay
+.. algm_categories::

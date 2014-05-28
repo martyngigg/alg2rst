@@ -1,12 +1,13 @@
-.. algorithm:: Divide
+.. algorithm::
 
-.. summary:: Divide
+.. summary::
 
-.. aliases:: Divide
+.. alias::
 
-.. usage:: Divide
+.. properties::
 
-.. properties:: Divide
+Description
+-----------
 
 .. raw:: mediawiki
 
@@ -16,4 +17,4 @@
 
    {{BinaryOperationFooterMultiply|verb=divided|prep=by|symbol=<math>\div</math>}}
 
-.. categories:: Divide
+.. algm_categories::

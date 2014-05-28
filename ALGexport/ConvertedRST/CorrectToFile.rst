@@ -1,12 +1,13 @@
-.. algorithm:: CorrectToFile
+.. algorithm::
 
-.. summary:: CorrectToFile
+.. summary::
 
-.. aliases:: CorrectToFile
+.. alias::
 
-.. usage:: CorrectToFile
+.. properties::
 
-.. properties:: CorrectToFile
+Description
+-----------
 
 Use data from the supplied file, written in the RKH format, to correct
 the input data. The operations allowed for the correction are
@@ -20,4 +21,4 @@ spectra (e.g. flood correction files) FirstColumnValue must be set to
 "SpectrumNumber" and the number of spectra in the file and workspace
 must match.
 
-.. categories:: CorrectToFile
+.. algm_categories::

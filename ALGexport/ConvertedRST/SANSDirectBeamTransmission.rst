@@ -1,13 +1,14 @@
-.. algorithm:: SANSDirectBeamTransmission
+.. algorithm::
 
-.. summary:: SANSDirectBeamTransmission
+.. summary::
 
-.. aliases:: SANSDirectBeamTransmission
+.. alias::
 
-.. usage:: SANSDirectBeamTransmission
+.. properties::
 
-.. properties:: SANSDirectBeamTransmission
+Description
+-----------
 
 Compute transmission using the direct beam method
 
-.. categories:: SANSDirectBeamTransmission
+.. algm_categories::

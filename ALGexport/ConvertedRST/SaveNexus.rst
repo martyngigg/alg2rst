@@ -1,12 +1,13 @@
-.. algorithm:: SaveNexus
+.. algorithm::
 
-.. summary:: SaveNexus
+.. summary::
 
-.. aliases:: SaveNexus
+.. alias::
 
-.. usage:: SaveNexus
+.. properties::
 
-.. properties:: SaveNexus
+Description
+-----------
 
 The algorithm SaveNexus will write a Nexus data file from the named
 workspace. The file name can be an absolute or relative path and should
@@ -37,4 +38,4 @@ Child Algorithms used
 
 `SaveNexusProcessed <SaveNexusProcessed>`__
 
-.. categories:: SaveNexus
+.. algm_categories::

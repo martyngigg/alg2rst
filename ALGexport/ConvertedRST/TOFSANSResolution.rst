@@ -1,13 +1,14 @@
-.. algorithm:: TOFSANSResolution
+.. algorithm::
 
-.. summary:: TOFSANSResolution
+.. summary::
 
-.. aliases:: TOFSANSResolution
+.. alias::
 
-.. usage:: TOFSANSResolution
+.. properties::
 
-.. properties:: TOFSANSResolution
+Description
+-----------
 
 Compute the Q resolution for a given I(Q) for a TOF SANS instrument.
 
-.. categories:: TOFSANSResolution
+.. algm_categories::

@@ -1,14 +1,15 @@
-.. algorithm:: ConvertToMatrixWorkspace
+.. algorithm::
 
-.. summary:: ConvertToMatrixWorkspace
+.. summary::
 
-.. aliases:: ConvertToMatrixWorkspace
+.. alias::
 
-.. usage:: ConvertToMatrixWorkspace
+.. properties::
 
-.. properties:: ConvertToMatrixWorkspace
+Description
+-----------
 
 This can also be performed using the `Rebin <Rebin>`__ algorithm and
 having the "PreserveEvents" parameter set to false.
 
-.. categories:: ConvertToMatrixWorkspace
+.. algm_categories::

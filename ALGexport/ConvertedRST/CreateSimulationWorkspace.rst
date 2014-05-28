@@ -1,12 +1,13 @@
-.. algorithm:: CreateSimulationWorkspace
+.. algorithm::
 
-.. summary:: CreateSimulationWorkspace
+.. summary::
 
-.. aliases:: CreateSimulationWorkspace
+.. alias::
 
-.. usage:: CreateSimulationWorkspace
+.. properties::
 
-.. properties:: CreateSimulationWorkspace
+Description
+-----------
 
 Creates a blank workspace for a given instrument with the option of
 pulling in detector tables from a RAW/NeXus data file. The histogram
@@ -19,4 +20,4 @@ If the DetectorTableFilename property is blank then it is assumed that a
 number of histograms as detectors in the instrument (not including
 monitors)
 
-.. categories:: CreateSimulationWorkspace
+.. algm_categories::

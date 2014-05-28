@@ -1,12 +1,13 @@
-.. algorithm:: SaveToSNSHistogramNexus
+.. algorithm::
 
-.. summary:: SaveToSNSHistogramNexus
+.. summary::
 
-.. aliases:: SaveToSNSHistogramNexus
+.. alias::
 
-.. usage:: SaveToSNSHistogramNexus
+.. properties::
 
-.. properties:: SaveToSNSHistogramNexus
+Description
+-----------
 
 The algorithm essentially copies the InputFilename into OutputFilename,
 except that it replaces the data field with whatever the specified
@@ -18,4 +19,4 @@ In addition, this only works for instruments that use
 example); in addition, the name in the instrument definition file must
 match the name in the NXS file.
 
-.. categories:: SaveToSNSHistogramNexus
+.. algm_categories::

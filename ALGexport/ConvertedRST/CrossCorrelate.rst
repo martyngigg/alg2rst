@@ -1,12 +1,13 @@
-.. algorithm:: CrossCorrelate
+.. algorithm::
 
-.. summary:: CrossCorrelate
+.. summary::
 
-.. aliases:: CrossCorrelate
+.. alias::
 
-.. usage:: CrossCorrelate
+.. properties::
 
-.. properties:: CrossCorrelate
+Description
+-----------
 
 Compute the cross correlation function for a range of spectra with
 respect to a reference spectrum.
@@ -20,4 +21,4 @@ reference. The cross correlation function is computed in the range
 More details can be found
 `here. <http://en.wikipedia.org/wiki/Cross-correlation>`__
 
-.. categories:: CrossCorrelate
+.. algm_categories::

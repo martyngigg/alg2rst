@@ -1,12 +1,13 @@
-.. algorithm:: ConvertToMDHelper
+.. algorithm::
 
-.. summary:: ConvertToMDHelper
+.. summary::
 
-.. aliases:: ConvertToMDHelper
+.. alias::
 
-.. usage:: ConvertToMDHelper
+.. properties::
 
-.. properties:: ConvertToMDHelper
+Description
+-----------
 
 The algorithm will try to calculate the MinValues and MaxValues limits
 that are required in the ConvertToMD algorithm, using the following
@@ -40,4 +41,4 @@ procedure:
    (MaxValues) are the minimum (maximum) of each of the sample log
    values selected
 
-.. categories:: ConvertToMDHelper
+.. algm_categories::

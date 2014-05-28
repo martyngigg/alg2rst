@@ -1,15 +1,16 @@
-.. algorithm:: FakeISISEventDAE
+.. algorithm::
 
-.. summary:: FakeISISEventDAE
+.. summary::
 
-.. aliases:: FakeISISEventDAE
+.. alias::
 
-.. usage:: FakeISISEventDAE
+.. properties::
 
-.. properties:: FakeISISEventDAE
+Description
+-----------
 
 Simulates ISIS event DAE. It runs continuously until canceled and
 listens to port 10000 for connection. When connected starts sending
 event packets.
 
-.. categories:: FakeISISEventDAE
+.. algm_categories::

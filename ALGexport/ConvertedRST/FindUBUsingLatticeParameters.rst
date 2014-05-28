@@ -1,12 +1,13 @@
-.. algorithm:: FindUBUsingLatticeParameters
+.. algorithm::
 
-.. summary:: FindUBUsingLatticeParameters
+.. summary::
 
-.. aliases:: FindUBUsingLatticeParameters
+.. alias::
 
-.. usage:: FindUBUsingLatticeParameters
+.. properties::
 
-.. properties:: FindUBUsingLatticeParameters
+Description
+-----------
 
 Given a set of peaks, and given lattice parameters
 (:math:`a,b,c,alpha,beta,gamma`), this algorithm will find the UB
@@ -40,4 +41,4 @@ that are indexed, continues until all peaks have been added to the list.
 Finally, one last optimization of the UB matrix is carried out using the
 full list of peaks.
 
-.. categories:: FindUBUsingLatticeParameters
+.. algm_categories::

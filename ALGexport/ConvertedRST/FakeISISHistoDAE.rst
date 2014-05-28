@@ -1,14 +1,15 @@
-.. algorithm:: FakeISISHistoDAE
+.. algorithm::
 
-.. summary:: FakeISISHistoDAE
+.. summary::
 
-.. aliases:: FakeISISHistoDAE
+.. alias::
 
-.. usage:: FakeISISHistoDAE
+.. properties::
 
-.. properties:: FakeISISHistoDAE
+Description
+-----------
 
 Simulates ISIS histogram DAE. It runs continuously until canceled and
 listens to port 6789 for ISIS DAE commands.
 
-.. categories:: FakeISISHistoDAE
+.. algm_categories::

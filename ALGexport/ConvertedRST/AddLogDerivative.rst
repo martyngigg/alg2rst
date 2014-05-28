@@ -1,12 +1,13 @@
-.. algorithm:: AddLogDerivative
+.. algorithm::
 
-.. summary:: AddLogDerivative
+.. summary::
 
-.. aliases:: AddLogDerivative
+.. alias::
 
-.. usage:: AddLogDerivative
+.. properties::
 
-.. properties:: AddLogDerivative
+Description
+-----------
 
 This algorithm performs a simple numerical derivative of the values in a
 sample log.
@@ -22,4 +23,4 @@ If any of the times in the logs are repeated, then those repeated time
 values will be skipped, and the output derivative log will have fewer
 points than the input.
 
-.. categories:: AddLogDerivative
+.. algm_categories::

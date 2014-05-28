@@ -1,12 +1,13 @@
-.. algorithm:: CreateChopperModel
+.. algorithm::
 
-.. summary:: CreateChopperModel
+.. summary::
 
-.. aliases:: CreateChopperModel
+.. alias::
 
-.. usage:: CreateChopperModel
+.. properties::
 
-.. properties:: CreateChopperModel
+Description
+-----------
 
 Creates a model for a chopper using the given parameters. The parameters
 are given as a string to allow flexibility for each chopper model having
@@ -28,4 +29,4 @@ Available models with parameter names:
       microseconds
    -  Ei - The Ei for this run as a value or log name
 
-.. categories:: CreateChopperModel
+.. algm_categories::

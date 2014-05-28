@@ -1,12 +1,13 @@
-.. algorithm:: UpdateInstrumentFromFile
+.. algorithm::
 
-.. summary:: UpdateInstrumentFromFile
+.. summary::
 
-.. aliases:: UpdateInstrumentFromFile
+.. alias::
 
-.. usage:: UpdateInstrumentFromFile
+.. properties::
 
-.. properties:: UpdateInstrumentFromFile
+Description
+-----------
 
 Some instrument definition file (`IDF <InstrumentDefinitionFile>`__)
 positions are only approximately correct and the true positions are
@@ -60,4 +61,4 @@ would tell the algorithm to interpret the columns as:
 #. This column would be ignored
 #. R position value
 
-.. categories:: UpdateInstrumentFromFile
+.. algm_categories::

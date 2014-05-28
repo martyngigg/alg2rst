@@ -1,12 +1,13 @@
-.. algorithm:: NeutronBk2BkExpConvPVoigt
+.. algorithm::
 
-.. summary:: NeutronBk2BkExpConvPVoigt
+.. summary::
 
-.. aliases:: NeutronBk2BkExpConvPVoigt
+.. alias::
 
-.. usage:: NeutronBk2BkExpConvPVoigt
+.. properties::
 
-.. properties:: NeutronBk2BkExpConvPVoigt
+Description
+-----------
 
 Notice
 ------
@@ -171,4 +172,4 @@ where
 
 :math:`erfc(x)` and :math:`E_1(z)` will be calculated numerically.
 
-.. categories:: NeutronBk2BkExpConvPVoigt
+.. algm_categories::

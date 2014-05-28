@@ -1,12 +1,13 @@
-.. algorithm:: FilterEvents
+.. algorithm::
 
-.. summary:: FilterEvents
+.. summary::
 
-.. aliases:: FilterEvents
+.. alias::
 
-.. usage:: FilterEvents
+.. properties::
 
-.. properties:: FilterEvents
+Description
+-----------
 
 This algorithm filters events from an
 `EventWorkspace <EventWorkspace>`__ to one or multiple
@@ -65,4 +66,4 @@ Comparing with other event filtering algorithms
 Wiki page `EventFiltering <EventFiltering>`__ has a detailed
 introduction on event filtering in MantidPlot.
 
-.. categories:: FilterEvents
+.. algm_categories::

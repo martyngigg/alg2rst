@@ -1,12 +1,13 @@
-.. algorithm:: MuonCalculateAsymmetry
+.. algorithm::
 
-.. summary:: MuonCalculateAsymmetry
+.. summary::
 
-.. aliases:: MuonCalculateAsymmetry
+.. alias::
 
-.. usage:: MuonCalculateAsymmetry
+.. properties::
 
-.. properties:: MuonCalculateAsymmetry
+Description
+-----------
 
 Converts loaded/prepared Muon data to a data suitable for analysis.
 
@@ -23,4 +24,4 @@ For every mode, either one or two data acquisition period workspaces can
 be provided. PeriodOperation determines in which way period data will be
 merged at the end.
 
-.. categories:: MuonCalculateAsymmetry
+.. algm_categories::

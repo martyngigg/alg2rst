@@ -1,12 +1,13 @@
-.. algorithm:: CalculateUMatrix
+.. algorithm::
 
-.. summary:: CalculateUMatrix
+.. summary::
 
-.. aliases:: CalculateUMatrix
+.. alias::
 
-.. usage:: CalculateUMatrix
+.. properties::
 
-.. properties:: CalculateUMatrix
+Description
+-----------
 
 Given a set of peaks (Q in the goniometer frame, HKL values), and given
 lattice parameters :math:`(a,b,c,\alpha,\beta,\gamma)`, it will try to
@@ -141,4 +142,4 @@ Therefore U is the rotation represented by the quaternion :math:`u`,
 which is the eigenvector corresponding to the largest eigenvalue of
 :math:`HS`.
 
-.. categories:: CalculateUMatrix
+.. algm_categories::

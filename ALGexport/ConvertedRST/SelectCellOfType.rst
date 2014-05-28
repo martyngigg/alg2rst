@@ -1,12 +1,13 @@
-.. algorithm:: SelectCellOfType
+.. algorithm::
 
-.. summary:: SelectCellOfType
+.. summary::
 
-.. aliases:: SelectCellOfType
+.. alias::
 
-.. usage:: SelectCellOfType
+.. properties::
 
-.. properties:: SelectCellOfType
+Description
+-----------
 
 Given a PeaksWorkspace with a UB matrix corresponding to a Niggli
 reduced cell, this algorithm will allow the user to select a
@@ -27,4 +28,4 @@ Journal of Research of the National Institute of Standards and
 Technology, available from:
 nvlpubs.nist.gov/nistpubs/jres/106/6/j66mig.pdf.
 
-.. categories:: SelectCellOfType
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: LoadSQW
+.. algorithm::
 
-.. summary:: LoadSQW
+.. summary::
 
-.. aliases:: LoadSQW
+.. alias::
 
-.. usage:: LoadSQW
+.. properties::
 
-.. properties:: LoadSQW
+Description
+-----------
 
 The algorithm takes every pixel defined in the SQW horace file and
 converts it into an event.
@@ -160,4 +161,4 @@ functionality at a later stage. However, we can now assume that:
 | `` (4)   the same plot and integration axes, with same bins and integration ranges``
 | `` The display axes will be taken from the first sqw object in the list to be combined   ```
 
-.. categories:: LoadSQW
+.. algm_categories::

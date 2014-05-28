@@ -1,12 +1,13 @@
-.. algorithm:: Fit
+.. algorithm::
 
-.. summary:: Fit
+.. summary::
 
-.. aliases:: Fit
+.. alias::
 
-.. usage:: Fit
+.. properties::
 
-.. properties:: Fit
+Description
+-----------
 
 Additional properties for a 1D function and a MatrixWorkspace
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -267,4 +268,4 @@ Gaussians tied:
 
    Gaussian2Fit\_Ties.jpg
 
-.. categories:: Fit
+.. algm_categories::

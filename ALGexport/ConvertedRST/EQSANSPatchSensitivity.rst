@@ -1,14 +1,15 @@
-.. algorithm:: EQSANSPatchSensitivity
+.. algorithm::
 
-.. summary:: EQSANSPatchSensitivity
+.. summary::
 
-.. aliases:: EQSANSPatchSensitivity
+.. alias::
 
-.. usage:: EQSANSPatchSensitivity
+.. properties::
 
-.. properties:: EQSANSPatchSensitivity
+Description
+-----------
 
 Calculate the detector sensitivity and patch the pixels that are masked
 in a second workspace.
 
-.. categories:: EQSANSPatchSensitivity
+.. algm_categories::

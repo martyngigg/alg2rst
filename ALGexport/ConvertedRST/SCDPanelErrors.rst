@@ -1,12 +1,13 @@
-.. algorithm:: SCDPanelErrors
+.. algorithm::
 
-.. summary:: SCDPanelErrors
+.. summary::
 
-.. aliases:: SCDPanelErrors
+.. alias::
 
-.. usage:: SCDPanelErrors
+.. properties::
 
-.. properties:: SCDPanelErrors
+Description
+-----------
 
 -  This fit function is used for calibrating RectangularDetectors by
    adjusting L0, time offset, panel width,
@@ -116,4 +117,4 @@ follows:
 -  The theoretical qx,qy,and qz can be obtained by multiplying the hkl
    for the peak by this matrix(/2π)
 
-.. categories:: SCDPanelErrors
+.. algm_categories::

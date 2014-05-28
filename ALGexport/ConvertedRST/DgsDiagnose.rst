@@ -1,14 +1,14 @@
-.. algorithm:: DgsDiagnose
+.. algorithm::
 
-.. summary:: DgsDiagnose
+.. summary::
 
-.. aliases:: DgsDiagnose
+.. alias::
 
-.. usage:: DgsDiagnose
+.. properties::
 
-.. properties:: DgsDiagnose
+Description
+-----------
 
-This algorithm is responsible for setting up the necessary workspaces to
-hand off to the DetectorDiagnostic algorithm.
 
-.. categories:: DgsDiagnose
+
+.. algm_categories::

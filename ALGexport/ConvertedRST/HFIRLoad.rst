@@ -1,12 +1,13 @@
-.. algorithm:: HFIRLoad
+.. algorithm::
 
-.. summary:: HFIRLoad
+.. summary::
 
-.. aliases:: HFIRLoad
+.. alias::
 
-.. usage:: HFIRLoad
+.. properties::
 
-.. properties:: HFIRLoad
+Description
+-----------
 
 Workflow algorithm that loads HFIR SANS data and applies basic
 corrections to the workspace. Those include:
@@ -21,4 +22,4 @@ See `SANS
 Reduction <http://www.mantidproject.org/Reduction_for_HFIR_SANS>`__
 documentation for details.
 
-.. categories:: HFIRLoad
+.. algm_categories::

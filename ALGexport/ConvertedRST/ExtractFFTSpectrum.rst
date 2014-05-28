@@ -1,12 +1,13 @@
-.. algorithm:: ExtractFFTSpectrum
+.. algorithm::
 
-.. summary:: ExtractFFTSpectrum
+.. summary::
 
-.. aliases:: ExtractFFTSpectrum
+.. alias::
 
-.. usage:: ExtractFFTSpectrum
+.. properties::
 
-.. properties:: ExtractFFTSpectrum
+Description
+-----------
 
 This algorithm iterates the `FFT <FFT>`__ algorithm on each spectrum of
 InputWorkspace, computing the Fourier Transform and storing the
@@ -48,4 +49,4 @@ For the case of input containing no imaginary workspace:
 | 5         | Complete transform modulus             |
 +-----------+----------------------------------------+
 
-.. categories:: ExtractFFTSpectrum
+.. algm_categories::

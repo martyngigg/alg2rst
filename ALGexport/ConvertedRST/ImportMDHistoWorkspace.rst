@@ -1,12 +1,13 @@
-.. algorithm:: ImportMDHistoWorkspace
+.. algorithm::
 
-.. summary:: ImportMDHistoWorkspace
+.. summary::
 
-.. aliases:: ImportMDHistoWorkspace
+.. alias::
 
-.. usage:: ImportMDHistoWorkspace
+.. properties::
 
-.. properties:: ImportMDHistoWorkspace
+Description
+-----------
 
 This algorithm takes a text file (.txt extension) containing two columns
 and converts it into an MDHistoWorkspace.
@@ -41,4 +42,4 @@ Another alternative is to use `ConvertToMD <ConvertToMD>`__ which works
 on MatrixWorkspaces, and allows log values to be included in the
 dimensionality.
 
-.. categories:: ImportMDHistoWorkspace
+.. algm_categories::

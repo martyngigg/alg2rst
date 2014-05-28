@@ -1,12 +1,13 @@
-.. algorithm:: DetectorEfficiencyCor
+.. algorithm::
 
-.. summary:: DetectorEfficiencyCor
+.. summary::
 
-.. aliases:: DetectorEfficiencyCor
+.. alias::
 
-.. usage:: DetectorEfficiencyCor
+.. properties::
 
-.. properties:: DetectorEfficiencyCor
+Description
+-----------
 
 The probability of neutron detection by each detector in the
 `workspace <workspace>`__ is calculated from the neutrons' kinetic
@@ -38,4 +39,4 @@ Note: it is not possible to use this `algorithm <algorithm>`__ to
 correct for the detector efficiency alone. One solution to this is to
 divide the output algorithm by :math:`k_i/k_f` calculated as above.
 
-.. categories:: DetectorEfficiencyCor
+.. algm_categories::

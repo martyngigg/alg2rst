@@ -1,15 +1,16 @@
-.. algorithm:: AndMD
+.. algorithm::
 
-.. summary:: AndMD
+.. summary::
 
-.. aliases:: AndMD
+.. alias::
 
-.. usage:: AndMD
+.. properties::
 
-.. properties:: AndMD
+Description
+-----------
 
 Perform the And boolean operation on two MDHistoWorkspaces. The &
 operation is performed element-by-element. A signal of 0.0 means "false"
 and any non-zero signal is "true".
 
-.. categories:: AndMD
+.. algm_categories::

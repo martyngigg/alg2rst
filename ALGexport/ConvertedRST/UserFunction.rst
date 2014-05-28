@@ -1,12 +1,13 @@
-.. algorithm:: UserFunction
+.. algorithm::
 
-.. summary:: UserFunction
+.. summary::
 
-.. aliases:: UserFunction
+.. alias::
 
-.. usage:: UserFunction
+.. properties::
 
-.. properties:: UserFunction
+Description
+-----------
 
 A UserFunction is defined by a string formula. The formula is assigned
 by setting string attribute Formula:
@@ -17,4 +18,4 @@ Formula must use 'x' for the x-values. The fitting parameters become
 defined only after the Formula attribute is set that is why Formula must
 go first in UserFunction definition.
 
-.. categories:: UserFunction
+.. algm_categories::

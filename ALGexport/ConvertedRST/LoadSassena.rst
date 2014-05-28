@@ -1,12 +1,13 @@
-.. algorithm:: LoadSassena
+.. algorithm::
 
-.. summary:: LoadSassena
+.. summary::
 
-.. aliases:: LoadSassena
+.. alias::
 
-.. usage:: LoadSassena
+.. properties::
 
-.. properties:: LoadSassena
+Description
+-----------
 
 The Sassena application `1 <http://sassena.org>`__ generates
 intermediate scattering factors from molecular dynamics trajectories.
@@ -46,4 +47,4 @@ is the same:
 -  Y-values contain the structure factors
 -  one spectra for each q-vector
 
-.. categories:: LoadSassena
+.. algm_categories::

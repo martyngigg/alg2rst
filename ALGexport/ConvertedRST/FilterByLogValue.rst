@@ -1,12 +1,13 @@
-.. algorithm:: FilterByLogValue
+.. algorithm::
 
-.. summary:: FilterByLogValue
+.. summary::
 
-.. aliases:: FilterByLogValue
+.. alias::
 
-.. usage:: FilterByLogValue
+.. properties::
 
-.. properties:: FilterByLogValue
+Description
+-----------
 
 Filters out events using the entries in the Sample Logs.
 
@@ -67,4 +68,4 @@ Comparing with other event filtering algorithms
 Wiki page `EventFiltering <EventFiltering>`__ has a detailed
 introduction on event filtering in MantidPlot.
 
-.. categories:: FilterByLogValue
+.. algm_categories::

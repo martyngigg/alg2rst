@@ -1,18 +1,20 @@
-.. algorithm:: UnwrapSNS
+.. algorithm::
 
-.. summary:: UnwrapSNS
+.. summary::
 
-.. aliases:: UnwrapSNS
+.. alias::
 
-.. usage:: UnwrapSNS
+.. properties::
 
-.. properties:: UnwrapSNS
+Description
+-----------
 
 | Slow moving (low energy and long wavelength neutrons) maybe detected
 after the end of the frame in which they entered the experimental
 apparatus. A schematic example of this is shown below where the neutrons
 are marked as circles.
-| |Schematic|
+| |Schematic diagram of neutrons entering an instrument and being
+detected\|centre\||
 | The two neutons on the right of the diagram were actually produced in
 frame 1 but will be recorded in frame 2 at low time of flight (TOF) and
 a straight `ConvertUnits <ConvertUnits>`__ will bin them at high energy
@@ -40,6 +42,6 @@ the difference between Tmax and Tmin. DataFrameWidth overrides this and
 the width is the difference between the longest and shortest TOFs in the
 data.
 
-.. |Schematic| image:: UnwrapSNS_inst.png
+.. |Schematic diagram of neutrons entering an instrument and being detected\|centre\|| image:: UnwrapSNS_inst.png
 
-.. categories:: UnwrapSNS
+.. algm_categories::

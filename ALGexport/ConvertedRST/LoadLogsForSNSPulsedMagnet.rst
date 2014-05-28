@@ -1,13 +1,14 @@
-.. algorithm:: LoadLogsForSNSPulsedMagnet
+.. algorithm::
 
-.. summary:: LoadLogsForSNSPulsedMagnet
+.. summary::
 
-.. aliases:: LoadLogsForSNSPulsedMagnet
+.. alias::
 
-.. usage:: LoadLogsForSNSPulsedMagnet
+.. properties::
 
-.. properties:: LoadLogsForSNSPulsedMagnet
+Description
+-----------
 
 
 
-.. categories:: LoadLogsForSNSPulsedMagnet
+.. algm_categories::

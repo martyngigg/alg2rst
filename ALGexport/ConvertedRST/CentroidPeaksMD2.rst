@@ -1,12 +1,13 @@
-.. algorithm:: CentroidPeaksMD2
+.. algorithm::
 
-.. summary:: CentroidPeaksMD2
+.. summary::
 
-.. aliases:: CentroidPeaksMD2
+.. alias::
 
-.. usage:: CentroidPeaksMD2
+.. properties::
 
-.. properties:: CentroidPeaksMD2
+Description
+-----------
 
 This algorithm starts with a PeaksWorkspace containing the expected
 positions of peaks in reciprocal space. It calculates the centroid of
@@ -14,4 +15,4 @@ the peak by calculating the average of the coordinates of all events
 within a given radius of the peak, weighted by the weight (signal) of
 the event.
 
-.. categories:: CentroidPeaksMD2
+.. algm_categories::

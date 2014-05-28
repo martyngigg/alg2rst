@@ -1,12 +1,13 @@
-.. algorithm:: AlignAndFocusPowder
+.. algorithm::
 
-.. summary:: AlignAndFocusPowder
+.. summary::
 
-.. aliases:: AlignAndFocusPowder
+.. alias::
 
-.. usage:: AlignAndFocusPowder
+.. properties::
 
-.. properties:: AlignAndFocusPowder
+Description
+-----------
 
 This is a workflow algorithm that does the bulk of the work for time
 focusing diffraction data. This is done by executing several
@@ -31,4 +32,4 @@ sub-algorithms as listed below.
 #. `EditInstrumentGeometry <EditInstrumentGeometry>`__ (if appropriate)
 #. `ConvertUnits <ConvertUnits>`__ to time-of-f
 
-.. categories:: AlignAndFocusPowder
+.. algm_categories::

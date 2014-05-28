@@ -1,13 +1,14 @@
-.. algorithm:: CalculateZscore
+.. algorithm::
 
-.. summary:: CalculateZscore
+.. summary::
 
-.. aliases:: CalculateZscore
+.. alias::
 
-.. usage:: CalculateZscore
+.. properties::
 
-.. properties:: CalculateZscore
+Description
+-----------
 
 Calculate Z-score of a spectrum in a given workspace.
 
-.. categories:: CalculateZscore
+.. algm_categories::

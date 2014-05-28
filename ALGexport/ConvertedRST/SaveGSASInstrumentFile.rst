@@ -1,12 +1,13 @@
-.. algorithm:: SaveGSASInstrumentFile
+.. algorithm::
 
-.. summary:: SaveGSASInstrumentFile
+.. summary::
 
-.. aliases:: SaveGSASInstrumentFile
+.. alias::
 
-.. usage:: SaveGSASInstrumentFile
+.. properties::
 
-.. properties:: SaveGSASInstrumentFile
+Description
+-----------
 
 Convert Fullprof's instrument resolution file (.irf) to GSAS's
 instrument file (.iparm/.prm).
@@ -67,4 +68,4 @@ Calculation of L2
 -  If "2Theta" (:math:`2\theta`) is not given, L2 will be read from user
    input.
 
-.. categories:: SaveGSASInstrumentFile
+.. algm_categories::

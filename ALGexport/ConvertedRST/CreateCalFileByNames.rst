@@ -1,12 +1,13 @@
-.. algorithm:: CreateCalFileByNames
+.. algorithm::
 
-.. summary:: CreateCalFileByNames
+.. summary::
 
-.. aliases:: CreateCalFileByNames
+.. alias::
 
-.. usage:: CreateCalFileByNames
+.. properties::
 
-.. properties:: CreateCalFileByNames
+Description
+-----------
 
 .. figure:: images\InstrumentTree.jpg
    :alt: Instrument Tree
@@ -30,4 +31,4 @@ both assembly names are given in the GroupNames, they will get assigned
 different grouping numbers. This allows to isolate a particular
 sub-assembly of a particular leaf of the tree.
 
-.. categories:: CreateCalFileByNames
+.. algm_categories::

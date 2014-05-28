@@ -1,12 +1,13 @@
-.. algorithm:: SaveCanSAS1D2
+.. algorithm::
 
-.. summary:: SaveCanSAS1D2
+.. summary::
 
-.. aliases:: SaveCanSAS1D2
+.. alias::
 
-.. usage:: SaveCanSAS1D2
+.. properties::
 
-.. properties:: SaveCanSAS1D2
+Description
+-----------
 
 Saves the given workspace to a file which will be in canSAS 1-D format
 specified by canSAS 1-D Data Formats Working Group schema
@@ -33,4 +34,4 @@ http://www.cansas.org/svn/1dwg/trunk/doc/cansas-1d-1_1-manual.pdf.
 
 The structure of CanSAS1d xml is defined at the links above.
 
-.. categories:: SaveCanSAS1D2
+.. algm_categories::

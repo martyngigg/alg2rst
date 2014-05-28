@@ -1,12 +1,13 @@
-.. algorithm:: SANSSubtract
+.. algorithm::
 
-.. summary:: SANSSubtract
+.. summary::
 
-.. aliases:: SANSSubtract
+.. alias::
 
-.. usage:: SANSSubtract
+.. properties::
 
-.. properties:: SANSSubtract
+Description
+-----------
 
 Subtract background from an I(Q) distribution.
 
@@ -26,4 +27,4 @@ If the OutputDirectory property is filled, the output workspace will be
 written to disk. Two files will be produced, a 4 column ASCII file and a
 CanSAS XML file.
 
-.. categories:: SANSSubtract
+.. algm_categories::

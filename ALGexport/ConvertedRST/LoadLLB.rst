@@ -1,15 +1,19 @@
-.. algorithm:: LoadLLB
+.. algorithm::
 
-.. summary:: LoadLLB
+.. summary::
 
-.. aliases:: LoadLLB
+.. alias::
 
-.. usage:: LoadLLB
+.. properties::
 
-.. properties:: LoadLLB
+Description
+-----------
 
-TODO: Enter a full wiki-markup description of your algorithm here. You
-can then use the Build/wiki\_maker.py script to generate your full wiki
-page.
+Loads an LLB MIBEMOL TOF NeXus file into a `Workspace2D <Workspace2D>`__
+with the given name.
 
-.. categories:: LoadLLB
+This loader calculates the elastic peak position (EPP) on the fly.
+
+To date this algorithm only supports the MIBEMOL instrument.
+
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: IntegrateByComponent
+.. algorithm::
 
-.. summary:: IntegrateByComponent
+.. summary::
 
-.. aliases:: IntegrateByComponent
+.. alias::
 
-.. usage:: IntegrateByComponent
+.. properties::
 
-.. properties:: IntegrateByComponent
+Description
+-----------
 
 The algorithm integrates up the instrument hierarchy, and each pixel
 will contain the average value for the component. For example, assuming
@@ -19,4 +20,4 @@ average value for that tube.
 Note that if the detectors are grouped before, this algorithm won't run
 except with LevelsUp=0 (integrate over all detectors).
 
-.. categories:: IntegrateByComponent
+.. algm_categories::

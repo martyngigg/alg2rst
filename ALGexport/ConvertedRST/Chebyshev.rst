@@ -1,12 +1,13 @@
-.. algorithm:: Chebyshev
+.. algorithm::
 
-.. summary:: Chebyshev
+.. summary::
 
-.. aliases:: Chebyshev
+.. alias::
 
-.. usage:: Chebyshev
+.. properties::
 
-.. properties:: Chebyshev
+Description
+-----------
 
 This function calculates a partial Chebyshev expansion
 
@@ -34,4 +35,4 @@ index starting from 0.
 The other two attributes are doubles 'StartX' and 'EndX' which define
 the expansion (fitting) interval.
 
-.. categories:: Chebyshev
+.. algm_categories::

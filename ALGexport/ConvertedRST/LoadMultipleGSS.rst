@@ -1,14 +1,15 @@
-.. algorithm:: LoadMultipleGSS
+.. algorithm::
 
-.. summary:: LoadMultipleGSS
+.. summary::
 
-.. aliases:: LoadMultipleGSS
+.. alias::
 
-.. usage:: LoadMultipleGSS
+.. properties::
 
-.. properties:: LoadMultipleGSS
+Description
+-----------
 
 This algorithm loads multiple gsas files from a single directory into
 mantid.
 
-.. categories:: LoadMultipleGSS
+.. algm_categories::

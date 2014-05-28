@@ -1,13 +1,14 @@
-.. algorithm:: LoadDetectorInfo
+.. algorithm::
 
-.. summary:: LoadDetectorInfo
+.. summary::
 
-.. aliases:: LoadDetectorInfo
+.. alias::
 
-.. usage:: LoadDetectorInfo
+.. properties::
 
-.. properties:: LoadDetectorInfo
+Description
+-----------
 
 
 
-.. categories:: LoadDetectorInfo
+.. algm_categories::

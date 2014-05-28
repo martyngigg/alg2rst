@@ -1,12 +1,13 @@
-.. algorithm:: SmoothData
+.. algorithm::
 
-.. summary:: SmoothData
+.. summary::
 
-.. aliases:: SmoothData
+.. alias::
 
-.. usage:: SmoothData
+.. properties::
 
-.. properties:: SmoothData
+Description
+-----------
 
 Smooths out statistical jitter in a workspace's data by making each
 point the mean average of itself and one or more points lying
@@ -18,4 +19,4 @@ value in the spectrum will be smoothed by making it the average of the
 first 3 values, the next will use the first 4 and then the third and
 onwards will use the full 5 points in the averaging.
 
-.. categories:: SmoothData
+.. algm_categories::

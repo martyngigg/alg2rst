@@ -1,12 +1,13 @@
-.. algorithm:: SolidAngle
+.. algorithm::
 
-.. summary:: SolidAngle
+.. summary::
 
-.. aliases:: SolidAngle
+.. alias::
 
-.. usage:: SolidAngle
+.. properties::
 
-.. properties:: SolidAngle
+Description
+-----------
 
 The algorithm calculates solid angles from the sample position of the
 input workspace for all of the spectra selected. If several detectors
@@ -24,4 +25,4 @@ Note: The Solid angle calculation assumes that the path between the
 sample and detector is unobstructed by another other instrument
 components.
 
-.. categories:: SolidAngle
+.. algm_categories::

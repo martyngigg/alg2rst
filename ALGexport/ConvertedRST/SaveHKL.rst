@@ -1,12 +1,13 @@
-.. algorithm:: SaveHKL
+.. algorithm::
 
-.. summary:: SaveHKL
+.. summary::
 
-.. aliases:: SaveHKL
+.. alias::
 
-.. usage:: SaveHKL
+.. properties::
 
-.. properties:: SaveHKL
+Description
+-----------
 
 Used same format that works successfully in GSAS and SHELX from ISAW:
 
@@ -40,4 +41,4 @@ DSP = d-Spacing of peak (Angstroms)/TR
 
 Last line must have all 0's
 
-.. categories:: SaveHKL
+.. algm_categories::

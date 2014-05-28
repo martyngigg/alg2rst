@@ -1,12 +1,13 @@
-.. algorithm:: ProductQuadraticExp
+.. algorithm::
 
-.. summary:: ProductQuadraticExp
+.. summary::
 
-.. aliases:: ProductQuadraticExp
+.. alias::
 
-.. usage:: ProductQuadraticExp
+.. properties::
 
-.. properties:: ProductQuadraticExp
+Description
+-----------
 
 This fit function computes the product of a linear and exponential
 function. See `ExpDecay <ExpDecay>`__ and QuadraticBackground for
@@ -19,4 +20,4 @@ was originally added to Mantid as a named function for the purposes of
 detector efficiency calibration. Also see
 `ProductLinearExp <ProductLinearExp>`__.
 
-.. categories:: ProductQuadraticExp
+.. algm_categories::

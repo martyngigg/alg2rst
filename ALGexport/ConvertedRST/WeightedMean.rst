@@ -1,12 +1,13 @@
-.. algorithm:: WeightedMean
+.. algorithm::
 
-.. summary:: WeightedMean
+.. summary::
 
-.. aliases:: WeightedMean
+.. alias::
 
-.. usage:: WeightedMean
+.. properties::
 
-.. properties:: WeightedMean
+Description
+-----------
 
 The algorithm calculates the weighted mean of two workspaces. This is
 useful when working with distributions rather than histograms,
@@ -18,4 +19,4 @@ eventually be modified to take a list of workspaces as an input.
 
 :math:`\displaystyle y=\frac{\sum\frac{x_i}{\sigma^{2}_i}}{\sum\frac{1}{\sigma^{2}_i}}`
 
-.. categories:: WeightedMean
+.. algm_categories::

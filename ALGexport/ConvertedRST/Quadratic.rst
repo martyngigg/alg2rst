@@ -1,12 +1,13 @@
-.. algorithm:: Quadratic
+.. algorithm::
 
-.. summary:: Quadratic
+.. summary::
 
-.. aliases:: Quadratic
+.. alias::
 
-.. usage:: Quadratic
+.. properties::
 
-.. properties:: Quadratic
+Description
+-----------
 
 A quadratic background function is defined as:
 
@@ -14,8 +15,8 @@ A quadratic background function is defined as:
 
 where
 
-#. A0 - coefficient for constant term
-#. A1 - coefficient for linear term
-#. A2 - coefficient for quadratic term
+-  A0 - coefficient for constant term
+-  A1 - coefficient for linear term
+-  A2 - coefficient for quadratic term
 
-.. categories:: Quadratic
+.. algm_categories::

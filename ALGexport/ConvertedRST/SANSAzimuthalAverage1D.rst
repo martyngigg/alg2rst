@@ -1,13 +1,14 @@
-.. algorithm:: SANSAzimuthalAverage1D
+.. algorithm::
 
-.. summary:: SANSAzimuthalAverage1D
+.. summary::
 
-.. aliases:: SANSAzimuthalAverage1D
+.. alias::
 
-.. usage:: SANSAzimuthalAverage1D
+.. properties::
 
-.. properties:: SANSAzimuthalAverage1D
+Description
+-----------
 
 Compute I(q) for reduced SANS data
 
-.. categories:: SANSAzimuthalAverage1D
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: CheckWorkspacesMatch
+.. algorithm::
 
-.. summary:: CheckWorkspacesMatch
+.. summary::
 
-.. aliases:: CheckWorkspacesMatch
+.. alias::
 
-.. usage:: CheckWorkspacesMatch
+.. properties::
 
-.. properties:: CheckWorkspacesMatch
+Description
+-----------
 
 Compares two workspaces for equality. This algorithm is mainly intended
 for use by Mantid developers as part of the testing process.
@@ -20,4 +21,4 @@ In the case of `EventWorkspaces <EventWorkspace>`__, they are checked to
 hold identical event lists. Comparisons between an EventList and a
 Workspace2D always fail.
 
-.. categories:: CheckWorkspacesMatch
+.. algm_categories::

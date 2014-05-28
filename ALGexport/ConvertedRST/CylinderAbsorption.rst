@@ -1,12 +1,13 @@
-.. algorithm:: CylinderAbsorption
+.. algorithm::
 
-.. summary:: CylinderAbsorption
+.. summary::
 
-.. aliases:: CylinderAbsorption
+.. alias::
 
-.. usage:: CylinderAbsorption
+.. properties::
 
-.. properties:: CylinderAbsorption
+Description
+-----------
 
 This algorithm uses a numerical integration method to calculate
 attenuation factors resulting from absorption and single scattering in a
@@ -51,4 +52,4 @@ there (e.g. there's no multiple scattering and no concentric cylinders).
 #. A.K. Soper & P.A. Egelstaff, *Multiple Scattering and Attenuation of
    Neutrons in Concentric Cylinders*, NIM **178** (1980) 415.
 
-.. categories:: CylinderAbsorption
+.. algm_categories::

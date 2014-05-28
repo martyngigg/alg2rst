@@ -1,12 +1,13 @@
-.. algorithm:: MinusMD
+.. algorithm::
 
-.. summary:: MinusMD
+.. summary::
 
-.. aliases:: MinusMD
+.. alias::
 
-.. usage:: MinusMD
+.. properties::
 
-.. properties:: MinusMD
+Description
+-----------
 
 Subtract two `MDHistoWorkspace <MDHistoWorkspace>`__'s or a
 MDHistoWorkspace and a scalar.
@@ -37,4 +38,4 @@ MDHistoWorkspace and a scalar.
 
    -  This is not possible.
 
-.. categories:: MinusMD
+.. algm_categories::

@@ -1,14 +1,15 @@
-.. algorithm:: FitResolutionConvolvedModel
+.. algorithm::
 
-.. summary:: FitResolutionConvolvedModel
+.. summary::
 
-.. aliases:: FitResolutionConvolvedModel
+.. alias::
 
-.. usage:: FitResolutionConvolvedModel
+.. properties::
 
-.. properties:: FitResolutionConvolvedModel
+Description
+-----------
 
 Fits a dataset using a resolution function convolved with a foreground
 model
 
-.. categories:: FitResolutionConvolvedModel
+.. algm_categories::

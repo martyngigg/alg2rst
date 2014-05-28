@@ -1,12 +1,13 @@
-.. algorithm:: CreateMDHistoWorkspace
+.. algorithm::
 
-.. summary:: CreateMDHistoWorkspace
+.. summary::
 
-.. aliases:: CreateMDHistoWorkspace
+.. alias::
 
-.. usage:: CreateMDHistoWorkspace
+.. properties::
 
-.. properties:: CreateMDHistoWorkspace
+Description
+-----------
 
 Takes two arrays of signal and error values, as well as information
 describing the dimensionality and extents, and creates a
@@ -36,4 +37,4 @@ Another alternative is to use `ConvertToMD <ConvertToMD>`__ which works
 on MatrixWorkspaces, and allows log values to be included in the
 dimensionality.
 
-.. categories:: CreateMDHistoWorkspace
+.. algm_categories::

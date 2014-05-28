@@ -1,12 +1,13 @@
-.. algorithm:: LoadAscii
+.. algorithm::
 
-.. summary:: LoadAscii
+.. summary::
 
-.. aliases:: LoadAscii
+.. alias::
 
-.. usage:: LoadAscii
+.. properties::
 
-.. properties:: LoadAscii
+Description
+-----------
 
 The LoadAscii algorithm reads in spectra data from a text file and
 stores it in a `Workspace2D <Workspace2D>`__ as data points. The data in
@@ -36,4 +37,4 @@ The resulting workspace will have common X binning for all spectra.
 This algorithm cannot load a file created by `SaveAscii <SaveAscii>`__
 if it has X errors written and several spectra.
 
-.. categories:: LoadAscii
+.. algm_categories::

@@ -1,12 +1,13 @@
-.. algorithm:: SassenaFFT
+.. algorithm::
 
-.. summary:: SassenaFFT
+.. summary::
 
-.. aliases:: SassenaFFT
+.. alias::
 
-.. usage:: SassenaFFT
+.. properties::
 
-.. properties:: SassenaFFT
+Description
+-----------
 
 The Sassena application `1 <http://sassena.org>`__ generates
 intermediate scattering factors from molecular dynamics trajectories.
@@ -59,4 +60,4 @@ is transformed, the result is another Gaussian:
 
    SassenaFFTexample.jpg
 
-.. categories:: SassenaFFT
+.. algm_categories::

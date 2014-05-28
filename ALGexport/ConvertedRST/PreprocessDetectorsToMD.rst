@@ -1,13 +1,14 @@
-.. algorithm:: PreprocessDetectorsToMD
+.. algorithm::
 
-.. summary:: PreprocessDetectorsToMD
+.. summary::
 
-.. aliases:: PreprocessDetectorsToMD
+.. alias::
 
-.. usage:: PreprocessDetectorsToMD
+.. properties::
 
-.. properties:: PreprocessDetectorsToMD
+Description
+-----------
 
 
 
-.. categories:: PreprocessDetectorsToMD
+.. algm_categories::

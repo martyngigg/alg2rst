@@ -1,12 +1,13 @@
-.. algorithm:: Rebin
+.. algorithm::
 
-.. summary:: Rebin
+.. summary::
 
-.. aliases:: Rebin
+.. alias::
 
-.. usage:: Rebin
+.. properties::
 
-.. properties:: Rebin
+Description
+-----------
 
 The algorithm rebins data with new bin boundaries. The 'params' property
 defines new boundaries in intervals :math:`x_i-x_{i+1}\,`. Positive
@@ -79,4 +80,4 @@ following will happen:
 
 Hence the actual *Param* string used is "0, 2, 4, 3, 10".
 
-.. categories:: Rebin
+.. algm_categories::

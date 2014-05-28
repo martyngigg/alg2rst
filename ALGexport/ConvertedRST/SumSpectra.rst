@@ -1,12 +1,13 @@
-.. algorithm:: SumSpectra
+.. algorithm::
 
-.. summary:: SumSpectra
+.. summary::
 
-.. aliases:: SumSpectra
+.. alias::
 
-.. usage:: SumSpectra
+.. properties::
 
-.. properties:: SumSpectra
+Description
+-----------
 
 Takes a workspace as input and sums all of the spectra within it
 maintaining the existing bin structure and units. Any masked spectra are
@@ -45,4 +46,4 @@ From C++ they can be reached as strings by the code:
 | ``     std::string rez=pWS->run().getLogData("NumMaskSpectra")->value();``
 | ``     std::string rez=pWS->run().getLogData("NumZeroSpectra")->value();``
 
-.. categories:: SumSpectra
+.. algm_categories::

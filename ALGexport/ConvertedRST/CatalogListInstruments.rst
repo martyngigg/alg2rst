@@ -1,14 +1,15 @@
-.. algorithm:: CatalogListInstruments
+.. algorithm::
 
-.. summary:: CatalogListInstruments
+.. summary::
 
-.. aliases:: CatalogListInstruments
+.. alias::
 
-.. usage:: CatalogListInstruments
+.. properties::
 
-.. properties:: CatalogListInstruments
+Description
+-----------
 
-This algorithm retrieves the instrument names from the information
-catalog and saves instrument lists to a mantid internal data structure.
+This algorithm retrieves the instrument names from a catalog and stores
+them in a vector.
 
-.. categories:: CatalogListInstruments
+.. algm_categories::

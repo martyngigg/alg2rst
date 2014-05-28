@@ -1,12 +1,13 @@
-.. algorithm:: CombinePeaksWorkspaces
+.. algorithm::
 
-.. summary:: CombinePeaksWorkspaces
+.. summary::
 
-.. aliases:: CombinePeaksWorkspaces
+.. alias::
 
-.. usage:: CombinePeaksWorkspaces
+.. properties::
 
-.. properties:: CombinePeaksWorkspaces
+Description
+-----------
 
 This algorithm can be used to combine lists of single crystal peaks,
 possibly obtained by different methods, in to a single list (contained
@@ -18,4 +19,4 @@ the order they are found in the workspace (RHSWorkspace first) and if a
 match is found (the search stops at the first match for each
 RHSWorkspace peak) then the peak in the LHSWorkspace is retained.
 
-.. categories:: CombinePeaksWorkspaces
+.. algm_categories::

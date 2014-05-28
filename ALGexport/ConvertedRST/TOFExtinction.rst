@@ -1,12 +1,13 @@
-.. algorithm:: TOFExtinction
+.. algorithm::
 
-.. summary:: TOFExtinction
+.. summary::
 
-.. aliases:: TOFExtinction
+.. alias::
 
-.. usage:: TOFExtinction
+.. properties::
 
-.. properties:: TOFExtinction
+Description
+-----------
 
 Extinction Correction Program
 
@@ -33,4 +34,4 @@ adopted
 | ``S. Tomiyoshi, M. Yamada and H. Watanabe, Acta Cryst. (1980). A36, 600.``
 | ``Maslen, E. N.  & Spadaccini, N. Acta Cryst. (1993). A49, 661.``
 
-.. categories:: TOFExtinction
+.. algm_categories::
