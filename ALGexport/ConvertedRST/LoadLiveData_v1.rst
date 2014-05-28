@@ -71,10 +71,6 @@ Data Accumulation
    -  If you select 'Append', then the spectra from each chunk will be
       appended to the output workspace.
 
-.. raw:: html
-
-   <div style="border:1px solid #5599FF; {{Round corners}}; margin: 15px;">
-
 A Warning About Events
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -84,10 +80,6 @@ data as `EventWorkspaces <EventWorkspace>`__, you may end up creating
 re-sorting the events, which is an operation that gets much slower as
 the list gets bigger (Order of N\*log(N)). This could cause Mantid to
 run very slowly or to crash due to lack of memory.
-
-.. raw:: html
-
-   </div>
 
 Post-Processing Step
 ~~~~~~~~~~~~~~~~~~~~

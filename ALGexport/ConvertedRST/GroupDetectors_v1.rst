@@ -75,10 +75,6 @@ is ignored and can be any integer (not necessarily the same integer)
 
 In addition the following XML grouping format is also supported
 
-.. raw:: html
-
-   <div style="border:1pt dashed black; background:#f9f9f9;padding: 1em 0;">
-
 .. code:: xml
 
     <?xml version="1.0" encoding="UTF-8" ?>
@@ -89,10 +85,6 @@ In addition the following XML grouping format is also supported
       <group name="fwd2"><detids val="1,2,17,32"/></group> 
       <group name="bwd2"><detids val="33,36,38,60,64"/> </group> 
     </detector-grouping>
-
-.. raw:: html
-
-   </div>
 
 where is used to specify spectra IDs and detector IDs.
 

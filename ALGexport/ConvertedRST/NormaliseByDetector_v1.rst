@@ -83,10 +83,6 @@ Examples
 Applying a LinearFunction to the whole instrument, hard-coded with A1=2
 and A0=1. Fictional instrument is called basic\_rect.
 
-.. raw:: html
-
-   <div style="border:1pt dashed black; background:#f9f9f9;padding: 1em 0;">
-
 .. code:: xml
 
       <parameter-file instrument = "basic_rect" date = "2012-01-31T00:00:00">
@@ -102,16 +98,8 @@ and A0=1. Fictional instrument is called basic\_rect.
         </component-link>
       </parameter-file>
 
-.. raw:: html
-
-   </div>
-
 Applying the same LinearFunction to two different detectors, with
 different coefficients is shown below:
-
-.. raw:: html
-
-   <div style="border:1pt dashed black; background:#f9f9f9;padding: 1em 0;">
 
 .. code:: xml
 
@@ -138,19 +126,11 @@ different coefficients is shown below:
     </component-link>
     </parameter-file>
 
-.. raw:: html
-
-   </div>
-
 In the following the LinearFunction A0 coefficient is set globally for
 all detectors at the instrument level, while the A1 coefficient is
 provided for each detector. In this way the Algorithm sees a complete
 definition for the Linear function (both A1 and A0) from two incomplete
 definitions on different components in the tree.
-
-.. raw:: html
-
-   <div style="border:1pt dashed black; background:#f9f9f9;padding: 1em 0;">
 
 .. code:: xml
 
@@ -174,9 +154,5 @@ definitions on different components in the tree.
     </parameter>
     </component-link>
     </parameter-file>
-
-.. raw:: html
-
-   </div>
 
 .. algm_categories::

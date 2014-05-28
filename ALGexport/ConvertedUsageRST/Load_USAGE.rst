@@ -8,10 +8,6 @@ handle any number of arguments. The OutputWorkspace and Filename
 arguments are the exceptions in that they are always checked for. A
 snippet regarding usage from the ``help(Load)`` is shown below
 
-.. raw:: html
-
-   <div style="border:1pt dashed blue; background:#f9f9f9;padding: 1em 0;">
-
 .. code:: python
 
     # Simple usage, ISIS NeXus file
@@ -25,10 +21,6 @@ snippet regarding usage from the ``help(Load)`` is shown below
 
     # A mix of keyword and non-keyword is also possible
     Load(OutputWorkspace='event_ws', Filename='INSTR_1000_event.nxs', Precount=True)
-
-.. raw:: html
-
-   </div>
 
 Loading Multiple Files
 ^^^^^^^^^^^^^^^^^^^^^^

@@ -15,10 +15,6 @@ Python script file or Python variable.
 Example usage:
 ~~~~~~~~~~~~~~
 
-.. raw:: html
-
-   <div style="border:1pt dashed black; background:#f9f9f9;padding: 1em 0;">
-
 .. code:: python
 
       # Optional: Store the contents of the workspace to a file to your desktop.
@@ -35,10 +31,6 @@ Example usage:
       ######################################################################
       Load(Filename=r'/home/userName/workspace/mantid/Test/AutoTestData/MUSR00022725.nxs',OutputWorkspace='MUSR00022725')
       RenameWorkspace(InputWorkspace='MUSR00022725',OutputWorkspace='test')
-
-.. raw:: html
-
-   </div>
 
 .. raw:: mediawiki
 

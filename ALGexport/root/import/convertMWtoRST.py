@@ -20,7 +20,9 @@ from os.path import basename
 
 #Return content found inside the given strings
 def findByTag(algorithmStr, algName, ext):
-    
+    # Replace inline styles found in the algorithms wiki with nothing.
+    algorithmStr = re.sub(r'<div style=\"[^\"]*\">',r'', algorithmStr)
+    algorithmStr = re.sub(r'</div>',r'',algorithmStr)
 
     if ext == '.cpp':
         wikiOpen = '/*WIKI*'

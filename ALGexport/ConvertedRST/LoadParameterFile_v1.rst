@@ -16,10 +16,6 @@ through s in an IDF. Below is an example of how to define a parameter
 named 'test' to be associated with a component named 'bank\_90degnew'
 defined in the IDF of the HRPD instrument:
 
-.. raw:: html
-
-   <div style="border:1pt dashed black; background:#f9f9f9;padding: 1em 0;">
-
 .. code:: xml
 
     <?xml version="1.0" encoding="UTF-8" ?>
@@ -30,9 +26,5 @@ defined in the IDF of the HRPD instrument:
     </component-link>
 
     </parameter-file>
-
-.. raw:: html
-
-   </div>
 
 .. algm_categories::

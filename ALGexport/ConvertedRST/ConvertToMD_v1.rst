@@ -70,10 +70,6 @@ Mantid for different testing tasks.
 Convert re-binned MARI 2D workspace to 3D MD workspace for further analysis/merging with data at different temperatures
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. raw:: html
-
-   <div style="border:1pt dashed blue; background:#f9f9f9;padding: 1em 0;">
-
 .. code:: python
 
 
@@ -83,10 +79,6 @@ Convert re-binned MARI 2D workspace to 3D MD workspace for further analysis/merg
 
     ConvertToMD(InputWorkspace='MAR11001Qe2',OutputWorkspace='MD3',QDimensions='CopyToMD',OtherDimensions='T',\
     MinValues='-10,0,0',MaxValues='10,6,500',SplitInto='50,50,5')
-
-.. raw:: html
-
-   </div>
 
 Output **MD3** workspace can be viewed in slice-viewer as 3D workspace
 with T-axis having single value.
@@ -98,10 +90,6 @@ This example is based on CNCS\_7860\_event.nxs file, available in Mantid
 test folder. The same script without any changes would produce similar
 MD workspace given histogram data obtained from inelastic instruments
 and stored in nxspe files.
-
-.. raw:: html
-
-   <div style="border:1pt dashed blue; background:#f9f9f9;padding: 1em 0;">
 
 .. code:: python
 
@@ -148,10 +136,6 @@ and stored in nxspe files.
     # plot results using sliceviewer
     plotSlice(RezWS, xydim=["[H,0,0]","[0,K,0]"], slicepoint=[0,0] )
 
-.. raw:: html
-
-   </div>
-
 Convert set of inelastic results obtained in Powder mode (direct) as function of temperature to a 3D workspace:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -162,10 +146,6 @@ test <http://github.com/mantidproject/systemtests>`__ folder. The text
 will produce 3-dimensional dataset, with temperature axis. The image
 does not change with temperature, as we have just cloned initial
 workspace without any changes to the experimental data.
-
-.. raw:: html
-
-   <div style="border:1pt dashed blue; background:#f9f9f9;padding: 1em 0;">
 
 .. code:: python
 
@@ -202,9 +182,5 @@ workspace without any changes to the experimental data.
     DeleteWorkspace(SourceWS)
 
     plotSlice(RezWS, xydim=["|Q|","DeltaE"], slicepoint=[0,0] )
-
-.. raw:: html
-
-   </div>
 
 .. algm_categories::

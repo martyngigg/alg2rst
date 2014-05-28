@@ -12,10 +12,6 @@ Description
 Example of use in Python for create a simple histogram workspace and
 automatically populating the VerticalAxis with SpectraNumber values.
 
-.. raw:: html
-
-   <div style="border:1pt dashed black; background:#f9f9f9;padding: 1em 0;">
-
 .. code:: python
 
      dataX = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
@@ -24,9 +20,5 @@ automatically populating the VerticalAxis with SpectraNumber values.
      
      # The workspace will be named "dataWS"
      dataWS = CreateWorkspace(DataX=dataX, DataY=dataY, DataE=dataE, NSpec=4,UnitX="Wavelength")
-
-.. raw:: html
-
-   </div>
 
 .. algm_categories::
