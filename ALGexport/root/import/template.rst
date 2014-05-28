@@ -1,11 +1,11 @@
-.. algorithm:: [ALGNAME]
+.. algorithm::
 
-.. summary:: [ALGNAME]
+.. summary::
 
-.. alias:: [ALGNAME]
+.. alias::
 
-.. properties:: [ALGNAME]
+.. properties::
 
 [DOCUMENTATION]
 
-.. categories:: [ALGNAME]
+.. algm_categories::
