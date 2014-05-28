@@ -1,1 +1,0 @@
-The algorithm rebins data by adding together ''n_bunch'' successive bins.

@@ -1,1 +1,0 @@
-Moves the detectors in an instrument to optimize the maximum intensity of each detector using gsl_multimin_fminimizer_nmsimplex.  Only bin data close to peak you wish to maximize.

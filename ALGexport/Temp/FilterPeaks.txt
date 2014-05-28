@@ -1,1 +1,0 @@
-Filters a [[PeaksWorkspace]] using a set number of queries. Outputs a filtered PeaksWorkspace.

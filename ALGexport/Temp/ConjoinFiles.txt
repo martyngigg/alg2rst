@@ -1,1 +1,0 @@
-Conjoin two workspaces, which are file based. Uses [[ConjoinWorkspaces]] to do the heavy-lifting.

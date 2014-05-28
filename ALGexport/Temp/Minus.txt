@@ -1,3 +1,0 @@
-{{BinaryOperation|verb=subtracted|prep=from|symbol=<math>-</math>}} 
-
-The Minus algorithm will subtract the data values and calculate the corresponding [[Error Values|error values]] for two compatible workspaces.
