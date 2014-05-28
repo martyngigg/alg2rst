@@ -178,6 +178,8 @@ def convertToRST(algName, tempDir, convertedDir, version):
     if "USAGE" in algName or not version:
       shutil.move(mvFile, convertedDir)
     else:
+      if algName[-1] == str(version):
+        algName = algName[0:-1] # Remove version from alg name.
       shutil.move(mvFile, convertedDir + algName + "_v" + str(version) + ".rst")
 
 def emptyFolder(folder): 
