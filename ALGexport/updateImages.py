@@ -13,7 +13,7 @@ pagesWithImages = []
 
 #Uses the old links as the search term and replaces them with the new links    
 def updateImageDir(algName, algDir):
-    
+    print "ALGNAME", algName
     with open (algDir+algName+'.rst', 'r') as algFile:
         rst=algFile.read()        
         before = rst

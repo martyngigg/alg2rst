@@ -18,6 +18,10 @@ cpp files once it has been extracted.
 import sys, subprocess, os, shutil, re
 from os.path import basename
 
+from mantid import AlgorithmFactory, FunctionFactory
+
+FUNC_NAMES = FunctionFactory.getFunctionNames()
+
 #Return content found inside the given strings
 def findByTag(algorithmStr, algName, ext):
     # Replace inline styles found in the algorithms wiki with nothing.
@@ -114,13 +118,16 @@ def findByTag(algorithmStr, algName, ext):
 #Uses pandoc to convert from mediawiki to rst
 def convert(algName, algDir, remove, ext):
    
-    print 'Converting: '+algName
+    print 'Converting: ' + algDir+algName+ext
 
     with open (algDir+algName+ext, 'r') as algFile:
         algorithmStr=algFile.read()
     
     #Extract the documentation from the string
     markup = findByTag(algorithmStr, algName, ext)
+    #If no documentation was present return 0
+    if markup[0] == None:
+        return 0
     
     '''
     If remove has been specified then remove the WIKI or WIKI_USAGE section from the cpp
@@ -129,11 +136,6 @@ def convert(algName, algDir, remove, ext):
     if remove:
         cleanFile = open(algDir+algName+ext, 'w')
         cleanFile.write(markup[2])
-    
-            
-    #If no documentation was present return 0
-    if markup[0] == None:
-        return 0
     
     wiki = markup[0]
     
@@ -161,29 +163,42 @@ def convert(algName, algDir, remove, ext):
         convertToRST(algName+'_USAGE', tempDir, convertedUsageDir, algorithm_version)
 
 def convertToRST(algName, tempDir, convertedDir, version):
+
     #Set input name and change working directory
     inputN = algName+'.txt'
     outputN = algName+'.rst'        
-        
+    
+    cwd = os.getcwd()
     os.chdir(tempDir)
     args = ['pandoc', '-f', 'mediawiki', '-t', 'rst', inputN, '-o', outputN]
-    
     #run pandoc and wait for output
     obj = subprocess.Popen(args)    
     obj.wait()  
-        
+
+    os.chdir(cwd)
+
     #move completed rst file into completed folder for tidyness
     mvFile = tempDir+algName+'.rst'
 
-    if "USAGE" in algName or not version:
-      shutil.move(mvFile, convertedDir)
+    destname = None
+    if AlgorithmFactory.exists(algName):
+        destname = convertedDir + "/algorithms/" + algName + "-v" + str(version) + ".rst"
+    elif AlgorithmFactory.exists(algName[:-1]):
+        destname = convertedDir + "/algorithms/" + algName[:-1] + "-v" + str(version) + ".rst"
+    elif algName in FUNC_NAMES:
+        destname = convertedDir + "/functions/" + algName + ".rst"
+    elif "USAGE" in algName:
+        destname = convertedDir + algName + ".rst"
     else:
-      if algName[-1] == str(version):
-        algName = algName[0:-1] # Remove version from alg name.
-      shutil.move(mvFile, convertedDir + algName + "-v" + str(version) + ".rst")
+        unknowns_file = open("unknowns.txt", 'w+')
+        unknowns_file.write("Unknown object type %s" % algName)
+        unknowns_file.close()
+        return
+
+    shutil.move(mvFile, destname)
 
 def emptyFolder(folder): 
-    
+    print "Emptying",folder
     for the_file in os.listdir(folder):
         file_path = os.path.join(folder, the_file)
         try:
@@ -200,13 +215,12 @@ def convertMWtoRST(clean):
     
     for dirpath, dnames, fnames in os.walk(algDir):
         for f in fnames:
-            if f.endswith('.cpp') or f.endswith('.py'):
-                path = (os.path.join(dirpath, f))                
+            if ("src" in dirpath and f.endswith('.cpp')) or f.endswith('.py'):
+                path = os.path.join(dirpath, f)
                 filename = basename(path)
                 algName = os.path.splitext(filename)[0]
-                ext =  os.path.splitext(filename)[1]                
+                ext =  os.path.splitext(filename)[1]
                 convert(algName, dirpath+os.sep, clean, ext)
-                
 
 def get_algorithm_version(path_to_algorithm):
 
@@ -239,8 +253,11 @@ def get_algorithm_version(path_to_algorithm):
       print "Obtained the version number from the header file."
       return version_from_header
 
-    print "We could not find the version number for the algorithm. Returning an empty string."
-    return ""
+    no_versionsfile = open("noversions.txt", 'w+')
+    no_versionsfile.write("We could not find the version number for %s. Returning 1" % path_to_algorithm)
+    no_versionsfile.close()
+
+    return "1"
 
 def get_version_from_text(algorithm_string):
     # Replace all whitespace with nothing for consistency.
@@ -267,7 +284,8 @@ def init(algDirectory, conDir, conUsageDir, tempPath):
     global tempDir
     tempDir = tempPath
 
-    emptyFolder(convertedDir)
+    emptyFolder(convertedDir + "/algorithms/")
+    emptyFolder(convertedDir + "/functions/")
     emptyFolder(convertedUsageDir)
 
     

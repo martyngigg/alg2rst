@@ -8,6 +8,11 @@ This script uses the template file to insert the directives for each algorithm r
 
 import os, sys
 
+from mantid import AlgorithmFactory, FunctionFactory
+
+FUNC_NAMES = FunctionFactory.getFunctionNames()
+
+
 def create(algName, convertedDir):
     #read the rst content in
     with open (convertedDir+algName+'.rst', 'r') as rstFile:
@@ -16,11 +21,23 @@ def create(algName, convertedDir):
     #remove extra whitespace and newlines from the end of the documentation
     rst = rst.rstrip()
     template_dir = os.path.dirname(__file__)
-    #os.chdir(pathname) 
-    with open (os.path.join(template_dir,'template.rst'), 'r') as templateFile:
+
+    if AlgorithmFactory.exists(algName):
+        template_file = os.path.join(template_dir,'algorithm_template.rst')
+    elif "-v" in algName:
+        algName = algName[:-3]
+        template_file = os.path.join(template_dir,'algorithm_template.rst')
+    elif algName in FUNC_NAMES:
+        template_file = os.path.join(template_dir,'function_template.rst')
+    elif "USAGE" in algName:
+        raise RuntimeError("Usage section rst encountered in directive insertion: %s" % algName)
+    else:
+        raise RuntimeError("Unknown object in directive insertion: %s" % algName)
+
+    with open (template_file, 'r') as templateFile:
         template=templateFile.read()
-    
-    built = template.replace('[ALGNAME]', algName)
+
+    built = template.replace('[TITLE]', "="*len(algName) + "\n" + algName + "\n" + "="*len(algName) + "\n")
     built = built.replace('[DOCUMENTATION]', rst)
     
     builtFile = open(convertedDir+algName+'.rst', 'w')
