@@ -125,9 +125,13 @@ def convert(algName, algDir, remove, ext):
     
     #Extract the documentation from the string
     markup = findByTag(algorithmStr, algName, ext)
+
+
     #If no documentation was present return 0
     if markup[0] == None:
         return 0
+
+    algorithm_version = get_algorithm_version(algDir + algName + ext)
     
     '''
     If remove has been specified then remove the WIKI or WIKI_USAGE section from the cpp
@@ -154,7 +158,6 @@ def convert(algName, algDir, remove, ext):
     else:
         usage = None
             
-    algorithm_version = get_algorithm_version(algDir + algName + ext)
     #Convert main body of documentation to RST        
     convertToRST(algName, tempDir, convertedDir, algorithm_version)
     
@@ -227,28 +230,43 @@ def get_algorithm_version(path_to_algorithm):
     """
     Finds the version number after the search_string
     """
+    if path_to_algorithm.endswith(".py"):
+        return "1"
 
     # First, try and find the version in the source file.
+    algorithm_string = None
     with open (path_to_algorithm, 'r') as algorithm_file:
         algorithm_string = algorithm_file.read()
 
-    version_from_source = get_version_from_text(algorithm_string)
+    version_from_source = get_version_from_text(algorithm_string, header_file = False)
 
     if version_from_source > 0:
       print "Obtained the version number from the source file."
       return version_from_source
 
-    # Inital header path fixes
-    path_to_algorithm = path_to_algorithm.replace("src","inc").replace(".cpp",".h")
-    # Obtain the namespace used in the header.
-    namespace = path_to_algorithm.split("/")[-3]
-    # Add namespace to include path.
-    path_to_algorithm = path_to_algorithm.replace("/inc/", "/inc/Mantid" + namespace + "/")
-    # There was no match, so lets look in the header file
-    with open (path_to_algorithm, 'r') as algorithm_file:
+    FRAMEWORK_DIR = "/home/dmn58364/GitHub/mantid/Code/Mantid/Framework"
+
+    # get header path
+    dirpath = os.path.dirname(path_to_algorithm)
+    rel_filepath = os.path.relpath(path_to_algorithm, FRAMEWORK_DIR)
+    subdirs = rel_filepath.split("/")
+    subproj = subdirs[0]
+
+    headerdir = FRAMEWORK_DIR + "/" + subproj + "/" + "inc/Mantid" + subproj + "/"
+    if len(subdirs) > 2:
+        headerdir += "/".join(subdirs[2:-1]) + "/"
+
+    header_filepath = headerdir + os.path.split(path_to_algorithm)[1].replace(".cpp", ".h")
+    if not os.path.exists(header_filepath):
+        no_versionsfile = open("noversions.txt", 'a')
+        no_versionsfile.write("Cannot find header to look for version %s. Returning 1\n" % header_filepath)
+        no_versionsfile.close()
+        return "1"
+
+    with open (header_filepath, 'r') as algorithm_file:
         algorithm_string = algorithm_file.read()
 
-    version_from_header = get_version_from_text(algorithm_string)
+    version_from_header = get_version_from_text(algorithm_string, header_file = True)
     if version_from_header > 0:
       print "Obtained the version number from the header file."
       return version_from_header
@@ -259,20 +277,23 @@ def get_algorithm_version(path_to_algorithm):
 
     return "1"
 
-def get_version_from_text(algorithm_string):
-    # Replace all whitespace with nothing for consistency.
-    # Some developers may have used several spaces after the return.
-    algorithm_text = re.sub(re.compile(r'\s+'),'',algorithm_string)
-    # Added a brace replace as some version numbers are surrounded by braces.
-    # Consequently, I have removed it from the "search_string" below.
-    algorithm_text = algorithm_text.replace("(","")
-    # Find an occurence of the method outline.
-    # The version is the next character in the string.
-    search_string = "version)const{return"
-    match = algorithm_text.find(search_string)
-    if match > 0:
-      return algorithm_text[match + len(search_string)]
-    return -1
+HEADER_VER_RE = re.compile(r"(virtual\s+)?int\s+version\(\)\s*const\s*{\s*return\s*\(?([0-9])\)?\s*;\s*};?")
+SRC_VER_RE = re.compile(r"int\s*(\w*)::version\(\)\s*const\s*{\s*return\s*\(?([0-9])\)?\s*;\s*};?")
+
+def get_version_from_text(algorithm_string, header_file):
+    if header_file:
+        match = HEADER_VER_RE.search(algorithm_string)
+        if match is None:
+            return -1
+        return match.group(len(match.groups()))
+    else:
+        match = SRC_VER_RE.search(algorithm_string)
+        if match is None:
+            return -1
+        if len(match.groups()) == 2:
+            return match.group(2)
+        else:
+            return -1
 
 def init(algDirectory, conDir, conUsageDir, tempPath):
     global algDir    
