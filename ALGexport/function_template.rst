@@ -4,5 +4,3 @@ Description
 -----------
 
 [DOCUMENTATION]
-
-.. categories::
