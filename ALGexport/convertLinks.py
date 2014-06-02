@@ -115,7 +115,8 @@ def convert(convertedDir):
     print count #The number of links that need hand fixing
         
 def convertLinks(conDir, conUsageDir):
-    convert(conDir)
+    convert(conDir + "algorithms/")
+    convert(conDir + "functions/")
     convert(conUsageDir) 
 
 if __name__ == '__main__':   
