@@ -230,15 +230,14 @@ def get_algorithm_version(path_to_algorithm):
     """
     Finds the version number after the search_string
     """
-    if path_to_algorithm.endswith(".py"):
-        return "1"
 
     # First, try and find the version in the source file.
     algorithm_string = None
     with open (path_to_algorithm, 'r') as algorithm_file:
         algorithm_string = algorithm_file.read()
 
-    version_from_source = get_version_from_text(algorithm_string, header_file = False)
+    py_alg = path_to_algorithm.endswith(".py")
+    version_from_source = get_version_from_text(algorithm_string, header_file = False, py_alg=py_alg)
 
     if version_from_source > 0:
       print "Obtained the version number from the source file."
@@ -266,7 +265,7 @@ def get_algorithm_version(path_to_algorithm):
     with open (header_filepath, 'r') as algorithm_file:
         algorithm_string = algorithm_file.read()
 
-    version_from_header = get_version_from_text(algorithm_string, header_file = True)
+    version_from_header = get_version_from_text(algorithm_string, header_file = True,py_alg=False)
     if version_from_header > 0:
       print "Obtained the version number from the header file."
       return version_from_header
@@ -279,8 +278,15 @@ def get_algorithm_version(path_to_algorithm):
 
 HEADER_VER_RE = re.compile(r"(virtual\s+)?int\s+version\(\)\s*const\s*{\s*return\s*\(?([0-9])\)?\s*;\s*};?")
 SRC_VER_RE = re.compile(r"int\s*(\w*)::version\(\)\s*const\s*{\s*return\s*\(?([0-9])\)?\s*;\s*};?")
+PY_ALG_VER = re.compile(r"def\s+version\(\w*\):\n\s+return\s+(\d)")
 
-def get_version_from_text(algorithm_string, header_file):
+def get_version_from_text(algorithm_string, header_file, py_alg):
+    if py_alg:
+        match = PY_ALG_VER.search(algorithm_string)
+        if match is None:
+            return -1
+        return match.group(1)
+
     if header_file:
         match = HEADER_VER_RE.search(algorithm_string)
         if match is None:
