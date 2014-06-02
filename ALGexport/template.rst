@@ -11,4 +11,4 @@ Description
 
 [DOCUMENTATION]
 
-.. algm_categories::
+.. categories::
