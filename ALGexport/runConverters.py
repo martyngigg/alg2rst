@@ -5,7 +5,7 @@ This script allows running of the whole suite of scripts to extract documentatio
 
 @author: James McCarthy
 '''
-
+import os
 import convertMWtoRST, convertLinks, updateImages, insertDirectives, sortToDirectory
 
 algDir = '/home/dmn58364/GitHub/mantid/Code/Mantid/Framework/' #Path to the mantid framework folder
@@ -15,6 +15,13 @@ tempDir = '/mnt/data1/SaveDir/tmp/'  #A temp folder which can be used during the
 sortedOutput = algDir
 
 if __name__ == '__main__':
+
+    if os.path.exists("unknown.txt"):
+        os.remove("unknown.txt")
+    if os.path.exists("noversions.txt"):
+        os.remove("noversions.txt")
+    if os.path.exists("images.txt"):
+        os.remove("images.txt")
 
     convertMWtoRST.init(algDir, conDir, conUsageDir, tempDir) #Set the paths and empty folder were RST will be stored
     convertMWtoRST.convertMWtoRST(clean=True)
