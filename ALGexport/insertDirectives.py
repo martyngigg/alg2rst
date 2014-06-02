@@ -24,8 +24,7 @@ def create(algName, convertedDir):
 
     if AlgorithmFactory.exists(algName):
         template_file = os.path.join(template_dir,'algorithm_template.rst')
-    elif "-v" in algName:
-        algName = algName[:-3]
+    elif AlgorithmFactory.exists(algName[:-3]):
         template_file = os.path.join(template_dir,'algorithm_template.rst')
     elif algName in FUNC_NAMES:
         template_file = os.path.join(template_dir,'function_template.rst')

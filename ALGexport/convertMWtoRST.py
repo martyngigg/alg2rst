@@ -190,8 +190,8 @@ def convertToRST(algName, tempDir, convertedDir, version):
     elif "USAGE" in algName:
         destname = convertedDir + algName + ".rst"
     else:
-        unknowns_file = open("unknowns.txt", 'w+')
-        unknowns_file.write("Unknown object type %s" % algName)
+        unknowns_file = open("unknowns.txt", 'a')
+        unknowns_file.write("Unknown object type %s\n" % algName)
         unknowns_file.close()
         return
 
@@ -253,8 +253,8 @@ def get_algorithm_version(path_to_algorithm):
       print "Obtained the version number from the header file."
       return version_from_header
 
-    no_versionsfile = open("noversions.txt", 'w+')
-    no_versionsfile.write("We could not find the version number for %s. Returning 1" % path_to_algorithm)
+    no_versionsfile = open("noversions.txt", 'a')
+    no_versionsfile.write("We could not find the version number for %s. Returning 1\n" % path_to_algorithm)
     no_versionsfile.close()
 
     return "1"
