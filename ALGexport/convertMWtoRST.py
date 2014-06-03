@@ -139,7 +139,7 @@ def convert(algName, algDir, remove, ext):
     '''
     if remove:
         cleanFile = open(algDir+algName+ext, 'w')
-        cleanFile.write(markup[2])
+        cleanFile.write(markup[2] + "\n")
     
     wiki = markup[0]
     
