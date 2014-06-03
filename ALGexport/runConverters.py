@@ -22,6 +22,8 @@ if __name__ == '__main__':
         os.remove("noversions.txt")
     if os.path.exists("images.txt"):
         os.remove("images.txt")
+    if os.path.exists("links.txt"):
+        os.remove("links.txt")
 
     convertMWtoRST.init(algDir, conDir, conUsageDir, tempDir) #Set the paths and empty folder were RST will be stored
     convertMWtoRST.convertMWtoRST(clean=True)

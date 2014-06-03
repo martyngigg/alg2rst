@@ -14,6 +14,10 @@ links_todo = defaultdict(list)
 
 concepts = ['Algorithm','Geometry','Instrument','Lattice','Logging','Plugin','Project','Properties','Run','SpectraDetectorMap','Workspace']
 
+from mantid.api import AlgorithmFactory
+
+LINK_REGEX = re.compile(r'`\w+\s\<\w+\>`__')
+
 #Finds links within a document and returns them
 def findLinks(algName, algDir):
     
@@ -21,10 +25,9 @@ def findLinks(algName, algDir):
     with open (algDir+algName+'.rst', 'r') as algFile:
         algRSTstr=algFile.read()
     
-    p = re.compile(r'`\w+\s\<\w+\>`__')
-    matches = p.findall(algRSTstr)
-    
-    if len(matches) <=0:
+    matches = LINK_REGEX.findall(algRSTstr)
+
+    if len(matches) == 0:
         return None
     else:    
         return matches
@@ -35,6 +38,7 @@ def genNewLinks(links, algNames, pageName):
     repLinks = []
     
     for link in links:
+
         link = link.replace('`', '')
         link = link.replace('<', '')
         link = link.replace('>', '')
@@ -44,18 +48,20 @@ def genNewLinks(links, algNames, pageName):
         #Check length of link
         if len(link) > 2:
             print 'Unlikely to be an algorithm link with multiple words in it'
-            print link
             repLinks.append(None)
             links_todo[pageName].append(link)      
         else:            
-            name = link[0]            
+            name = link[0]
+            if "-v" in name:
+                name = name[:-3]
             #Check if the link is a concept
-            if name in concepts or 'workspace' in name or 'Workspace' in name or name in algNames:
-                newLink = ':ref:`'+name+'`'
+            print "Checking for",name
+            if (AlgorithmFactory.exists(name)):
+                newLink = ':ref:`_algm-'+ name +'`'
                 repLinks.append(newLink)
             else:
                 #These are links that aren't algorithms but are single words links, likely to be links to concepts or similar
-                #print 'Not found in algorithm list'
+                print 'Not found in algorithm list'
                 repLinks.append(None)
                 links_todo[pageName].append(link)
     
@@ -98,26 +104,27 @@ def convert(convertedDir):
             if links != None:     
                 repLinks = genNewLinks(links, algNames, algName)
                 #print repLinks
-                #replaceLinks(links, repLinks, algName, convertedDir)
+                replaceLinks(links, repLinks, algName, convertedDir)
             else:
                 #print 'No links found in', algName
                 repLinks = None  
     
     ##Print out a list of links that still need manually fixing
     #print '\n=============================\nPages with links that need updating:\n'
+    links_file = open("links.txt", 'w')
     count=0    
     for key, links in links_todo.items():
-        print key #This is the page name that the link is one
+        links_file.write('Page:' + key + "\n") #This is the page name that the link is one
         for link in links:
-            print link  #The links that need fixing manually
+            links_file.write("    " + str(link) + "\n")  #The links that need fixing manually
             count+=1
-        print '========='
-    print count #The number of links that need hand fixing
+        links_file.write("\n\n")
+    #print count #The number of links that need hand fixing
         
 def convertLinks(conDir, conUsageDir):
     convert(conDir + "algorithms/")
     convert(conDir + "functions/")
-    convert(conUsageDir) 
+    #convert(conUsageDir)
 
 if __name__ == '__main__':   
     convertLinks('C:/Users/mrn39220/Documents/workspace/ALGexport/ConvertedRST/',
