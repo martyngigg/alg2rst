@@ -57,7 +57,7 @@ def genNewLinks(links, algNames, pageName):
             #Check if the link is a concept
             print "Checking for",name
             if (AlgorithmFactory.exists(name)):
-                newLink = ':ref:`_algm-'+ name +'`'
+                newLink = ':ref:`algm-'+ name +'`'
                 repLinks.append(newLink)
             else:
                 #These are links that aren't algorithms but are single words links, likely to be links to concepts or similar
