@@ -13,7 +13,7 @@ import re
 pagesWithImages = []
 
 
-IMAGE_NAME_RE = re.compile(r".. figure:: images/(.+)")
+IMAGE_NAME_RE = re.compile(r".. figure:: /images/(.+)")
 
 #Uses the old links as the search term and replaces them with the new links    
 def updateImageDir(algName, algDir):
@@ -21,7 +21,7 @@ def updateImageDir(algName, algDir):
         rst=algFile.read()        
         before = rst
       
-    rst = rst.replace('.. figure:: ', '.. figure:: images/')
+    rst = rst.replace('.. figure:: ', '.. figure:: /images/')
     
     #See if any update was made to page
     if before != rst:
